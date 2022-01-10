@@ -1,0 +1,577 @@
+{
+    "count": 120,
+    "next": "https://www.apicbase.com/api/v1/recipes/?page=8",
+    "previous": "https://www.apicbase.com/api/v1/recipes/?page=6",
+    "results": [
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/149111146770006/",
+            "id": "149111146770006",
+            "name": "Triple toast suikerbrood blauwe kaas (v)",
+            "uid": "12020121802006",
+            "description": "Snack",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 22:06:13.496370",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T22:06:13.473529+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:11:53.772021+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.26",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/NJOY/NJOY TRIPLE TOAST SUIKERBROOD.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/849111036740008/",
+            "id": "849111036740008",
+            "name": "4-kazensaus (v)",
+            "uid": "12020121802004",
+            "description": "Storia Di Pasta",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 22:06:10.503889",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T22:06:10.469419+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-04T09:31:41.243959+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.23",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/249111226710000/",
+            "id": "249111226710000",
+            "name": "Tagliata van rund met polenta en pancettasla",
+            "uid": "12020121802003",
+            "description": "Balanced 2",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 22:06:07.587545",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T22:06:07.550969+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T22:06:07.606554+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.51",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/449111016700004/",
+            "id": "449111016700004",
+            "name": "Oostends vispannetje met bladerdeeggebakje\nTuinkers*\nPeterselie-aardappelen\n",
+            "uid": "12020121802002",
+            "description": "Balanced 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 22:06:04.513210",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T22:06:04.473669+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T22:06:04.557807+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.42",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/949111606740008/",
+            "id": "949111606740008",
+            "name": "Gentse kop met mosterd",
+            "uid": "12020121802001",
+            "description": "Fresh Salad & Cold dish 1",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 22:05:57.761867",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T22:05:57.734000+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-04T09:28:03.143906+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.31",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/649111695730000/",
+            "id": "649111695730000",
+            "name": "Witloofsoep*",
+            "uid": "12020121802000",
+            "description": "Soup",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 22:05:54.788912",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T22:05:54.747772+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-02T14:37:50.863807+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.25",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/CATMAN/SOEPEN/WIT/CATMANSOEPENWIT_26-03-19_14H17M36S/26-03-19_09H42M12S-WITLOOFSOEP-CM.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/249111385740003/",
+            "id": "249111385740003",
+            "name": "Tiramisu",
+            "uid": "12020121702011",
+            "description": "Sweet",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 22:05:51.823203",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T22:05:51.800781+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-02T14:37:12.396006+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.12",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/SWEET/11-04-17_08H21M52S-TIRAMISU-TIRAMISU.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/349111275700004/",
+            "id": "349111275700004",
+            "name": "Panini drie kazen (v)",
+            "uid": "12020121702006",
+            "description": "Snack",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:59:15.693793",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:59:15.670794+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:59:15.718706+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.29",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/249111465720005/",
+            "id": "249111465720005",
+            "name": "Champignonsaus (v)",
+            "uid": "12020121702004",
+            "description": "Storia Di Pasta",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:59:12.482737",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:59:12.453827+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:59:12.499774+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.23",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/249111155760009/",
+            "id": "249111155760009",
+            "name": "Gebakken kalfsworst\nVleesjus\nPompoenstamppot*",
+            "uid": "12020121702003",
+            "description": "Balanced 2",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:59:09.555962",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:59:09.522467+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:59:09.589362+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.56",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "C"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        }
+    ]
+}

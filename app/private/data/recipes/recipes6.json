@@ -1,0 +1,577 @@
+{
+    "count": 120,
+    "next": "https://www.apicbase.com/api/v1/recipes/?page=7",
+    "previous": "https://www.apicbase.com/api/v1/recipes/?page=5",
+    "results": [
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/349111562850005/",
+            "id": "349111562850005",
+            "name": "Appelcake",
+            "uid": "12020121002011",
+            "description": "Sweet",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 14:04:15.700460",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T14:04:15.671902+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-04T09:12:40.544982+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.06",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/149111422830000/",
+            "id": "149111422830000",
+            "name": "Pizza 4 kazen (v)",
+            "uid": "12020121002006",
+            "description": "Snack",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 13:50:48.119501",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T13:50:48.091018+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:09:03.747860+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.23",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/149111812800008/",
+            "id": "149111812800008",
+            "name": "Courgettes met tomaat",
+            "uid": "12020121002005",
+            "description": "Groenten 1",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 13:50:45.187906",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T13:50:45.162882+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-04T09:28:07.308840+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.20",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/249111661840002/",
+            "id": "249111661840002",
+            "name": "Groene aspergesaus (v)",
+            "uid": "12020121002004",
+            "description": "Storia Di Pasta",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 13:35:27.789176",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T13:35:27.759089+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-04T09:28:42.001694+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.23",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "C"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/849111751810001/",
+            "id": "849111751810001",
+            "name": "Gehaktschotel 'parmentier' met bloemkool",
+            "uid": "12020121002003",
+            "description": "Balanced 2",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 13:35:24.710206",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T13:35:24.667759+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-02T14:31:42.772359+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.48",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/ALL-IN-ONE/GEHAKTSCHOTEL-PARMENTIER-MET-BLOEMKOOL-VLEESJUS-HACHIS-PARMENTIER-DE-PORC-AUX-CHOUS-FLEURS-JUS-DE-VIANDE.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/449111141820008/",
+            "id": "449111141820008",
+            "name": "Pita met varkensvlees en yoghurtsaus\nRaita-salade (rode biet, komkommer en munt)\nSpicy wedges aardappelen in de oven",
+            "uid": "12020121002002",
+            "description": "Balanced 1",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 13:35:21.408566",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T13:35:21.381182+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-04T09:28:29.712552+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.60",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/149111831860005/",
+            "id": "149111831860005",
+            "name": "Salade met scampi's en rauwkost (chinese kool, wortelen, paprika en ananas)",
+            "uid": "12020121002001",
+            "description": "Fresh Salad & Cold dish 1",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 13:35:14.047078",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T13:35:14.021701+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-04T09:28:19.641495+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.36",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/649111621860001/",
+            "id": "649111621860001",
+            "name": "Aardappelsoep*",
+            "uid": "12020121002000",
+            "description": "Soup",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 13:35:10.819920",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T13:35:10.798036+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-02T14:31:08.424040+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.25",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/CATMAN/SOEPEN/WIT/CATMANSOEPENWIT_26-03-19_14H17M36S/26-03-19_11H07M29S-AARDAPPELSOEP-CM.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/849111811800001/",
+            "id": "849111811800001",
+            "name": "Panna cotta met thee",
+            "uid": "12020120902011",
+            "description": "Sweet",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-02 13:35:07.816591",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-02T13:35:07.791742+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-02T14:30:12.768349+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.12",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/CORPORATE MENU AUTUMN/WEEK 4/18-09-17_11H30M23S-APIC.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/749111056780002/",
+            "id": "749111056780002",
+            "name": "Appel in de oven*",
+            "uid": "12020121802011",
+            "description": "Sweet",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 22:06:16.485949",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T22:06:16.438921+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T22:06:16.503680+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.17",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        }
+    ]
+}

@@ -1,0 +1,577 @@
+{
+    "count": 120,
+    "next": "https://www.apicbase.com/api/v1/recipes/?page=4",
+    "previous": "https://www.apicbase.com/api/v1/recipes/?page=2",
+    "results": [
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/349111917980006/",
+            "id": "349111917980006",
+            "name": "Kalfsvleesbroodje \nBraadjus met graanmosterd\nDuo van raap en wortel*\nGratin dauphinois",
+            "uid": "12020120202002",
+            "description": "Balanced 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:52.866738",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:52.844950+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:52.912428+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.63",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/249111607990005/",
+            "id": "249111607990005",
+            "name": "Kipsalade met gruyèrekaas",
+            "uid": "12020120202001",
+            "description": "Fresh Salad & Cold dish 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:44.581086",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:44.553335+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:44.601834+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.40",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/CORPORATE MENU/WEEK 6/30-06-17_09H17M48S-KIP-SALADE-MET-GRUYERE-KAASSALADE-DE-POULET-ET-GRUYERE.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/849111396900003/",
+            "id": "849111396900003",
+            "name": "Groentesoep",
+            "uid": "12020120202000",
+            "description": "Soup",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:41.719474",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:41.694772+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:41.733902+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.25",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/649111886910000/",
+            "id": "649111886910000",
+            "name": "Kokosmousse",
+            "uid": "12020120102011",
+            "description": "Sweet",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:38.849996",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:38.822870+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:38.864393+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.08",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/CORPORATE MENU/WEEK 12/08-08-17_09H08M53S-220298-2202104-MOUSSE-KOKOS.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/949111936990006/",
+            "id": "949111936990006",
+            "name": "Bagnatbrood met roerei en spek",
+            "uid": "12020120102006",
+            "description": "Snack",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:23.699298",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:23.677548+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:23.714144+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.23",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/549111226950006/",
+            "id": "549111226950006",
+            "name": "Gestoofde andijvie*",
+            "uid": "12020120102005",
+            "description": "Groenten 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:20.774194",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:20.750110+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:20.789013+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.20",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/749111116970008/",
+            "id": "749111116970008",
+            "name": "Roomsaus met prei en zalmblokjes",
+            "uid": "12020120102004",
+            "description": "Storia Di Pasta",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:17.879337",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:17.855690+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:17.893057+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.25",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/349111206950009/",
+            "id": "349111206950009",
+            "name": "Gebakken kipfilet\nGevogeltejus\nAppelmoes\nGestoomde aardappelen",
+            "uid": "12020120102003",
+            "description": "Balanced 2",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:14.984759",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:14.965550+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:15.049767+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.63",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/549111895990002/",
+            "id": "549111895990002",
+            "name": "Elzasser (worst,casseler, spek) zuurkool*\nAardappelpuree",
+            "uid": "12020120102002",
+            "description": "Balanced 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:06.915152",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:06.878851+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:06.939786+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.60",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "C"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/949111185920000/",
+            "id": "949111185920000",
+            "name": "Vitello tonnato",
+            "uid": "12020120102001",
+            "description": "Fresh Salad & Cold dish 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:49:02.311718",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:49:02.285846+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:49:02.330940+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.25",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        }
+    ]
+}

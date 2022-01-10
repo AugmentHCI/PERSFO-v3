@@ -1,0 +1,577 @@
+{
+    "count": 120,
+    "next": "https://www.apicbase.com/api/v1/recipes/?page=5",
+    "previous": "https://www.apicbase.com/api/v1/recipes/?page=3",
+    "results": [
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/149111675900001/",
+            "id": "149111675900001",
+            "name": "Mindful Snijbietsoep met ricotta",
+            "uid": "12020120102000",
+            "description": "Soup",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:59.400469",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:59.372250+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:59.417791+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.27",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/CORPORATE MENU/SPRING 2018/CORPORATE LENTE WEEK 11/17-05-18_08H56M56S-1001435-MINDFUL-SNIJBIETSOEP-MET-RICOTTA.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/549111865920005/",
+            "id": "549111865920005",
+            "name": "Chocolademascarpone",
+            "uid": "12020113002011",
+            "description": "Sweet",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:56.286255",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:56.259967+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:56.300020+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.12",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/CORPORATE MENU/WEEK 12/07-08-17_10H30M41S-22025-CHOCOLADEMASCARPONE-MASCARPONE-AU-CHOCOLAT.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/349111555940007/",
+            "id": "349111555940007",
+            "name": "Mindful sandwich met gerookte forel, tarama en avocado",
+            "uid": "12020113002010",
+            "description": "Sandwich 4",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:53.323940",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:53.300165+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:53.338142+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.20",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/MINDFUL/OKT 2017/30-10-17_09H26M25S-240228-FLAGUETTE-MILLER-FOREL-GEROOKT-TARAMA-AVOCADO.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/349111745970001/",
+            "id": "349111745970001",
+            "name": "Mindful volkorenboterham met gerookte zalm en dille",
+            "uid": "12020113002009",
+            "description": "Sandwich 3",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:50.272566",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:50.248820+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:50.287505+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.22",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": "https://mymms.prod.cs.sodexo.be/Pictures/BE_CS_PROD/MINDFUL/010273 (1) OPEN SANDWICH GEROOKTE ZALMDILLESPREAD.JPG"
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/549111135960007/",
+            "id": "549111135960007",
+            "name": "Kipfilet met rauwkost - bruin",
+            "uid": "12020113002008",
+            "description": "Sandwich 2",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:47.278886",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:47.255214+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-04T17:36:12.988078+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.27",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/549111625900005/",
+            "id": "549111625900005",
+            "name": "Mortadella met rauwkost - bruin",
+            "uid": "12020113002007",
+            "description": "Sandwich 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:44.313994",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:44.284868+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:44.328027+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.27",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "C"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/849111415920008/",
+            "id": "849111415920008",
+            "name": "Australische croque-monsieur",
+            "uid": "12020113002006",
+            "description": "Snack",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:41.338991",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:41.290234+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:41.362511+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.15",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/349111494940000/",
+            "id": "349111494940000",
+            "name": "Mascarpone en rucolasaus (v)",
+            "uid": "12020113002004",
+            "description": "Storia Di Pasta",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:35.604579",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:35.571044+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:35.633660+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.23",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/649111084920001/",
+            "id": "649111084920001",
+            "name": "Quiche met witloof (v)\nSalade met vinaigrette",
+            "uid": "12020113002003",
+            "description": "Balanced 2",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:32.498740",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:32.475460+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:32.523089+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.47",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "C"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/249111674970006/",
+            "id": "249111674970006",
+            "name": "Runderreepjes Stroganoff\nRijst met winterse groentjes*",
+            "uid": "12020113002002",
+            "description": "Balanced 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-03 22:48:27.690566",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-03T22:48:27.662612+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:48:27.715919+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.65",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        }
+    ]
+}

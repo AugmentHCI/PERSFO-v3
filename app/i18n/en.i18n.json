@@ -1,0 +1,29 @@
+{
+    "_locale": "en",
+    "AppBarPersfo": {
+        "welcome": "Welcome to the PERSFO app!",
+        "icf": "Informed consent information",
+        "survey": "Study questionnaires",
+        "progress": "Progress",
+        "settings": "Settings",
+        "feedback": "Feedback",
+        "thanks": "Thank you",
+        "title": "Your meals from the last five days"
+    },
+    "orderLogic": {
+        "order": "order",
+        "ordered": "ordered",
+        "orderLogic.addedToShoppingCart": "Added to your shopping cart!"
+    },
+    "recommendations": {
+        "explanation": "Please help us by telling us why you dislike this recommendation?"
+        
+    },
+    "done": {
+        "thanks": "Thank you for participating in the PERSFO study today. Your orders are confirmed.",
+        "undo": "Undo your orders of today"
+    },
+    "feedback": {
+        "thanks": "Thank you for providing feedback!"
+    }
+}

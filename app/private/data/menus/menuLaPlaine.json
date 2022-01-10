@@ -1,0 +1,735 @@
+{
+    "count": 10,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "url": "https://www.apicbase.com/api/v1/menus/290800302280002/",
+            "id": "290800302280002",
+            "name": "Vrijdag 10/12/2021",
+            "uid": "",
+            "description": "",
+            "created_date": "2021-12-06T00:09:33.952736+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2021-12-06T00:22:46.133241+01:00",
+            "courses": [
+                {
+                    "name": "Soep",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/949643673210000/",
+                        "https://www.apicbase.com/api/v1/recipes/749543530170001/"
+                    ]
+                },
+                {
+                    "name": "Salades",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649543889010004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://www.apicbase.com/api/v1/recipes/949743821490001/"
+                    ]
+                },
+                {
+                    "name": "Ready Meals",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                        "https://www.apicbase.com/api/v1/recipes/449643224260006/",
+                        "https://www.apicbase.com/api/v1/recipes/949643983220008/",
+                        "https://www.apicbase.com/api/v1/recipes/649643993200007/",
+                        "https://www.apicbase.com/api/v1/recipes/549643414270001/",
+                        "https://www.apicbase.com/api/v1/recipes/749643404200008/"
+                    ]
+                },
+                {
+                    "name": "Suggestion sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/449743781410003/",
+                        "https://www.apicbase.com/api/v1/recipes/649743691440006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743502420008/",
+                        "https://www.apicbase.com/api/v1/recipes/149743432430005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743852400006/",
+                        "https://www.apicbase.com/api/v1/recipes/549743572400004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743382440003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743392430004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743403470001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743513440009/"
+                    ]
+                },
+                {
+                    "name": "Warme Schotel",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/449743889520007/"
+                    ]
+                },
+                {
+                    "name": "Dessert",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/549643734220004/",
+                        "https://www.apicbase.com/api/v1/recipes/949543860180004/"
+                    ]
+                },
+                {
+                    "name": "Special sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649443792980001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743823440003/",
+                        "https://www.apicbase.com/api/v1/recipes/449743033470003/"
+                    ]
+                },
+                {
+                    "name": "Dranken",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/549743106540001/",
+                        "https://www.apicbase.com/api/v1/recipes/449743416540002/",
+                        "https://www.apicbase.com/api/v1/recipes/149743526530004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743136570003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743193570006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743946590002/",
+                        "https://www.apicbase.com/api/v1/recipes/849743466570008/",
+                        "https://www.apicbase.com/api/v1/recipes/549743804590003/",
+                        "https://www.apicbase.com/api/v1/recipes/149643344280005/",
+                        "https://www.apicbase.com/api/v1/recipes/949743476550006/",
+                        "https://www.apicbase.com/api/v1/recipes/849643584260002/",
+                        "https://www.apicbase.com/api/v1/recipes/249743086520005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743596570004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743407590007/",
+                        "https://www.apicbase.com/api/v1/recipes/349743017540003/",
+                        "https://www.apicbase.com/api/v1/recipes/749743334520006/",
+                        "https://www.apicbase.com/api/v1/recipes/849743785540006/",
+                        "https://www.apicbase.com/api/v1/recipes/249743095560008/",
+                        "https://www.apicbase.com/api/v1/recipes/849743875500005/",
+                        "https://www.apicbase.com/api/v1/recipes/549743056540007/",
+                        "https://www.apicbase.com/api/v1/recipes/149743265590009/",
+                        "https://www.apicbase.com/api/v1/recipes/649743705530009/",
+                        "https://www.apicbase.com/api/v1/recipes/949743244540004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743154530001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743657530008/",
+                        "https://www.apicbase.com/api/v1/recipes/649743627560001/",
+                        "https://www.apicbase.com/api/v1/recipes/949743164560008/",
+                        "https://www.apicbase.com/api/v1/recipes/749743874560000/",
+                        "https://www.apicbase.com/api/v1/recipes/449743084570000/",
+                        "https://www.apicbase.com/api/v1/recipes/649643464200008/",
+                        "https://www.apicbase.com/api/v1/recipes/349743694510007/",
+                        "https://www.apicbase.com/api/v1/recipes/549743315560000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743237550007/",
+                        "https://www.apicbase.com/api/v1/recipes/249643054260001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743055530004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743925550005/",
+                        "https://www.apicbase.com/api/v1/recipes/749743147550001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743035530005/",
+                        "https://www.apicbase.com/api/v1/recipes/249743445560001/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2021-12-10",
+            "ending_date": "2021-12-10",
+            "time_of_day": "11:00:00",
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/menus/990800591260009/",
+            "id": "990800591260009",
+            "name": "Donderdag 09/12/2021",
+            "uid": "",
+            "description": "",
+            "created_date": "2021-12-06T00:07:45.706236+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2021-12-06T00:22:59.726451+01:00",
+            "courses": [
+                {
+                    "name": "Soep",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/749543379040004/",
+                        "https://www.apicbase.com/api/v1/recipes/449743359560003/"
+                    ]
+                },
+                {
+                    "name": "Salades",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649543889010004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://www.apicbase.com/api/v1/recipes/949743821490001/"
+                    ]
+                },
+                {
+                    "name": "Ready Meals",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                        "https://www.apicbase.com/api/v1/recipes/449643224260006/",
+                        "https://www.apicbase.com/api/v1/recipes/949643983220008/",
+                        "https://www.apicbase.com/api/v1/recipes/649643993200007/",
+                        "https://www.apicbase.com/api/v1/recipes/549643414270001/",
+                        "https://www.apicbase.com/api/v1/recipes/749643404200008/"
+                    ]
+                },
+                {
+                    "name": "Suggestion sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/449743781410003/",
+                        "https://www.apicbase.com/api/v1/recipes/649743691440006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743502420008/",
+                        "https://www.apicbase.com/api/v1/recipes/149743432430005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743852400006/",
+                        "https://www.apicbase.com/api/v1/recipes/549743572400004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743382440003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743392430004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743403470001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743513440009/"
+                    ]
+                },
+                {
+                    "name": "Warme Schotel",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/149543399080005/"
+                    ]
+                },
+                {
+                    "name": "Dessert",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/549643734220004/",
+                        "https://www.apicbase.com/api/v1/recipes/949543860180004/"
+                    ]
+                },
+                {
+                    "name": "Special sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649443792980001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743823440003/",
+                        "https://www.apicbase.com/api/v1/recipes/449743033470003/"
+                    ]
+                },
+                {
+                    "name": "Dranken",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/549743106540001/",
+                        "https://www.apicbase.com/api/v1/recipes/449743416540002/",
+                        "https://www.apicbase.com/api/v1/recipes/149743526530004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743136570003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743193570006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743946590002/",
+                        "https://www.apicbase.com/api/v1/recipes/849743466570008/",
+                        "https://www.apicbase.com/api/v1/recipes/549743804590003/",
+                        "https://www.apicbase.com/api/v1/recipes/149643344280005/",
+                        "https://www.apicbase.com/api/v1/recipes/949743476550006/",
+                        "https://www.apicbase.com/api/v1/recipes/849643584260002/",
+                        "https://www.apicbase.com/api/v1/recipes/249743086520005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743596570004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743407590007/",
+                        "https://www.apicbase.com/api/v1/recipes/349743017540003/",
+                        "https://www.apicbase.com/api/v1/recipes/749743334520006/",
+                        "https://www.apicbase.com/api/v1/recipes/849743785540006/",
+                        "https://www.apicbase.com/api/v1/recipes/249743095560008/",
+                        "https://www.apicbase.com/api/v1/recipes/849743875500005/",
+                        "https://www.apicbase.com/api/v1/recipes/549743056540007/",
+                        "https://www.apicbase.com/api/v1/recipes/149743265590009/",
+                        "https://www.apicbase.com/api/v1/recipes/649743705530009/",
+                        "https://www.apicbase.com/api/v1/recipes/949743244540004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743154530001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743657530008/",
+                        "https://www.apicbase.com/api/v1/recipes/649743627560001/",
+                        "https://www.apicbase.com/api/v1/recipes/949743164560008/",
+                        "https://www.apicbase.com/api/v1/recipes/749743874560000/",
+                        "https://www.apicbase.com/api/v1/recipes/449743084570000/",
+                        "https://www.apicbase.com/api/v1/recipes/649643464200008/",
+                        "https://www.apicbase.com/api/v1/recipes/349743694510007/",
+                        "https://www.apicbase.com/api/v1/recipes/549743315560000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743237550007/",
+                        "https://www.apicbase.com/api/v1/recipes/249643054260001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743055530004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743925550005/",
+                        "https://www.apicbase.com/api/v1/recipes/749743147550001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743035530005/",
+                        "https://www.apicbase.com/api/v1/recipes/249743445560001/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2021-12-09",
+            "ending_date": "2021-12-09",
+            "time_of_day": "11:00:00",
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/menus/590800081290007/",
+            "id": "590800081290007",
+            "name": "Woensdag 08/12/2021",
+            "uid": "",
+            "description": "",
+            "created_date": "2021-12-06T00:04:57.174570+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2021-12-06T00:23:15.413911+01:00",
+            "courses": [
+                {
+                    "name": "Soep",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/849543039030004/",
+                        "https://www.apicbase.com/api/v1/recipes/549743569520004/"
+                    ]
+                },
+                {
+                    "name": "Salades",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649543889010004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://www.apicbase.com/api/v1/recipes/949743821490001/"
+                    ]
+                },
+                {
+                    "name": "Ready Meals",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                        "https://www.apicbase.com/api/v1/recipes/449643224260006/",
+                        "https://www.apicbase.com/api/v1/recipes/949643983220008/",
+                        "https://www.apicbase.com/api/v1/recipes/649643993200007/",
+                        "https://www.apicbase.com/api/v1/recipes/549643414270001/",
+                        "https://www.apicbase.com/api/v1/recipes/749643404200008/"
+                    ]
+                },
+                {
+                    "name": "Suggestion sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/449743781410003/",
+                        "https://www.apicbase.com/api/v1/recipes/649743691440006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743502420008/",
+                        "https://www.apicbase.com/api/v1/recipes/149743432430005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743852400006/",
+                        "https://www.apicbase.com/api/v1/recipes/549743572400004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743382440003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743392430004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743403470001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743513440009/"
+                    ]
+                },
+                {
+                    "name": "Warme Schotel",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649543059070008/"
+                    ]
+                },
+                {
+                    "name": "Dessert",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/949543860180004/",
+                        "https://www.apicbase.com/api/v1/recipes/549643734220004/"
+                    ]
+                },
+                {
+                    "name": "Special sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649443792980001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743823440003/",
+                        "https://www.apicbase.com/api/v1/recipes/449743033470003/"
+                    ]
+                },
+                {
+                    "name": "Dranken",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/549743106540001/",
+                        "https://www.apicbase.com/api/v1/recipes/449743416540002/",
+                        "https://www.apicbase.com/api/v1/recipes/149743526530004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743136570003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743193570006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743946590002/",
+                        "https://www.apicbase.com/api/v1/recipes/849743466570008/",
+                        "https://www.apicbase.com/api/v1/recipes/549743804590003/",
+                        "https://www.apicbase.com/api/v1/recipes/149643344280005/",
+                        "https://www.apicbase.com/api/v1/recipes/949743476550006/",
+                        "https://www.apicbase.com/api/v1/recipes/849643584260002/",
+                        "https://www.apicbase.com/api/v1/recipes/249743086520005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743596570004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743407590007/",
+                        "https://www.apicbase.com/api/v1/recipes/349743017540003/",
+                        "https://www.apicbase.com/api/v1/recipes/749743334520006/",
+                        "https://www.apicbase.com/api/v1/recipes/849743785540006/",
+                        "https://www.apicbase.com/api/v1/recipes/249743095560008/",
+                        "https://www.apicbase.com/api/v1/recipes/849743875500005/",
+                        "https://www.apicbase.com/api/v1/recipes/549743056540007/",
+                        "https://www.apicbase.com/api/v1/recipes/149743265590009/",
+                        "https://www.apicbase.com/api/v1/recipes/649743705530009/",
+                        "https://www.apicbase.com/api/v1/recipes/949743244540004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743154530001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743657530008/",
+                        "https://www.apicbase.com/api/v1/recipes/649743627560001/",
+                        "https://www.apicbase.com/api/v1/recipes/949743164560008/",
+                        "https://www.apicbase.com/api/v1/recipes/749743874560000/",
+                        "https://www.apicbase.com/api/v1/recipes/449743084570000/",
+                        "https://www.apicbase.com/api/v1/recipes/649643464200008/",
+                        "https://www.apicbase.com/api/v1/recipes/349743694510007/",
+                        "https://www.apicbase.com/api/v1/recipes/549743315560000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743237550007/",
+                        "https://www.apicbase.com/api/v1/recipes/249643054260001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743055530004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743925550005/",
+                        "https://www.apicbase.com/api/v1/recipes/749743147550001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743035530005/",
+                        "https://www.apicbase.com/api/v1/recipes/249743445560001/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2021-12-08",
+            "ending_date": "2021-12-08",
+            "time_of_day": "11:00:00",
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/menus/590800071280008/",
+            "id": "590800071280008",
+            "name": "Dinsdag 07/12/2021",
+            "uid": "",
+            "description": "",
+            "created_date": "2021-12-05T23:59:34.915819+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2021-12-06T00:04:11.067355+01:00",
+            "courses": [
+                {
+                    "name": "Soep",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/249543698070003/",
+                        "https://www.apicbase.com/api/v1/recipes/549743879540008/"
+                    ]
+                },
+                {
+                    "name": "Salades",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649543889010004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://www.apicbase.com/api/v1/recipes/949743821490001/"
+                    ]
+                },
+                {
+                    "name": "Ready Meals",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                        "https://www.apicbase.com/api/v1/recipes/449643224260006/",
+                        "https://www.apicbase.com/api/v1/recipes/949643983220008/",
+                        "https://www.apicbase.com/api/v1/recipes/649643993200007/",
+                        "https://www.apicbase.com/api/v1/recipes/549643414270001/",
+                        "https://www.apicbase.com/api/v1/recipes/749643404200008/"
+                    ]
+                },
+                {
+                    "name": "Suggestion sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/449743781410003/",
+                        "https://www.apicbase.com/api/v1/recipes/649743691440006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743502420008/",
+                        "https://www.apicbase.com/api/v1/recipes/149743432430005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743852400006/",
+                        "https://www.apicbase.com/api/v1/recipes/549743572400004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743382440003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743392430004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743403470001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743513440009/"
+                    ]
+                },
+                {
+                    "name": "Warme Schotel",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/749543119050005/"
+                    ]
+                },
+                {
+                    "name": "Dessert",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/849543220130008/",
+                        "https://www.apicbase.com/api/v1/recipes/249443203900005/"
+                    ]
+                },
+                {
+                    "name": "Special sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649443792980001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743823440003/",
+                        "https://www.apicbase.com/api/v1/recipes/449743033470003/"
+                    ]
+                },
+                {
+                    "name": "Dranken",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/549743106540001/",
+                        "https://www.apicbase.com/api/v1/recipes/449743416540002/",
+                        "https://www.apicbase.com/api/v1/recipes/149743526530004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743136570003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743193570006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743946590002/",
+                        "https://www.apicbase.com/api/v1/recipes/849743466570008/",
+                        "https://www.apicbase.com/api/v1/recipes/549743804590003/",
+                        "https://www.apicbase.com/api/v1/recipes/149643344280005/",
+                        "https://www.apicbase.com/api/v1/recipes/949743476550006/",
+                        "https://www.apicbase.com/api/v1/recipes/849643584260002/",
+                        "https://www.apicbase.com/api/v1/recipes/249743086520005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743596570004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743407590007/",
+                        "https://www.apicbase.com/api/v1/recipes/349743017540003/",
+                        "https://www.apicbase.com/api/v1/recipes/749743334520006/",
+                        "https://www.apicbase.com/api/v1/recipes/849743785540006/",
+                        "https://www.apicbase.com/api/v1/recipes/249743095560008/",
+                        "https://www.apicbase.com/api/v1/recipes/849743875500005/",
+                        "https://www.apicbase.com/api/v1/recipes/549743056540007/",
+                        "https://www.apicbase.com/api/v1/recipes/149743265590009/",
+                        "https://www.apicbase.com/api/v1/recipes/649743705530009/",
+                        "https://www.apicbase.com/api/v1/recipes/949743244540004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743154530001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743657530008/",
+                        "https://www.apicbase.com/api/v1/recipes/649743627560001/",
+                        "https://www.apicbase.com/api/v1/recipes/949743164560008/",
+                        "https://www.apicbase.com/api/v1/recipes/749743874560000/",
+                        "https://www.apicbase.com/api/v1/recipes/449743084570000/",
+                        "https://www.apicbase.com/api/v1/recipes/649643464200008/",
+                        "https://www.apicbase.com/api/v1/recipes/349743694510007/",
+                        "https://www.apicbase.com/api/v1/recipes/549743315560000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743237550007/",
+                        "https://www.apicbase.com/api/v1/recipes/249643054260001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743055530004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743925550005/",
+                        "https://www.apicbase.com/api/v1/recipes/749743147550001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743035530005/",
+                        "https://www.apicbase.com/api/v1/recipes/249743445560001/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2021-12-07",
+            "ending_date": "2021-12-07",
+            "time_of_day": "11:00:00",
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/menus/390800099170004/",
+            "id": "390800099170004",
+            "name": "Maandag 06/12/2021",
+            "uid": "",
+            "description": "",
+            "created_date": "2021-12-01T17:58:59.050856+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2021-12-05T22:22:55.890758+01:00",
+            "courses": [
+                {
+                    "name": "Soep",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/449443812900007/",
+                        "https://www.apicbase.com/api/v1/recipes/449743243460009/"
+                    ]
+                },
+                {
+                    "name": "Salades",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649543889010004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://www.apicbase.com/api/v1/recipes/949743821490001/"
+                    ]
+                },
+                {
+                    "name": "Ready Meals",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                        "https://www.apicbase.com/api/v1/recipes/449643224260006/",
+                        "https://www.apicbase.com/api/v1/recipes/949643983220008/",
+                        "https://www.apicbase.com/api/v1/recipes/649643993200007/",
+                        "https://www.apicbase.com/api/v1/recipes/549643414270001/",
+                        "https://www.apicbase.com/api/v1/recipes/749643404200008/"
+                    ]
+                },
+                {
+                    "name": "Suggestion sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/449743781410003/",
+                        "https://www.apicbase.com/api/v1/recipes/649743691440006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743502420008/",
+                        "https://www.apicbase.com/api/v1/recipes/149743432430005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743852400006/",
+                        "https://www.apicbase.com/api/v1/recipes/549743572400004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743382440003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743392430004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743403470001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743513440009/"
+                    ]
+                },
+                {
+                    "name": "Warme Schotel",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/849443842950006/"
+                    ]
+                },
+                {
+                    "name": "Dessert",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/849543220130008/",
+                        "https://www.apicbase.com/api/v1/recipes/249443203900005/"
+                    ]
+                },
+                {
+                    "name": "Special sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649443792980001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743823440003/",
+                        "https://www.apicbase.com/api/v1/recipes/449743033470003/"
+                    ]
+                },
+                {
+                    "name": "Dranken",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/549743106540001/",
+                        "https://www.apicbase.com/api/v1/recipes/449743416540002/",
+                        "https://www.apicbase.com/api/v1/recipes/149743526530004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743136570003/",
+                        "https://www.apicbase.com/api/v1/recipes/949743193570006/",
+                        "https://www.apicbase.com/api/v1/recipes/949743946590002/",
+                        "https://www.apicbase.com/api/v1/recipes/849743466570008/",
+                        "https://www.apicbase.com/api/v1/recipes/549743804590003/",
+                        "https://www.apicbase.com/api/v1/recipes/149643344280005/",
+                        "https://www.apicbase.com/api/v1/recipes/949743476550006/",
+                        "https://www.apicbase.com/api/v1/recipes/849643584260002/",
+                        "https://www.apicbase.com/api/v1/recipes/249743086520005/",
+                        "https://www.apicbase.com/api/v1/recipes/449743596570004/",
+                        "https://www.apicbase.com/api/v1/recipes/149743407590007/",
+                        "https://www.apicbase.com/api/v1/recipes/349743017540003/",
+                        "https://www.apicbase.com/api/v1/recipes/749743334520006/",
+                        "https://www.apicbase.com/api/v1/recipes/849743785540006/",
+                        "https://www.apicbase.com/api/v1/recipes/249743095560008/",
+                        "https://www.apicbase.com/api/v1/recipes/849743875500005/",
+                        "https://www.apicbase.com/api/v1/recipes/549743056540007/",
+                        "https://www.apicbase.com/api/v1/recipes/149743265590009/",
+                        "https://www.apicbase.com/api/v1/recipes/649743705530009/",
+                        "https://www.apicbase.com/api/v1/recipes/949743244540004/",
+                        "https://www.apicbase.com/api/v1/recipes/349743154530001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743657530008/",
+                        "https://www.apicbase.com/api/v1/recipes/649743627560001/",
+                        "https://www.apicbase.com/api/v1/recipes/949743164560008/",
+                        "https://www.apicbase.com/api/v1/recipes/749743874560000/",
+                        "https://www.apicbase.com/api/v1/recipes/449743084570000/",
+                        "https://www.apicbase.com/api/v1/recipes/649643464200008/",
+                        "https://www.apicbase.com/api/v1/recipes/349743694510007/",
+                        "https://www.apicbase.com/api/v1/recipes/549743315560000/",
+                        "https://www.apicbase.com/api/v1/recipes/749743237550007/",
+                        "https://www.apicbase.com/api/v1/recipes/249643054260001/",
+                        "https://www.apicbase.com/api/v1/recipes/349743055530004/",
+                        "https://www.apicbase.com/api/v1/recipes/749743925550005/",
+                        "https://www.apicbase.com/api/v1/recipes/749743147550001/",
+                        "https://www.apicbase.com/api/v1/recipes/649743035530005/",
+                        "https://www.apicbase.com/api/v1/recipes/249743445560001/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2021-12-06",
+            "ending_date": "2021-12-06",
+            "time_of_day": "11:00:00",
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/menus/690800556140004/",
+            "id": "690800556140004",
+            "name": "Vrijdag 03/12/2021",
+            "uid": "",
+            "description": "",
+            "created_date": "2021-11-26T01:00:07.193187+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2021-12-01T18:02:20.206517+01:00",
+            "courses": [
+                {
+                    "name": "Soep",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/749543530170001/",
+                        "https://www.apicbase.com/api/v1/recipes/949643673210000/"
+                    ]
+                },
+                {
+                    "name": "Salades",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649543889010004/"
+                    ]
+                },
+                {
+                    "name": "Ready Meals",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                        "https://www.apicbase.com/api/v1/recipes/449643224260006/",
+                        "https://www.apicbase.com/api/v1/recipes/949643983220008/",
+                        "https://www.apicbase.com/api/v1/recipes/649643993200007/",
+                        "https://www.apicbase.com/api/v1/recipes/549643414270001/",
+                        "https://www.apicbase.com/api/v1/recipes/749643404200008/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/649443792980001/",
+                        "https://www.apicbase.com/api/v1/recipes/249643774250006/"
+                    ]
+                },
+                {
+                    "name": "Warme Schotel",
+                    "recipes": []
+                },
+                {
+                    "name": "Dessert",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/949543860180004/",
+                        "https://www.apicbase.com/api/v1/recipes/549643734220004/"
+                    ]
+                },
+                {
+                    "name": "Fruit (+granola)",
+                    "recipes": []
+                },
+                {
+                    "name": "Dranken",
+                    "recipes": [
+                        "https://www.apicbase.com/api/v1/recipes/149643344280005/",
+                        "https://www.apicbase.com/api/v1/recipes/649643464200008/",
+                        "https://www.apicbase.com/api/v1/recipes/249643054260001/",
+                        "https://www.apicbase.com/api/v1/recipes/849643584260002/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2021-12-03",
+            "ending_date": "2021-12-03",
+            "time_of_day": "11:00:00",
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        }
+    ]
+}

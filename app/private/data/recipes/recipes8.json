@@ -1,0 +1,577 @@
+{
+    "count": 120,
+    "next": "https://www.apicbase.com/api/v1/recipes/?page=9",
+    "previous": "https://www.apicbase.com/api/v1/recipes/?page=7",
+    "results": [
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/949111745730006/",
+            "id": "949111745730006",
+            "name": "Varkensgebraad in dillekorst\nPepersaus (room, Madeira)\nSpruitjes met spekreepjes*\nTarwekorrels",
+            "uid": "12020121702002",
+            "description": "Balanced 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:59:02.978935",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:59:02.947054+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:59:03.045577+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.67",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/449111635760002/",
+            "id": "449111635760002",
+            "name": "Omelet met prei en wortel (v)\nSperziebonensla",
+            "uid": "12020121702001",
+            "description": "Fresh Salad & Cold dish 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:54.684095",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:54.661181+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:58:54.704896+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.28",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/149111125750001/",
+            "id": "149111125750001",
+            "name": "Groentebouillon",
+            "uid": "12020121702000",
+            "description": "Soup",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:50.029061",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:49.988428+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:58:50.047634+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.25",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "B"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/849111415740003/",
+            "id": "849111415740003",
+            "name": "Fruit op sap",
+            "uid": "12020121602011",
+            "description": "Sweet",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:47.102459",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:47.074316+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:58:47.117149+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.15",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/949111305710000/",
+            "id": "949111305710000",
+            "name": "Worstenbroodje homemade",
+            "uid": "12020121602006",
+            "description": "Snack",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:44.121620",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:44.094482+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:58:44.137076+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.15",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/349111294720000/",
+            "id": "349111294720000",
+            "name": "Carbonarasaus en rucola",
+            "uid": "12020121602004",
+            "description": "Storia Di Pasta",
+            "persons": 1,
+            "cuisine": "",
+            "recipe_stage": "",
+            "remarks": "<p><br data-mce-bogus=\"1\"></p>",
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": "",
+            "difficulty": null,
+            "recipe_class": "",
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:41.053237",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:41.031388+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-03T22:13:57.831000+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.23",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": "",
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "D"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": "00:00:00"
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/749111584760002/",
+            "id": "749111584760002",
+            "name": "Kabeljauwfilet \"Riviera\" (tomaat, olijf, rode ajuin, basilicum)\nGeplette aardappelen geparfumeerd met olijfolie",
+            "uid": "12020121602003",
+            "description": "Balanced 2",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:37.986001",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:37.949719+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:58:38.035909+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.54",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/849111874750004/",
+            "id": "849111874750004",
+            "name": "Gemarineerde kalkoenbrochette\nKerriesaus\nWokgroenten (bamboe, witte kool, prei, sojascheuten, paprika, ui, champignons)\nVolkoren rijst",
+            "uid": "12020121602002",
+            "description": "Balanced 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:33.015997",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:32.985673+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:58:33.064084+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.63",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/749111564780000/",
+            "id": "749111564780000",
+            "name": "Ardeense pastei met mangochutney",
+            "uid": "12020121602001",
+            "description": "Fresh Salad & Cold dish 1",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:24.606848",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:24.583823+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:58:24.620401+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.26",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "A"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        },
+        {
+            "url": "https://www.apicbase.com/api/v1/recipes/549111254750004/",
+            "id": "549111254750004",
+            "name": "Erwtensoep St-Germain met spekreepjes\nBroodkorstjes",
+            "uid": "12020121602000",
+            "description": "Soup",
+            "persons": 1,
+            "cuisine": null,
+            "recipe_stage": null,
+            "remarks": null,
+            "recipe_type": null,
+            "recipe_type_other": null,
+            "season": null,
+            "difficulty": null,
+            "recipe_class": null,
+            "target_profit_margin": null,
+            "vat": null,
+            "current_sell_price": {
+                "created": "2020-12-01 21:58:21.657691",
+                "pricing": 0.0,
+                "user_pk": 8762,
+                "username": "hans@alberts.be"
+            },
+            "sell_price_history": [],
+            "created_date": "2020-12-01T21:58:21.635814+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2020-12-01T21:58:21.687211+01:00",
+            "original": null,
+            "clones": [],
+            "public": false,
+            "net_weight": "0.30",
+            "net_weight_unit": "kg",
+            "net_volume": null,
+            "net_volume_unit": null,
+            "prep_time": null,
+            "prep_time_passive": null,
+            "cooking_time": null,
+            "cooking_time_passive": null,
+            "plating_time": null,
+            "portion_pieces": null,
+            "custom_fields": [
+                {
+                    "name": "Kitchen Utensils",
+                    "value": null
+                },
+                {
+                    "name": "NutriScore",
+                    "value": "C"
+                },
+                {
+                    "name": "Picture",
+                    "value": null
+                }
+            ],
+            "main_stock_items": [],
+            "shelf_life": null
+        }
+    ]
+}

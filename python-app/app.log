@@ -1,0 +1,14 @@
+2022-01-10 21:28:11,425 INFO Started server process [20997]
+2022-01-10 21:28:11,425 INFO Waiting for application startup.
+2022-01-10 21:28:11,431 INFO Application startup complete.
+2022-01-10 21:32:30,094 INFO Shutting down
+2022-01-10 21:32:30,196 INFO Finished server process [20997]
+2022-01-10 21:32:30,210 ERROR Traceback (most recent call last):
+  File "/Users/robindecroon/Library/Python/3.8/lib/python/site-packages/starlette/routing.py", line 624, in lifespan
+    await receive()
+  File "/Users/robindecroon/Library/Python/3.8/lib/python/site-packages/uvicorn/lifespan/on.py", line 135, in receive
+    return await self.receive_queue.get()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/asyncio/queues.py", line 163, in get
+    await getter
+asyncio.exceptions.CancelledError
+

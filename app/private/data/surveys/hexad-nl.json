@@ -1,0 +1,920 @@
+{
+    "ID": "1",
+    "Title": "Hexad Vragenlijst",
+    "Subtitle": "Op basis van deze vragenlijst trachten we de PERSFO applicatie in de nabije toekomst uit te breiden met motivationele berichten.",
+    "CombinedQuestions": null,
+    "Questions": [
+        {
+            "Title": "Het maakt me gelukkig als ik anderen kan helpen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Philanthropist_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik hou ervan anderen te helpen met zich oriënteren in nieuwe situaties.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Philanthropist_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik hou ervan om mijn kennis te delen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Philanthropist_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het welzijn van anderen belangrijk.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Philanthropist_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind interactie met anderen belangrijk.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Socialiser_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het leuk om deel te zijn van een team.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Socialiser_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het belangrijk om me een deel van een gemeenschap te voelen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Socialiser_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik geniet van groepsactiviteiten.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Socialiser_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het belangrijk om mijn eigen weg te volgen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_FreeSpirit_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik laat me vaak leiden door mijn nieuwsgierigheid.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_FreeSpirit_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het leuk om nieuwe dingen uit te proberen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_FreeSpirit_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind onafhankelijk zijn belangrijk.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_FreeSpirit_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het leuk om obstakels te overwinnen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Achiever_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het belangrijk om taken altijd volledig uit te voeren.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Achiever_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het moeilijk om een probleem los te laten voordat ik een oplossing heb gevonden",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Achiever_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het leuk om moeilijke taken de baas te kunnen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Achiever_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het leuk om te provoceren.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Disruptor_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het leuk om de status quo in vraag te stellen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Disruptor_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik zie mezelf als een rebel.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Disruptor_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik hou niet van het volgen van regels.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Disruptor_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik hou van competities waarbij een prijs gewonnen kan worden.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Player_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Beloningen zijn een goede manier om me te motiveren.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Player_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Ik vind het belangrijk om iets terug te krijgen voor mijn inspanningen.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Player_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Als de beloning voldoende is, dan zal ik de inspanningen leveren.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Helemaal oneens"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Oneens"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Eerder oneens"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neutraal"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Eerder eens"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Eens"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Helemaal eens"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Player_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        }
+    ]
+}

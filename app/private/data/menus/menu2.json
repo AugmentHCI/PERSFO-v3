@@ -1,0 +1,1051 @@
+{
+  "count": 14,
+  "next": "https://www.apicbase.com/api/v1/menus/?page=2",
+  "previous": null,
+  "results": [
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/390800099170004/",
+          "id": "390800099170004",
+          "name": "Maandag 06/12/2021",
+          "uid": "",
+          "description": "",
+          "created_date": "2021-12-01T17:58:59.050856+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2021-12-01T18:01:34.518240+01:00",
+          "courses": [
+              {
+                  "name": "Soep",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249543698070003/",
+                      "https://www.apicbase.com/api/v1/recipes/749543379040004/"
+                  ]
+              },
+              {
+                  "name": "Salades",
+                  "recipes": []
+              },
+              {
+                  "name": "Ready Meals",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                      "https://www.apicbase.com/api/v1/recipes/449643224260006/",
+                      "https://www.apicbase.com/api/v1/recipes/949643983220008/",
+                      "https://www.apicbase.com/api/v1/recipes/649643993200007/",
+                      "https://www.apicbase.com/api/v1/recipes/549643414270001/",
+                      "https://www.apicbase.com/api/v1/recipes/749643404200008/"
+                  ]
+              },
+              {
+                  "name": "Sandwiches",
+                  "recipes": []
+              },
+              {
+                  "name": "Warme Schotel",
+                  "recipes": []
+              },
+              {
+                  "name": "Dessert",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849543220130008/",
+                      "https://www.apicbase.com/api/v1/recipes/349111562850005/"
+                  ]
+              },
+              {
+                  "name": "Fruit (+granola)",
+                  "recipes": []
+              },
+              {
+                  "name": "Dranken",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/149643344280005/",
+                      "https://www.apicbase.com/api/v1/recipes/649643464200008/",
+                      "https://www.apicbase.com/api/v1/recipes/249643054260001/",
+                      "https://www.apicbase.com/api/v1/recipes/849643584260002/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": "2021-12-06",
+          "ending_date": "2021-12-06",
+          "time_of_day": "11:00:00",
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/690800556140004/",
+          "id": "690800556140004",
+          "name": "Vrijdag 03/12/2021",
+          "uid": "",
+          "description": "",
+          "created_date": "2021-11-26T01:00:07.193187+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2021-12-01T18:02:20.206517+01:00",
+          "courses": [
+              {
+                  "name": "Soep",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/749543530170001/",
+                      "https://www.apicbase.com/api/v1/recipes/949643673210000/"
+                  ]
+              },
+              {
+                  "name": "Salades",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/649543889010004/"
+                  ]
+              },
+              {
+                  "name": "Ready Meals",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                      "https://www.apicbase.com/api/v1/recipes/449643224260006/",
+                      "https://www.apicbase.com/api/v1/recipes/949643983220008/",
+                      "https://www.apicbase.com/api/v1/recipes/649643993200007/",
+                      "https://www.apicbase.com/api/v1/recipes/549643414270001/",
+                      "https://www.apicbase.com/api/v1/recipes/749643404200008/"
+                  ]
+              },
+              {
+                  "name": "Sandwiches",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/649443792980001/",
+                      "https://www.apicbase.com/api/v1/recipes/249643774250006/"
+                  ]
+              },
+              {
+                  "name": "Warme Schotel",
+                  "recipes": []
+              },
+              {
+                  "name": "Dessert",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949543860180004/",
+                      "https://www.apicbase.com/api/v1/recipes/549643734220004/"
+                  ]
+              },
+              {
+                  "name": "Fruit (+granola)",
+                  "recipes": []
+              },
+              {
+                  "name": "Dranken",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/149643344280005/",
+                      "https://www.apicbase.com/api/v1/recipes/649643464200008/",
+                      "https://www.apicbase.com/api/v1/recipes/249643054260001/",
+                      "https://www.apicbase.com/api/v1/recipes/849643584260002/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": "2021-12-03",
+          "ending_date": "2021-12-03",
+          "time_of_day": "11:00:00",
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/490800274160008/",
+          "id": "490800274160008",
+          "name": "La Plaine week 29/11",
+          "uid": null,
+          "description": null,
+          "created_date": "2021-11-23T17:30:44.013472+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2021-11-23T17:30:44.013483+01:00",
+          "courses": [
+              {
+                  "name": "",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249543698070003/",
+                      "https://www.apicbase.com/api/v1/recipes/749543849010002/",
+                      "https://www.apicbase.com/api/v1/recipes/649443022970001/",
+                      "https://www.apicbase.com/api/v1/recipes/349543409090006/",
+                      "https://www.apicbase.com/api/v1/recipes/649543889010004/",
+                      "https://www.apicbase.com/api/v1/recipes/749543379040004/",
+                      "https://www.apicbase.com/api/v1/recipes/149543399080005/",
+                      "https://www.apicbase.com/api/v1/recipes/749543119050005/",
+                      "https://www.apicbase.com/api/v1/recipes/849443842950006/",
+                      "https://www.apicbase.com/api/v1/recipes/849543039030004/",
+                      "https://www.apicbase.com/api/v1/recipes/449443812900007/",
+                      "https://www.apicbase.com/api/v1/recipes/949543369050009/",
+                      "https://www.apicbase.com/api/v1/recipes/749543829050005/",
+                      "https://www.apicbase.com/api/v1/recipes/249543410110002/",
+                      "https://www.apicbase.com/api/v1/recipes/649443852980003/",
+                      "https://www.apicbase.com/api/v1/recipes/949543860180004/",
+                      "https://www.apicbase.com/api/v1/recipes/649543059070008/",
+                      "https://www.apicbase.com/api/v1/recipes/249443203900005/",
+                      "https://www.apicbase.com/api/v1/recipes/849543220130008/",
+                      "https://www.apicbase.com/api/v1/recipes/349543240180006/",
+                      "https://www.apicbase.com/api/v1/recipes/249543850160008/",
+                      "https://www.apicbase.com/api/v1/recipes/549543100140004/",
+                      "https://www.apicbase.com/api/v1/recipes/949543480120008/",
+                      "https://www.apicbase.com/api/v1/recipes/649443792980001/",
+                      "https://www.apicbase.com/api/v1/recipes/749543530170001/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": null,
+          "ending_date": null,
+          "time_of_day": null,
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/490700913310005/",
+          "id": "490700913310005",
+          "name": "Test Smoothies Menu",
+          "uid": "",
+          "description": "",
+          "created_date": "2021-07-20T16:23:27.838359+02:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2021-07-20T16:41:27.698390+02:00",
+          "courses": [
+              {
+                  "name": "Smoothies",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/549121591390009/",
+                      "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": null,
+          "ending_date": null,
+          "time_of_day": null,
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/390500353590008/",
+          "id": "390500353590008",
+          "name": "Vrijdag 18/12/2020",
+          "uid": "",
+          "description": "Argenta",
+          "created_date": "2020-12-02T12:11:05.436689+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2020-12-03T23:10:28.539959+01:00",
+          "courses": [
+              {
+                  "name": "Soup",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/649111695730000/"
+                  ]
+              },
+              {
+                  "name": "Fresh Salad & Cold dish",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111606740008/"
+                  ]
+              },
+              {
+                  "name": "Snack",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/149111146770006/"
+                  ]
+              },
+              {
+                  "name": "Sandwich",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/549111135960007/",
+                      "https://www.apicbase.com/api/v1/recipes/549111625900005/",
+                      "https://www.apicbase.com/api/v1/recipes/349111745970001/",
+                      "https://www.apicbase.com/api/v1/recipes/349111555940007/"
+                  ]
+              },
+              {
+                  "name": "Sweet",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/749111056780002/"
+                  ]
+              },
+              {
+                  "name": "Balanced",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/449111016700004/",
+                      "https://www.apicbase.com/api/v1/recipes/249111226710000/"
+                  ]
+              },
+              {
+                  "name": "Storia Di Pasta",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849111036740008/"
+                  ]
+              },
+              {
+                  "name": "Groenten",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111468960002/"
+                  ]
+              },
+              {
+                  "name": "Smoothie",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": "2020-12-18",
+          "ending_date": "2020-12-18",
+          "time_of_day": null,
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/590500143510002/",
+          "id": "590500143510002",
+          "name": "Donderdag 17/12/2020",
+          "uid": "",
+          "description": "Argenta",
+          "created_date": "2020-12-02T12:10:50.571175+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2020-12-03T23:09:19.478742+01:00",
+          "courses": [
+              {
+                  "name": "Soup",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/149111125750001/"
+                  ]
+              },
+              {
+                  "name": "Fresh Salad & Cold dish",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/449111635760002/"
+                  ]
+              },
+              {
+                  "name": "Snack",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/349111275700004/"
+                  ]
+              },
+              {
+                  "name": "Sandwich",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/549111135960007/",
+                      "https://www.apicbase.com/api/v1/recipes/549111625900005/",
+                      "https://www.apicbase.com/api/v1/recipes/349111745970001/",
+                      "https://www.apicbase.com/api/v1/recipes/349111555940007/"
+                  ]
+              },
+              {
+                  "name": "Sweet",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249111385740003/"
+                  ]
+              },
+              {
+                  "name": "Balanced",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111745730006/",
+                      "https://www.apicbase.com/api/v1/recipes/249111155760009/"
+                  ]
+              },
+              {
+                  "name": "Storia Di Pasta",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249111465720005/"
+                  ]
+              },
+              {
+                  "name": "Groenten",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111468960002/"
+                  ]
+              },
+              {
+                  "name": "Smoothie",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": "2020-12-17",
+          "ending_date": "2020-12-17",
+          "time_of_day": null,
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/690500233530002/",
+          "id": "690500233530002",
+          "name": "Woensdag 16/12/2020",
+          "uid": "",
+          "description": "Argenta",
+          "created_date": "2020-12-02T12:10:38.884146+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2020-12-03T23:08:08.441173+01:00",
+          "courses": [
+              {
+                  "name": "Soup",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/549111254750004/"
+                  ]
+              },
+              {
+                  "name": "Fresh Salad & Cold dish",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/749111564780000/"
+                  ]
+              },
+              {
+                  "name": "Snack",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111305710000/"
+                  ]
+              },
+              {
+                  "name": "Sandwich",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/549111625900005/",
+                      "https://www.apicbase.com/api/v1/recipes/549111135960007/",
+                      "https://www.apicbase.com/api/v1/recipes/349111745970001/",
+                      "https://www.apicbase.com/api/v1/recipes/349111555940007/"
+                  ]
+              },
+              {
+                  "name": "Sweet",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849111415740003/"
+                  ]
+              },
+              {
+                  "name": "Balanced",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849111874750004/",
+                      "https://www.apicbase.com/api/v1/recipes/749111584760002/"
+                  ]
+              },
+              {
+                  "name": "Storia Di Pasta",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/349111294720000/"
+                  ]
+              },
+              {
+                  "name": "Groenten",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/649111147910006/"
+                  ]
+              },
+              {
+                  "name": "Smoothie",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": "2020-12-16",
+          "ending_date": "2020-12-16",
+          "time_of_day": null,
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/490500423570009/",
+          "id": "490500423570009",
+          "name": "Dinsdag 15/12/2020",
+          "uid": "",
+          "description": "Argenta",
+          "created_date": "2020-12-02T12:10:25.534061+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2020-12-03T23:05:34.614675+01:00",
+          "courses": [
+              {
+                  "name": "Soup",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249111183750003/"
+                  ]
+              },
+              {
+                  "name": "Fresh Salad & Cold dish",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/749111693790003/"
+                  ]
+              },
+              {
+                  "name": "Snack",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249111434720004/"
+                  ]
+              },
+              {
+                  "name": "Sandwich",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/549111625900005/",
+                      "https://www.apicbase.com/api/v1/recipes/549111135960007/",
+                      "https://www.apicbase.com/api/v1/recipes/349111745970001/",
+                      "https://www.apicbase.com/api/v1/recipes/349111555940007/"
+                  ]
+              },
+              {
+                  "name": "Sweet",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849111844700004/"
+                  ]
+              },
+              {
+                  "name": "Balanced",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/449111704700002/",
+                      "https://www.apicbase.com/api/v1/recipes/549111814710003/"
+                  ]
+              },
+              {
+                  "name": "Storia Di Pasta",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111924700008/"
+                  ]
+              },
+              {
+                  "name": "Groenten",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/549111226950006/"
+                  ]
+              },
+              {
+                  "name": "Smoothie",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": "2020-12-15",
+          "ending_date": "2020-12-15",
+          "time_of_day": null,
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/890500413530006/",
+          "id": "890500413530006",
+          "name": "Maandag 7/12/2020",
+          "uid": "",
+          "description": "Argenta",
+          "created_date": "2020-12-02T12:10:13.849523+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2020-12-03T00:01:14.232860+01:00",
+          "courses": [
+              {
+                  "name": "Soup",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249111089610008/"
+                  ]
+              },
+              {
+                  "name": "Fresh Salad & Cold dish",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111199650006/"
+                  ]
+              },
+              {
+                  "name": "Snack",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/649111540710007/"
+                  ]
+              },
+              {
+                  "name": "Sandwich",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849111460740006/",
+                      "https://www.apicbase.com/api/v1/recipes/449111850760004/",
+                      "https://www.apicbase.com/api/v1/recipes/149111570700004/",
+                      "https://www.apicbase.com/api/v1/recipes/349111780700002/"
+                  ]
+              },
+              {
+                  "name": "Sweet",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111490720008/"
+                  ]
+              },
+              {
+                  "name": "Balanced",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849111110770004/",
+                      "https://www.apicbase.com/api/v1/recipes/649111400770005/"
+                  ]
+              },
+              {
+                  "name": "Storia Di Pasta",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849111036740008/"
+                  ]
+              },
+              {
+                  "name": "Groenten",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/449111630720002/"
+                  ]
+              },
+              {
+                  "name": "Smoothie",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": "2020-12-07",
+          "ending_date": "2020-12-07",
+          "time_of_day": null,
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+          "url": "https://www.apicbase.com/api/v1/menus/490500282510009/",
+          "id": "490500282510009",
+          "name": "Vrijdag 11/12/2020",
+          "uid": "",
+          "description": "Argenta",
+          "created_date": "2020-12-02T12:09:43.618681+01:00",
+          "created_by": "hans@alberts.be",
+          "modified_date": "2020-12-03T00:01:19.126101+01:00",
+          "courses": [
+              {
+                  "name": "Soup",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111772830007/"
+                  ]
+              },
+              {
+                  "name": "Fresh Salad & Cold dish",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111606740008/"
+                  ]
+              },
+              {
+                  "name": "Snack",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/749111433830006/"
+                  ]
+              },
+              {
+                  "name": "Sandwich",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/849111460740006/",
+                      "https://www.apicbase.com/api/v1/recipes/149111570700004/",
+                      "https://www.apicbase.com/api/v1/recipes/349111780700002/",
+                      "https://www.apicbase.com/api/v1/recipes/449111850760004/"
+                  ]
+              },
+              {
+                  "name": "Sweet",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111993800004/"
+                  ]
+              },
+              {
+                  "name": "Balanced",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/949111992890006/",
+                      "https://www.apicbase.com/api/v1/recipes/149111103820001/"
+                  ]
+              },
+              {
+                  "name": "Storia Di Pasta",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/449111213870003/"
+                  ]
+              },
+              {
+                  "name": "Groenten",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/249111323810000/"
+                  ]
+              },
+              {
+                  "name": "Smoothie",
+                  "recipes": [
+                      "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                  ]
+              }
+          ],
+          "cycle_year": null,
+          "cycle_week": null,
+          "cycle_day": null,
+          "starting_date": "2020-12-11",
+          "ending_date": "2020-12-11",
+          "time_of_day": null,
+          "vat": null,
+          "target_profit_margin": null,
+          "current_sell_price": null,
+          "sell_price_history": [],
+          "custom_fields": []
+      },
+      {
+        "url": "https://www.apicbase.com/api/v1/menus/490500372540001/",
+        "id": "490500372540001",
+        "name": "Donderdag 10/12/2020",
+        "uid": "",
+        "description": "Argenta",
+        "created_date": "2020-12-02T12:09:31.447908+01:00",
+        "created_by": "hans@alberts.be",
+        "modified_date": "2020-12-03T00:00:52.623154+01:00",
+        "courses": [
+            {
+                "name": "Soup",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/649111621860001/"
+                ]
+            },
+            {
+                "name": "Fresh Salad & Cold dish",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/149111831860005/"
+                ]
+            },
+            {
+                "name": "Snack",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/149111422830000/"
+                ]
+            },
+            {
+                "name": "Sandwich",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/449111850760004/",
+                    "https://www.apicbase.com/api/v1/recipes/849111460740006/",
+                    "https://www.apicbase.com/api/v1/recipes/149111570700004/",
+                    "https://www.apicbase.com/api/v1/recipes/349111780700002/"
+                ]
+            },
+            {
+                "name": "Sweet",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/349111562850005/"
+                ]
+            },
+            {
+                "name": "Balanced",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/449111141820008/",
+                    "https://www.apicbase.com/api/v1/recipes/849111751810001/"
+                ]
+            },
+            {
+                "name": "Storia Di Pasta",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/249111661840002/"
+                ]
+            },
+            {
+                "name": "Groenten",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/149111812800008/"
+                ]
+            },
+            {
+                "name": "Smoothie",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                ]
+            }
+        ],
+        "cycle_year": null,
+        "cycle_week": null,
+        "cycle_day": null,
+        "starting_date": "2020-12-10",
+        "ending_date": "2020-12-10",
+        "time_of_day": null,
+        "vat": null,
+        "target_profit_margin": null,
+        "current_sell_price": null,
+        "sell_price_history": [],
+        "custom_fields": []
+    },
+    {
+        "url": "https://www.apicbase.com/api/v1/menus/290500862590007/",
+        "id": "290500862590007",
+        "name": "Woensdag 9/12/2020",
+        "uid": "",
+        "description": "Argenta",
+        "created_date": "2020-12-02T12:09:21.659261+01:00",
+        "created_by": "hans@alberts.be",
+        "modified_date": "2020-12-03T00:01:36.167071+01:00",
+        "courses": [
+            {
+                "name": "Soup",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/849111322770000/"
+                ]
+            },
+            {
+                "name": "Fresh Salad & Cold dish",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/349111232710003/"
+                ]
+            },
+            {
+                "name": "Snack",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/849111082780007/"
+                ]
+            },
+            {
+                "name": "Sandwich",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/449111850760004/",
+                    "https://www.apicbase.com/api/v1/recipes/849111460740006/",
+                    "https://www.apicbase.com/api/v1/recipes/349111780700002/",
+                    "https://www.apicbase.com/api/v1/recipes/149111570700004/"
+                ]
+            },
+            {
+                "name": "Sweet",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/849111811800001/"
+                ]
+            },
+            {
+                "name": "Balanced",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/949111842770009/",
+                    "https://www.apicbase.com/api/v1/recipes/349111252720009/"
+                ]
+            },
+            {
+                "name": "Storia Di Pasta",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/649111662740008/"
+                ]
+            },
+            {
+                "name": "Groenten",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/149111472710000/"
+                ]
+            },
+            {
+                "name": "Smoothie",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                ]
+            }
+        ],
+        "cycle_year": null,
+        "cycle_week": null,
+        "cycle_day": null,
+        "starting_date": "2020-12-09",
+        "ending_date": "2020-12-09",
+        "time_of_day": null,
+        "vat": null,
+        "target_profit_margin": null,
+        "current_sell_price": null,
+        "sell_price_history": [],
+        "custom_fields": []
+    },
+    {
+        "url": "https://www.apicbase.com/api/v1/menus/390500052560006/",
+        "id": "390500052560006",
+        "name": "Dinsdag 8/12/2020",
+        "uid": "",
+        "description": "Argenta",
+        "created_date": "2020-12-02T12:09:07.501396+01:00",
+        "created_by": "hans@alberts.be",
+        "modified_date": "2020-12-03T00:00:41.413773+01:00",
+        "courses": [
+            {
+                "name": "Soup",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/149111301780003/"
+                ]
+            },
+            {
+                "name": "Fresh Salad & Cold dish",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/149111011740008/"
+                ]
+            },
+            {
+                "name": "Snack",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/449111061710000/"
+                ]
+            },
+            {
+                "name": "Sandwich",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/149111570700004/",
+                    "https://www.apicbase.com/api/v1/recipes/349111780700002/",
+                    "https://www.apicbase.com/api/v1/recipes/449111850760004/",
+                    "https://www.apicbase.com/api/v1/recipes/849111460740006/"
+                ]
+            },
+            {
+                "name": "Sweet",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/949111512710002/"
+                ]
+            },
+            {
+                "name": "Balanced",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/649111621740009/",
+                    "https://www.apicbase.com/api/v1/recipes/149111631730002/"
+                ]
+            },
+            {
+                "name": "Storia Di Pasta",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/849111641750005/"
+                ]
+            },
+            {
+                "name": "Groenten",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/749111351730008/"
+                ]
+            },
+            {
+                "name": "Smoothie",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                ]
+            }
+        ],
+        "cycle_year": null,
+        "cycle_week": null,
+        "cycle_day": null,
+        "starting_date": "2020-12-08",
+        "ending_date": "2020-12-08",
+        "time_of_day": null,
+        "vat": null,
+        "target_profit_margin": null,
+        "current_sell_price": null,
+        "sell_price_history": [],
+        "custom_fields": []
+    },
+    {
+        "url": "https://www.apicbase.com/api/v1/menus/690500932530005/",
+        "id": "690500932530005",
+        "name": "Maandag 14/12/2020",
+        "uid": "",
+        "description": "Argenta",
+        "created_date": "2020-12-01T16:49:32.296442+01:00",
+        "created_by": "hans@alberts.be",
+        "modified_date": "2020-12-03T23:05:10.392094+01:00",
+        "courses": [
+            {
+                "name": "Soup",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/849111713700007/"
+                ]
+            },
+            {
+                "name": "Fresh Salad & Cold dish",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/849111923730004/"
+                ]
+            },
+            {
+                "name": "Snack",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/849111663790009/"
+                ]
+            },
+            {
+                "name": "Sandwich",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/549111135960007/",
+                    "https://www.apicbase.com/api/v1/recipes/549111625900005/",
+                    "https://www.apicbase.com/api/v1/recipes/349111745970001/",
+                    "https://www.apicbase.com/api/v1/recipes/349111555940007/"
+                ]
+            },
+            {
+                "name": "Sweet",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/749111873750000/"
+                ]
+            },
+            {
+                "name": "Balanced",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/249111933710009/",
+                    "https://www.apicbase.com/api/v1/recipes/749111443790000/"
+                ]
+            },
+            {
+                "name": "Storia Di Pasta",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/349111153720002/"
+                ]
+            },
+            {
+                "name": "Groenten",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/949111468960002/"
+                ]
+            },
+            {
+                "name": "Smoothie",
+                "recipes": [
+                    "https://www.apicbase.com/api/v1/recipes/349111926820003/"
+                ]
+            }
+        ],
+        "cycle_year": null,
+        "cycle_week": null,
+        "cycle_day": null,
+        "starting_date": "2020-12-14",
+        "ending_date": "2020-12-14",
+        "time_of_day": null,
+        "vat": null,
+        "target_profit_margin": null,
+        "current_sell_price": null,
+        "sell_price_history": [],
+        "custom_fields": []
+    }
+  ]
+}

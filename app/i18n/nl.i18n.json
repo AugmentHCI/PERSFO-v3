@@ -1,0 +1,165 @@
+{
+    "_locale": "nl",
+    "AppBarPersfo": {
+        "welcome": "Welkom bij de PERSFO app!",
+        "icf": "Geinformeerde toestemming informatie",
+        "survey": "Studie vragenlijsten",
+        "progress": "Persoonlijk advies",
+        "settings": "Instellingen",
+        "feedback": "Feedback",
+        "thanks": "Bedankt",
+        "title": "Maaltijden van de laatste vijf dagen",
+        "logout": "Afmelden"
+    },
+    "app": {
+        "today_options": "De opties van vandaag binnen",
+        "today_recommendation": "Uw aanbevolen maaltijd vandaag",
+        "temp_explanation": "In deze pilootstudie worden maaltijden proberen we een goede match te vinden op basis van uw antwoorden op de Food Frequency Questionnaire. Het doel van deze studie is om deze aanbevelingen te verbeteren."
+    },
+    "orderLogic": {
+        "order": "bestel",
+        "ordered": "besteld",
+        "orderLogic.addedToShoppingCart": "Toegevoegd aan uw winkelmandje!"
+    },
+    "general": {
+        "send": "Verstuur",
+        "cancel": "Annuleer",
+        "today": "Vandaag",
+        "five_days_ago": "5 dagen geleden",
+        "more_info": "Waarom",
+        "no_data": "Geen data",
+        "nutrients": "Nutriënten",
+        "allergens": "Allergiën",
+        "energy": "Energie",
+        "total_fat": "Totale vetten",
+        "saturated_fats": "Verzadigde vetten",
+        "sugar": "Suikers",
+        "proteins": "Eiwitten",
+        "fibers": "Vezels",
+        "salt": "Zout",
+        "potasium": "Potasium",
+        "ingredients": "Ingrediënten",
+        "i_agree": "Ik ga akkoord",
+        "continue": "Verder",
+        "back": "Terug",
+        "home": "Maaltijden",
+        "questionnaire": "Vragenlijst",
+        "history": "Geschiedenis",
+        "preferences": "Voorkeuren",
+        "popularity": "Populariteit",
+        "contribution": "bijdrage",
+        "personal_advise": "Persoonlijk advies",
+        "and": "en",
+        "popularity_explanation": "De meest populaire maaltijden zijn niet altijd de meest gezonde maaltijden. Daarom wordt de populariteit van een maaltijd maar voor 10% in rekening gebracht.",
+        "preferences_explanation": "Op basis van je eerder gekozen maaltijden, proberen we gelijkaardige recepten te zoeken."
+    },
+    "errors": {
+        "no_ingredients": "Er zijn voor deze maaltijd nog geen ingrediënten gekend",
+        "quisper": "Er is iets misgegaan bij het ophalen van uw persoonlijk advies. U zou dit bericht niet mogen zien. Gelieve contact op te nemen met robin.decroon@kuleuven.be zodat we u uw persoonlijk advies kunnen nasturen."
+    },
+    "sustainability": {
+        "sustainability": "Duurzaamheid",
+        "labels": "Maaltijdlabels",
+        "co2": "CO2 voetafdruk"
+    },
+    "recommendations": {
+        "explanation": "Help ons aub waarom u deze aanbeveling minder goed vindt. Ik heb niet graag:"
+    },
+    "done": {
+        "thanks": "Bedankt om deel te nemen in de PERSFO-studie vandaag. Uw keuzes zijn (virtueel) bevestigd.",
+        "undo": "Annuleer uw bevestiging"
+    },
+    "feedback": {
+        "thanks": "Bedankt om ons feedback te willen geven!",
+        "thanks_submitted": "Bedankt voor uw feedback!",
+        "submit": "Verstuur feedback"
+    },
+    "login": {
+        "forgot_password_title": "Wachtwoord vergeten",
+        "register_title": "Maak een account aan",
+        "register": "Maak account",
+        "username": "Gebruikersnaam",
+        "password": "Wachtwoord",
+        "enter_new_password": "Geef uw nieuw wachtwoord in",
+        "reenter_password": "Bevestig wachtwoord",
+        "forgot_password": "Wachtwoord vergeten?",
+        "reset_password": "Reset wachtwoord",
+        "already_an_account": "Heeft u al een account? Aanmelden",
+        "not_already_an_account": "Nog geen account? Registreer",
+        "incorrect_username_or_token": "Onjuiste gebruikersnaam of token!",
+        "incorrect_username_or_password": "Onjuiste gebruikersnaam of wachtwoord!",
+        "mismatch_passwords": "Wachtwoorden komen niet overeen!",
+        "user_exists": "Deze gebruikersnaam is al in gebruik!",
+        "sign_in": "Aanmelden",
+        "warning": "Om uw anonimiteit te garanderen, gebruikt u best geen herkenbare aanmeldnaam."
+    },
+    "icf": {
+        "step1_label": "PERSFO project: algemene informatie studie",
+        "step1_description": "U wordt uitgenodigd om deel te nemen aan een wetenschappelijk onderzoek van de KU Leuven. Hier vindt u alle informatie aangaande dit onderzoek. U kan zelf beslissen of u al dan niet aan de studie wenst deel te nemen. Wanneer u uw deelname bevestigt, kan u deze op elk ogenblik opnieuw beëindigen en hoeft u hiervoor geen reden te geven. Dit heeft geen invloed op uw werk of uw relatie met uw werkgever. Dit informatieblad geeft u inlichtingen over de studie. Neem gerust uw tijd om het aandachtig te lezen en te beslissen of u al dan niet wenst deel te nemen. Nadien kan u uitgebreid vragen stellen zodat u zeker goed begrijpt wat van u wordt verwacht. Nadat u deze informatie hebt doorgenomen en begrijpt en al uw vragen werden beantwoord, zal u worden gevraagd het geïnformeerde toestemmingsformulier te dateren en te ondertekenen indien u besluit aan de studie deel te nemen. U ontvangt een kopie van het ondertekende toestemmingsformulier.",
+        "step2_label": "Inleiding",
+        "step2_description": "Hoewel mensen zich er steeds meer van bewust zijn dat gezond eten belangrijk is, is de prevalentie van obesitas verdrievoudigd tussen 1975-2016. Dit suggereert dat informatiecampagnes en niet altijd leiden tot gezond eetgedrag. Deze studie maakt deel uit van een groter project, PERSFO, dat het ontwerp beoogt van een innovatief en ‘slim’ aanbevelingsplatform om werknemers gepersonaliseerd voedingsadvies aan te bieden. Het PERSFO-project wil de transparantie van gepersonaliseerde voedingsadvies verhogen en ook zorgen dat het advies mensen daadwerkelijk motiveert en ondersteunt.",
+        "step3_label": "Doel van deze studie",
+        "step3_description":"Het algemene doel van deze studie is het verkennen en ontwikkelen van een mobiele applicatie. We streven naar mobiele applicatie die de dagelijkse menu’s in Sodexo haar bedrijfsrestaurants op een transparante en interactieve manier kan voorstellen. Via dit onderzoek willen de onderzoekers meer inzicht krijgen hoe ze werknemers een beter inzicht kunnen geven in hun eetgewoontes. Specifiek willen de onderzoekers de mogelijkheden verkennen om visualisaties en aanbevelingsmethoden te combineren in een gezondheidsapplicatie. Dit om werknemers te ondersteunen om meer geïnformeerde beslissingen te kunnen nemen. Indien u deelneemt aan deze studie, gebruikt u een studieversie van onze applicatie en heeft u een rechtstreekse inbreng in het onderzoek. Via deze rechtstreekse inbreng willen we ervoor zorgen dat de PERSFO-softwareapplicatie aan uw noden en wensen kan voldoen.",
+        "step4_label": "Wat gebeurt er wanneer ik deelneem?",
+        "step4_description": "Initieel zal u gevraagd worden om drie vragenlijsten in te vullen. De eerste, lange vragenlijst polst naar uw persoonlijke eetgewoontes. Uw antwoorden zullen gebruik worden om zowel de impact van de PERSFO-applicatie te meten, alsook om u persoonlijke aanbevelingen te geven. De tweede en derde vragenlijst zullen vervolgens polsen naar uw motivatie om gezond te eten. Na het invullen van de vragenlijsten zal u gevraagd worden om een gratis mobiele applicatie te installeren op uw smartphone via de officiële app winkels. U kan deze applicatie vervolgens gebruiken om te kijken welke maaltijden er vandaag beschikbaar zijn in het bedrijfsrestaurant. Op basis van persoonlijke doelen (die u zelf kan instellen) zullen maaltijden aanbevolen worden. Door gebruik te maken van deze applicatie kan u eventueel meer inzicht krijgen waarom maaltijden voor u aangeraden worden. Enkel en alleen wanneer u de applicatie gebruikt, zullen wij technische gebruiksgegevens loggen. Merk op dat dit enkel om technische gebruiksgegevens gaat. Deze technische informatie kan gebruikt worden om het aanbevelingssysteem te verbeteren dat inzicht geeft in menukeuzes. U zal hier geen ongemak van ondervinden. Via uw deelname geeft u enkel toestemming dat technische gebruiksgegevens met de onderzoekers gedeeld mogen worden. Tijdens de studieperiode van 8 tot 12 weken zal u vrijblijvend gevraagd worden om kort (max. 1 uur) even met een onderzoeker samen te zitten in een virtuele meeting. Dit zodat u in een informele setting feedback kan geven op uw ervaringen de mobiele applicatie. Uw feedback is immers zeer waardevol om de applicatie in verdere iteraties te verbeteren. Op het einde van de studie zal u tenslotte gevraagd worden om de vragenlijsten nogmaals in te vullen.",
+        "step5_label": "Wat zijn de mogelijke voor- en nadelen, risico’s en kosten van mijn deelname?",
+        "step5_description": "Er zijn geen directe nadelen, risico’s of bijkomende kosten verbonden aan uw deelname. Aangezien het project verder bouwt op eerdere Europese projecten, zoals het Food4Me project, zullen we u (alleszins beperkt) gepersonaliseerd voedingsadvies kunnen aanbieden.",
+        "step6_label": "Zal mijn deelname aan de studie vertrouwelijk blijven?",
+        "step6_description": "Alle informatie die de onderzoekers verzamelen via deze testperiode is vertrouwelijk. Alleen onderzoekers van het project hebben toegang tot deze informatie. Alle medewerkers en betrokkenen in deze studie verbinden zich ertoe dat ze naar eer en geweten zullen handelen en de Europese GDPR wetgeving zullen respecteren (Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (algemene verordening gegevensbescherming) en de rectificatie van 23 mei 2018).",
+        "step7_label": "Wat zal er gebeuren met de resultaten van de studie?",
+        "step7_description": "De resultaten zullen gebruikt worden in het kader van een wetenschappelijk onderzoek. Het is mogelijk dat de resultaten worden gepubliceerd in een wetenschappelijk tijdschrift. In dit geval zal uw identiteit nooit worden vrijgegeven. Uw naam zal nooit vermeld worden.",
+        "step8_label": "Wie heeft de studie gecontroleerd?",
+        "step8_description": "Dit onderzoeksproject is ter goedkeuring voorgelegd aan de Sociaal-maatschappelijke Ethische Commissie (SMEC) in Leuven. Het is de taak van deze commissie om na te gaan of aan alle voorwaarden betreffende de veiligheid en vrijwaring van de rechten worden voldaan. De Commissie heeft geen bezwaren kenbaar gemaakt tegen de uitvoering van dit onderzoek.",
+        "step9_label": "Heeft u nog verdere vragen bij de studie?",
+        "step9_description": "U kan altijd contact opnemen met Robin De Croon, KU Leuven robin.decroon@kuleuven.be 016 / 37 39",
+        "step10_label": "Start met de studie",
+        "step10_description": "Alvast bedankt voor uw interesse in onze studie. Indien u akkoord gaat met bovenstaande informatie, kan u deelnemen door hieronder op akkoord te klikken. U zal vervolgens naar de vragenlijsten overgaan."
+    },
+    "preferences": {
+        "configure_goals": "Stel je doelen in",
+        "maximum_nutrients": "Stel je gewenste maximale nutriënten in.",
+        "dietary_info": "Voedselvoorkeuren",
+        "dietary_info_configuration": "Gelieve uw voedselvoorkeuren hier in te stellen.",
+        "allergens_configuration": "Gelieve hier aan te duiden indien u allergisch bent aan bepaalde producten.",
+        "resetDislikes": "Reset uw aanbevelingen",
+        "resetDislikes_info": "Verwijder hier de lijst met ingrediënten die u niet lekker vindt.",
+        "resetted": "Uw aanbevelingen zijn opnieuw ingesteld."
+    },
+    "progress": {
+        "weekly_overview": "Weekoverzicht",
+        "goals": "Doelen",
+        "hello": "Hallo",
+        "creation1": "Je hebt je account",
+        "creation2": "dagen geleden aangemaakt.",
+        "using1": "Sinds je gestart ben met deze studie, heb je",
+        "using2": "maaltijden besteld. Met in totaal",
+        "liked1": "Je vond",
+        "liked2": "maaltijden lekker en vond",
+        "liked3": "ingrediënten minder lekker.",
+        "advice": "Persoonlijk advies",
+        "wip": "Deze functie is momenteel nog onder ontwikkeling. Gelieve uw maaltijden te bevestigen in het winkelmandje om ons te helpen bij het optimaliseren van deze functie."
+    },
+    "shopping": {
+        "shopping_cart": "Winkelmandje",
+        "empty": "U heeft nog geen maaltijden besteld.",
+        "total_price": "Totale prijs",
+        "confirm": "Bevestig uw keuzes",
+        "added": "Toegevoegd aan uw winkelmandje",
+        "warning": "OPGEPAST: deze maaltijd voeldoet niet aan uw instellingen!"
+    },
+    "food4me": {
+        "fiber": "Vezels",
+        "VitaminA": "Vitamine A",
+        "VitaminB12": "Vitamine B12",
+        "VitaminC": "Vitamine C",
+        "UnsaturatedFat.MonoUnsaturatedFat": "Enkelvoudig onverzadigd vet",
+        "UnsaturatedFat.PolyUnsaturatedFat": "Meervoudig onverzadigd vet",
+        "Protein": "Eiwitten",
+        "TotalFat": "Vetten",
+        "Calcium": "Calcium",
+        "Iron": "Ijzer",
+        "SaturatedFats": "Verzadigd vet",
+        "Carbohydrate": "Koolhydraten",
+        "explanation": "Op basis van de 'Food Frequency Vragenlijst' konden we een persoonlijk plan opstellen. Jouw persoonlijke aanbevelingen tellen voor 65% mee bij het bepalen van je aanbevolen maaltijd."
+    }
+}

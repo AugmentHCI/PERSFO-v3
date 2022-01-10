@@ -1,0 +1,30 @@
+body {
+  background: #f9f1ec;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+.letter {
+  stroke: #F9F1EC;
+  font-size: 10px;
+  font-family: "roboto";
+  font-weight: 100;
+  text-align: center;
+}
+
+.auxLetter {
+  stroke: #F9F1EC;
+  font-size: 8px;
+  font-family: "roboto";
+  font-weight: 100;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* needed to style the survey.js body */
+.sv_main.sv_default_css .sv_body {
+  border-color: transparent !important;
+  margin-top: 10px;
+}
