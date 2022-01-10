@@ -43,8 +43,8 @@ export const FoodPreferencesContext = ({ recipe }) => {
 
     const classes = useStyles();
 
-    const { recommendationIngredients, filteredIngredients, totalValue } = useTracker(() => {
-        const noDataAvailable = { filteredIngredients: [], filteredIngredients: [], totalValue: 0 };
+    const { recommendationIngredients, filteredIngredients, totalValue, cosineSimilarity } = useTracker(() => {
+        const noDataAvailable = { filteredIngredients: [], filteredIngredients: [], totalValue: 0, cosineSimilarity: 0 };
         const recommendationHandler = Meteor.subscribe("recommendedrecipes");
         const orderHandler = Meteor.subscribe("orders");
         const recipeHandler = Meteor.subscribe("recipes");
@@ -59,11 +59,12 @@ export const FoodPreferencesContext = ({ recipe }) => {
         const recommendationIngredients = recommendation.cleanedIngredients;
         const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
 
-
+        let cosineSimilarity = 0;
         if(userPreferences.orderBasedRecommendations) {
-
-        } else {
-
+            let result = _.find(userPreferences.orderBasedRecommendations, rec => rec.recipeId == recipe.id);
+            if (result) {
+                cosineSimilarity = result.cosineSimilarity;
+            }
         }
 
         const allOrders = OrdersCollection.find({ recipeId: recipe.id, userid: Meteor.userId() }).fetch()
@@ -86,7 +87,7 @@ export const FoodPreferencesContext = ({ recipe }) => {
         let totalValue = 0;
         filteredIngredients.forEach(e => totalValue += Math.abs(e.value));
 
-        return { filteredIngredients, favoriteIngredients, totalValue };
+        return { filteredIngredients, favoriteIngredients, totalValue, cosineSimilarity };
     });
 
     const [toastShown, setToast] = useState(false);
@@ -110,10 +111,10 @@ export const FoodPreferencesContext = ({ recipe }) => {
                 height: componentHeight - 325 - 65 - 30 - 60 + "px",
             }}>
                 <p className={classes.auxiliaryText}>
-                    Deze maaltijd heeft een match van <span className={classes.statNum}>{" " + Math.round(Math.random() * 100) + "% "}</span> met je eerder gekozen maaltijden.
-                    {filteredIngredients.length > 0 ? " Onderstaande ingrediënten hebben bijgedragen aan de score." : ""}
+                    Deze maaltijd heeft een match van <span className={classes.statNum}>{" " + Math.round(cosineSimilarity * 100) + "% "}</span> met je eerder gekozen maaltijden.
+                    {cosineSimilarity > 0 ? " Onderstaande ingrediënten hebben bijgedragen aan de score." : ""}
                 </p>
-                {filteredIngredients.length > 0 ?
+                {cosineSimilarity > 0 ?
                     <>
                         {_.map(filteredIngredients, (ingredient) => {
                             return (
@@ -130,8 +131,9 @@ export const FoodPreferencesContext = ({ recipe }) => {
                         })}
                     </>
                     :
-                    <>
-                    </>
+                    <p className={classes.auxiliaryText}>
+                        Gelieve uw orders te bevestigen, dit helpt ons om uw voorkeuren beter te leren kennen.
+                    </p>
                 }
             </div>
             <ExplanationSnackbar toastShown={toastShown} setToast={setToast} text={i18n.__("general.preferences_explanation")}></ExplanationSnackbar>

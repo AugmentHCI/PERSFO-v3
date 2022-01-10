@@ -177,7 +177,17 @@ Meteor.methods({
             todaysRecipes[i].nutriscoreRanking = getNutriscoreRankingValue(recipe);
             todaysRecipes[i].food4meRanking = totalfood4meRankingScore;
             todaysRecipes[i].ordersRanking = OrdersCollection.find({ recipeId: recipe.id }).fetch().length / nbOrderedMax; // TODO make smarter, use Nyi Nyi's ranking score
-            todaysRecipes[i].explanations = _.sortBy(scoreContributions, s => -Math.abs(s.value));;
+            todaysRecipes[i].explanations = _.sortBy(scoreContributions, s => -Math.abs(s.value));
+
+            let cosineSimilarity = 0;
+            if(userpreferences.orderBasedRecommendations) {
+                let result = _.find(userpreferences.orderBasedRecommendations, rec => rec.recipeId == recipe.id);
+                if (result) {
+                    todaysRecipes[i].cosineSimilarity = result.cosineSimilarity;
+                }
+            }
+
+            todaysRecipes[i].totalRanking = 0.65 * totalfood4meRankingScore + 0.25 * cosineSimilarity + 0.1 * todaysRecipes[i].ordersRanking;
 
             // needed to force rerender (new order does not change ids)
             todaysRecipes[i].lastUpdated = now;
@@ -194,7 +204,6 @@ Meteor.methods({
             );
 
             if (!_.includes(lastRecommendationDates, today)) {
-                console.log("last recommendation saved");
                 UserPreferences.update({ userid: this.userId },
                     { $addToSet: { lastRecommendations: { recipeId: result[0].id, date: today } } });
             }
