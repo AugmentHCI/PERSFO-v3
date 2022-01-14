@@ -62,7 +62,6 @@ export const SurveyForm = () => {
                 });
             }
             json.pages.push({ title: page.Title, description: description, name: page.ID, questions: questions })
-
         });
         return { json, prevData };
     });
