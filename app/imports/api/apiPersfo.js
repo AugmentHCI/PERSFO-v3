@@ -48,9 +48,14 @@ export function initData() {
   //   }
   // });
 
+  let languageQuestion = JSON.parse(Assets.getText("data/surveys/language.json"));
+  HexadCollection.upsert({ id: "1" }, { $set: { languageSurvey: languageQuestion, languageVersion: "1" } });
+
   // init hexad
   let hexadQuestions = JSON.parse(Assets.getText("data/surveys/hexad-nl.json"));
-  HexadCollection.upsert({ version: "1" }, { $set: { survey: hexadQuestions } });
+  HexadCollection.upsert({ id: "1" }, { $set: { hexadSurvey: hexadQuestions, hexadVersion: "1" } });
+  let hexadENQuestions = JSON.parse(Assets.getText("data/surveys/hexad-en.json"));
+  HexadCollection.upsert({ id: "1" }, { $set: { hexadSurveyEN: hexadENQuestions, hexadVersion: "1" } });
 
   console.log("initData: hexad loaded: " + new Date());
 
@@ -227,10 +232,10 @@ export function initData() {
                 .replace(/\[|\]/g, "")
                 .replace(/(^'+|'+$)/mg, "")
                 .toLowerCase()));
-                cleanedIngredientsEN.push(tempIngredients);
+              cleanedIngredientsEN.push(tempIngredients);
             }
           } catch (error) {
-            console.log("initData: composition error for: " + ingredientID  + "  " + recipe.id);
+            console.log("initData: composition error for: " + ingredientID + "  " + recipe.id);
           }
         });
       }
@@ -245,8 +250,6 @@ export function initData() {
 
       recipe.cleanedIngredients = cleanedIngredients;
       recipe.cleanedIngredientsEN = cleanedIngredientsEN;
-
-      console.log(cleanedIngredientsEN);
 
       RecipesCollection.upsert({ id: recipe.id }, { $set: recipe });
 

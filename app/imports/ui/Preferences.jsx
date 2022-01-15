@@ -91,7 +91,8 @@ export const Preferences = () => {
     ProteinSwitch,
     SaltSwitch,
     FiberSwitch,
-    languageSwitch
+    languageSwitch,
+    languageChosen
   } = useTracker(() => {
     const noDataAvailable = {
       EnergySlider: 0,
@@ -108,7 +109,8 @@ export const Preferences = () => {
       ProteinSwitch: false,
       SaltSwitch: false,
       FiberSwitch: false,
-      languageSwitch: false
+      languageSwitch: false,
+      languageChosen: ""
     };
     const handler = Meteor.subscribe("userpreferences");
     if (!handler.ready()) {
@@ -158,7 +160,8 @@ export const Preferences = () => {
         FiberSwitch = activeNutrientGoals["fiber"];
       }
 
-      const languageSwitch = userPreferences.language == "en";
+      const languageChosen = userPreferences.languageChosen
+      const languageSwitch = languageChosen == "en";
 
       return {
         EnergySlider,
@@ -175,7 +178,8 @@ export const Preferences = () => {
         ProteinSwitch,
         SaltSwitch,
         FiberSwitch,
-        languageSwitch
+        languageSwitch,
+        languageChosen
       };
     } catch (error) {
       return { ...noDataAvailable, isLoading: true };
@@ -186,6 +190,7 @@ export const Preferences = () => {
     Meteor.call("users.updateLanguage", newValue);
     Meteor.call("log", componentName, "languageSwitchChange", navigator.userAgent);
   };
+
   const energySliderChange = (event, newValue) => {
     Meteor.call("users.updateNutrientGoals", {
       energy: newValue,

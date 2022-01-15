@@ -97,13 +97,13 @@ Meteor.methods({
             throw new Meteor.Error("Not authorized.");
         }
 
-        const oldLanguage = UserPreferences.findOne({ userid: this.userId }).language;
+        const oldLanguage = UserPreferences.findOne({ userid: this.userId }).languageChosen;
 
         const newLanguage = oldLanguage === "en" ? "nl" : "en";
 
         UserPreferences.upsert(
             { userid: this.userId },
-            { $set: { language: newLanguage } }
+            { $set: { languageChosen: newLanguage } }
         );
     },
     "users.updateAllergens"(allergens) {
@@ -194,6 +194,18 @@ Meteor.methods({
         UserPreferences.upsert(
             { userid: this.userId },
             { $set: { icfFinished: true } }
+        );
+    },
+    "users.saveLanguage"(language) {
+        if (!this.userId) {
+            throw new Meteor.Error("Not authorized.");
+        }
+
+        console.log(language)
+
+        UserPreferences.upsert(
+            { userid: this.userId },
+            { $set: { languageChosen: language.language_survey } }
         );
     }
 });

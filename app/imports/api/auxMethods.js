@@ -22,7 +22,7 @@ export function getRecipeName(recipe, language) {
       }
     }
   } else {
-    console.log("Error in recipe name for: " + recipe.id);
+    console.log("Error in recipe name for: " + recipe.id + " " + language);
     return recipe.name;
   }
 }
@@ -51,4 +51,23 @@ export function getENComposition(ingredient) {
       }
     }
     return "No en ingredients for: " + ingredient.id
+}
+
+export function getLang() {
+  const defaultLang = 'nl';
+  const locales = ['en', defaultLang];
+
+  let result =
+    (navigator.languages && navigator.languages[0]) ||
+    navigator.language ||
+    navigator.browserLanguage ||
+    navigator.userLanguage ||
+    defaultLang;
+
+  result = result.substring(0, 2)
+
+  if (!locales.includes(result)) {
+    result = defaultLang;
+  }
+  return result;
 }

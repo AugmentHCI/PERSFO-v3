@@ -1,0 +1,25 @@
+{
+    "ID": "1",
+    "Title": "Taal / Language",
+    "CombinedQuestions": null,
+    "Questions": [
+        {
+            "Title": "Gelieve aan te geven in welke taal u de applicatie wilt gebruiken. / Please indicate the language you would like to use",
+            "Answers": [
+                {
+                    "Value": "nl",
+                    "Answer": "Nederlands"
+                },
+                {
+                    "Value": "en",
+                    "Answer": "English"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "language_survey",
+            "DependsOn": null,
+            "DisabledWhen": null
+        }
+    ]
+}

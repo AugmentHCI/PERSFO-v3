@@ -33,11 +33,29 @@ export const IngredientsContent = ({ recipe }) => {
 
     const classes = useStyles();
 
-    let tempIngredients = [];
-    if (recipe.cleanedIngredients) {
-        tempIngredients = recipe.cleanedIngredients;
-    }
-    const ingredients = tempIngredients;
+    const { ingredients } = useTracker(() => {
+        const noDataAvailable = {
+            ingredients: []
+        };
+        const handler = Meteor.subscribe("userpreferences");
+
+        if (!Meteor.user() || !handler.ready()) {
+            return { ...noDataAvailable, isLoading: true };
+        }
+
+        const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
+
+        const cleanedIngredients = userPreferences.languageChosen === "nl" ? recipe.cleanedIngredients : recipe.cleanedIngredientsEN;
+
+        let tempIngredients = [];
+        if (cleanedIngredients) {
+            tempIngredients = cleanedIngredients;
+        }
+        const ingredients = tempIngredients;
+
+        return {  ingredients };
+    });
+
 
     if (_.isEmpty(ingredients) || ingredients[0] === "")
         render = (

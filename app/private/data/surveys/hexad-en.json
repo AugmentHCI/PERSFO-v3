@@ -1,0 +1,920 @@
+{
+    "ID": "1",
+    "Title": "Hexad Questionnaire",
+    "Subtitle": "Based on this questionnaire, we aim to improve the PERSFO application with motivational messages in the near future.",
+    "CombinedQuestions": null,
+    "Questions": [
+        {
+            "Title": "It makes me happy if I am able to help others",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Philanthropist_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I like helping others to orient themselves in new situations.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Philanthropist_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I like sharing my knowledge.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Philanthropist_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The wellbeing of others is important to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Philanthropist_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Interacting with others is important to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Socialiser_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I like being part of a team.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Socialiser_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "It is important to me to feel like I am part of a community",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Socialiser_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I enjoy group activities.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Socialiser_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "It is important to me to follow my own path",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_FreeSpirit_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I often let my curiosity guide me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_FreeSpirit_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Being independent is important to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_FreeSpirit_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Opportunities for self-expression are important to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_FreeSpirit_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I like defeating obstacles.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Achiever_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I like mastering difficult tasks.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Achiever_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "It is important to me to continuously improve my skills.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Achiever_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I enjoy emerging victorious out of difficult circumstances.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Achiever_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I like to provoke.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Disruptor_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I like to question the status quo.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Disruptor_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I see myself as a rebel.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Disruptor_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I dislike following rules.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Disruptor_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I like competitions where a prize can be won.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Player_1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Rewards are a great way to motivate me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Player_2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Return of investment is important to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Player_3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "If the reward is sufficient I will put in the effort.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "HEXAD_Player_4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        }
+    ]
+}

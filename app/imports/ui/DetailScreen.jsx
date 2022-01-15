@@ -10,7 +10,7 @@ import { getRecipePrice } from "/imports/api/auxMethods";
 
 
 const componentName = "DetailScreen";
-export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTitles }) => {
+export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTitles, translatedName }) => {
   const [componentHeight, setComponentHeight] = useState(window.innerHeight);
   const [heightBuffer, setHeightBuffer] = useState(window.innerHeight >= 640 ? 60 : 0);
 
@@ -99,12 +99,12 @@ export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTi
                 alignItems: "center",
               }}
             >
-              <h1 className={String(recipe.name).length < 40
+              <h1 className={String(translatedName).length < 40
                 ? classes.menuTitle
                 : classes.menuTitleLong}
                 style={allergensPresent ? { color: red[300] } : {}}
               >
-                {recipe.name}
+                {translatedName}
               </h1>
               {allergensPresent ? <WarningRoundedIcon style={{ color: red[300] }} /> : <></>}
               <img

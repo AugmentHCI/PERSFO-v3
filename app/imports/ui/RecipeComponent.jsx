@@ -63,14 +63,14 @@ export const RecipeComponent = (({ recipeId, type }) => {
         });
         const dietaryConflict = dietariesPresentTmp;
 
-        const translatedName = getRecipeName(recipe, userPreferences.language)
+        const translatedName = getRecipeName(recipe, userPreferences.languageChosen)
 
         return { recipe, allergensPresent, dietaryConflict, translatedName };
     });
 
     // Detail logic
     const handleDetailsClick = () => {
-        OpenMealDetails.set([recipe, allergensPresent]);
+        OpenMealDetails.set([recipe, allergensPresent, translatedName]);
         Meteor.call("log", componentName, "handleDetailsClick", navigator.userAgent, recipe.id);
     };
 

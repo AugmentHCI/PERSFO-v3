@@ -22,12 +22,21 @@ export const SurveyForm = () => {
         }
 
         const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
-        const prevData = userPreferences?.partialAnswers;
+        const surveysCollection = HexadCollection.findOne({id:"1"});
 
-        const surveyFFQ = FFQCollection.find({}, { sort: { version: -1, limit: 1 } }).fetch()[0].survey;
-        const surveyHexad = HexadCollection.find({}, { sort: { version: -1, limit: 1 } }).fetch()[0].survey;
 
-        let pages = [].concat(surveyHexad, surveyFFQ);
+        const language = userPreferences.languageChosen;
+        console.log(language);
+
+        let surveyFFQ = surveysCollection.ffqSurvey;
+        let surveys = surveysCollection.hexadSurvey;
+
+        if(language == "en") {
+            surveyFFQ = surveysCollection.ffqSurveyEN;
+            surveys = surveysCollection.hexadSurveyEN;
+        }
+
+        let pages = [].concat(surveys, surveyFFQ);
 
         let json = {
             pages: [],
@@ -63,6 +72,9 @@ export const SurveyForm = () => {
             }
             json.pages.push({ title: page.Title, description: description, name: page.ID, questions: questions })
         });
+
+        const prevData = userPreferences?.partialAnswers;
+
         return { json, prevData };
     });
 
