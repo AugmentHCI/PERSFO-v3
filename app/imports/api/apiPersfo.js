@@ -2,9 +2,9 @@ import { MenusCollection } from "/imports/db/menus/MenusCollection";
 import { RecipesCollection } from "/imports/db/recipes/RecipesCollection";
 import { IngredientCollection } from '/imports/db/ingredients/IngredientCollection';
 import { HexadCollection } from "../db/surveys/HexadCollection";
-import { capitalizeFirstLetter } from "/imports/api/auxMethods";
+import { capitalizeFirstLetter, getENComposition } from "/imports/api/auxMethods";
 
-const token = "GXnVljSbzoTTHrCHLiFXD0KJNYVjv0";
+const token = "bn2b2dcNrzO9JjkcgTJW7iNBI5SL9f";
 const url = "https://www.apicbase.com/api/v1/recipes/";
 const API_LOGS = false;
 
@@ -183,6 +183,7 @@ export function initData() {
     RecipesCollection.find({}).fetch().forEach(recipe => {
 
       let cleanedIngredients = [];
+      let cleanedIngredientsEN = [];
 
       if (recipe.remarks) {
         // ingredients from remarks
@@ -215,19 +216,37 @@ export function initData() {
                 .toLowerCase()));
               cleanedIngredients.push(tempIngredients);
             }
+            if (getENComposition(ingredient)) {
+              let enComposition = getENComposition(ingredient);
+              let tempIngredients = enComposition
+                .replace(/\*/g, "")
+                .replace(/NFM/g, "")
+                .split(',');
+              tempIngredients = tempIngredients.map(tmp => capitalizeFirstLetter(tmp
+                .trim()
+                .replace(/\[|\]/g, "")
+                .replace(/(^'+|'+$)/mg, "")
+                .toLowerCase()));
+                cleanedIngredientsEN.push(tempIngredients);
+            }
           } catch (error) {
-            console.log("initData: composition error for: " + ingredientID);
+            console.log("initData: composition error for: " + ingredientID  + "  " + recipe.id);
           }
         });
       }
 
       // combine ingredient arrays
       cleanedIngredients = _.flatten(cleanedIngredients);
+      cleanedIngredientsEN = _.flatten(cleanedIngredientsEN);
 
       // remove empty values
       cleanedIngredients = _.without(cleanedIngredients, "")
+      cleanedIngredientsEN = _.without(cleanedIngredientsEN, "")
 
       recipe.cleanedIngredients = cleanedIngredients;
+      recipe.cleanedIngredientsEN = cleanedIngredientsEN;
+
+      console.log(cleanedIngredientsEN);
 
       RecipesCollection.upsert({ id: recipe.id }, { $set: recipe });
 

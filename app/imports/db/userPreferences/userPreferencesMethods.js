@@ -90,6 +90,22 @@ Meteor.methods({
             { $set: { partialAnswers: SurveyAnswers } }
         );
     },
+    "users.updateLanguage"(languageBoolean) {
+        check(languageBoolean, Boolean);
+
+        if (!this.userId) {
+            throw new Meteor.Error("Not authorized.");
+        }
+
+        const oldLanguage = UserPreferences.findOne({ userid: this.userId }).language;
+
+        const newLanguage = oldLanguage === "en" ? "nl" : "en";
+
+        UserPreferences.upsert(
+            { userid: this.userId },
+            { $set: { language: newLanguage } }
+        );
+    },
     "users.updateAllergens"(allergens) {
         check(allergens, Array);
 

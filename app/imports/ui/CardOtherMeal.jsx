@@ -84,7 +84,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 const componentName = "CardOtherMeal";
-export const CardOtherMeal = ({ recipe, handleDetailsClick, allergensPresent, dietaryConflict }) => {
+export const CardOtherMeal = ({ recipe, handleDetailsClick, allergensPresent, dietaryConflict, translatedName }) => {
   const classes = useStyles();
 
   return (
@@ -101,9 +101,9 @@ export const CardOtherMeal = ({ recipe, handleDetailsClick, allergensPresent, di
               :
               classes.menuTitle
           }>
-            {String(recipe.name).length > 36
-              ? recipe.name.slice(0, 36) + "..."
-              : recipe.name}
+            {String(translatedName).length > 36
+              ? translatedName.slice(0, 36) + "..."
+              : translatedName}
           </Typography>
           <img
             className={classes.nutriscoreImage}

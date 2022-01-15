@@ -13,17 +13,15 @@ import Checkbox from "@material-ui/core/Checkbox";
 import { red } from "@material-ui/core/colors";
 import Modal from "@material-ui/core/Modal";
 import { makeStyles } from "@material-ui/core/styles";
-import FavoriteIcon from "@material-ui/icons/Favorite";
 import ThumbDownIcon from "@material-ui/icons/ThumbDown";
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
 import { useTracker } from "meteor/react-meteor-data";
 import React, { useState } from "react";
-import { OrderButton } from "./components/OrderButton";
-import { getImage, getNutriscoreImage } from "/imports/api/apiPersfo";
-import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
-import { getNbDisliked } from "/imports/api/apiPersfo";
-import { LikeButton } from "./components/LikeButton";
 import { OpenRecommenderExplanations } from "../api/methods";
+import { LikeButton } from "./components/LikeButton";
+import { OrderButton } from "./components/OrderButton";
+import { getImage, getNbDisliked, getNutriscoreImage } from "/imports/api/apiPersfo";
+import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
 
 
 const useStyles = makeStyles(() => ({
@@ -116,7 +114,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 const componentName = "CardRecommendedMeal";
-export const CardRecommendedMeal = ({ recipe, handleDetailsClick, allergensPresent, dietaryConflict }) => {
+export const CardRecommendedMeal = ({ recipe, handleDetailsClick, allergensPresent, dietaryConflict, translatedName }) => {
   const classes = useStyles();
 
   const { ingredients, thumbsDown, thumbsUp } = useTracker(() => {
@@ -229,14 +227,14 @@ export const CardRecommendedMeal = ({ recipe, handleDetailsClick, allergensPrese
           />
           <CardContent className={classes.cardContent}>
             <Typography className={
-            (allergensPresent || dietaryConflict) ?
-              classes.menuTitleWarning
-              :
-              classes.menuTitle
-          }>
-              {String(recipe.name).length > 40
-                ? recipe.name.slice(0, 40) + "..."
-                : recipe.name}
+              (allergensPresent || dietaryConflict) ?
+                classes.menuTitleWarning
+                :
+                classes.menuTitle
+            }>
+              {String(translatedName).length > 40
+                ? translatedName.slice(0, 40) + "..."
+                : translatedName}
             </Typography>
             <img
               className={classes.nutriscoreImage}

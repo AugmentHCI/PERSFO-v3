@@ -91,6 +91,7 @@ export const Preferences = () => {
     ProteinSwitch,
     SaltSwitch,
     FiberSwitch,
+    languageSwitch
   } = useTracker(() => {
     const noDataAvailable = {
       EnergySlider: 0,
@@ -107,6 +108,7 @@ export const Preferences = () => {
       ProteinSwitch: false,
       SaltSwitch: false,
       FiberSwitch: false,
+      languageSwitch: false
     };
     const handler = Meteor.subscribe("userpreferences");
     if (!handler.ready()) {
@@ -156,6 +158,8 @@ export const Preferences = () => {
         FiberSwitch = activeNutrientGoals["fiber"];
       }
 
+      const languageSwitch = userPreferences.language == "en";
+
       return {
         EnergySlider,
         TotalFatSlider,
@@ -171,12 +175,17 @@ export const Preferences = () => {
         ProteinSwitch,
         SaltSwitch,
         FiberSwitch,
+        languageSwitch
       };
     } catch (error) {
       return { ...noDataAvailable, isLoading: true };
     }
   });
 
+  const languageSwitchChange = (event, newValue) => {
+    Meteor.call("users.updateLanguage", newValue);
+    Meteor.call("log", componentName, "languageSwitchChange", navigator.userAgent);
+  };
   const energySliderChange = (event, newValue) => {
     Meteor.call("users.updateNutrientGoals", {
       energy: newValue,
@@ -658,6 +667,26 @@ export const Preferences = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+
+        <h1 className={classes.title}>{i18n.__("preferences.languagePreferences")}</h1>
+        <div className={classes.formContainer}>
+          <h1 className={classes.subtitle}>{i18n.__("preferences.languageExplanation")}</h1>
+          <div className={classes.form}>
+            <FormControlLabel
+              className={classes.checkbox}
+              key={"bar-language"}
+              control={
+                <Switch
+                  color="primary"
+                  checked={languageSwitch}
+                  onChange={languageSwitchChange}
+                />
+              }
+              label={i18n.__("preferences.otherLanguage")}
+              labelPlacement="start"
+            />
           </div>
         </div>
 

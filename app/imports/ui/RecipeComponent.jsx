@@ -5,11 +5,13 @@ import { CardRecommendedMeal } from "./CardRecommendedMeal";
 import { OpenMealDetails } from "/imports/api/methods.js";
 import { RecipesCollection } from '/imports/db/recipes/RecipesCollection';
 import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
+import { getRecipeName } from "/imports/api/auxMethods";
+
 
 const componentName = "RecipeComponent";
 export const RecipeComponent = (({ recipeId, type }) => {
 
-    const { recipe, allergensPresent, dietaryConflict } = useTracker(() => {
+    const { recipe, allergensPresent, dietaryConflict, translatedName } = useTracker(() => {
         const noDataAvailable = {
             recipe: {},
             allergensPresent: false,
@@ -60,7 +62,10 @@ export const RecipeComponent = (({ recipeId, type }) => {
             }
         });
         const dietaryConflict = dietariesPresentTmp;
-        return { recipe, allergensPresent, dietaryConflict };
+
+        const translatedName = getRecipeName(recipe, userPreferences.language)
+
+        return { recipe, allergensPresent, dietaryConflict, translatedName };
     });
 
     // Detail logic
@@ -77,6 +82,7 @@ export const RecipeComponent = (({ recipeId, type }) => {
                     handleDetailsClick={handleDetailsClick}
                     allergensPresent={allergensPresent}
                     dietaryConflict={dietaryConflict}
+                    translatedName={translatedName}
                 ></CardOtherMeal>
             case "recommended":
                 return <CardRecommendedMeal
@@ -84,6 +90,7 @@ export const RecipeComponent = (({ recipeId, type }) => {
                     handleDetailsClick={handleDetailsClick}
                     allergensPresent={allergensPresent}
                     dietaryConflict={dietaryConflict}
+                    translatedName={translatedName}
                 ></CardRecommendedMeal>
             default:
                 break;

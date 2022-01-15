@@ -6,6 +6,8 @@ import React, { useState } from "react";
 import { LikeButton } from "./components/LikeButton";
 import { OrderButton } from "./components/OrderButton";
 import { getNutriscoreImage } from "/imports/api/apiPersfo";
+import { getRecipePrice } from "/imports/api/auxMethods";
+
 
 const componentName = "DetailScreen";
 export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTitles }) => {
@@ -118,7 +120,7 @@ export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTi
               }}
             >
               <LikeButton recipe={recipe}></LikeButton>
-              <span className={classes.pricing}>{"€" + recipe.current_sell_price?.pricing?.toFixed(2)}</span>
+              <span className={classes.pricing}>{getRecipePrice(recipe)}</span>
             </div>
           </div>
 
