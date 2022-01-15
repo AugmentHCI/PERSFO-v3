@@ -51,6 +51,11 @@ export function initData() {
   let languageQuestion = JSON.parse(Assets.getText("data/surveys/language.json"));
   HexadCollection.upsert({ id: "1" }, { $set: { languageSurvey: languageQuestion, languageVersion: "1" } });
 
+  let statusQuestions = JSON.parse(Assets.getText("data/surveys/status-nl.json"));
+  HexadCollection.upsert({ id: "1" }, { $set: { statusQuestionSurvey: statusQuestions, statusVersion: "1" } });
+  let statusQuestionsEN = JSON.parse(Assets.getText("data/surveys/status-en.json"));
+  HexadCollection.upsert({ id: "1" }, { $set: { statusQuestionSurveyEN: statusQuestionsEN, statusVersion: "1" } });
+
   // init hexad
   let hexadQuestions = JSON.parse(Assets.getText("data/surveys/hexad-nl.json"));
   HexadCollection.upsert({ id: "1" }, { $set: { hexadSurvey: hexadQuestions, hexadVersion: "1" } });

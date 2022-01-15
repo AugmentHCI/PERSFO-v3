@@ -2,12 +2,13 @@ import { Tab, Tabs } from "@material-ui/core/";
 import { red } from "@material-ui/core/colors";
 import { makeStyles } from "@material-ui/core/styles";
 import WarningRoundedIcon from '@material-ui/icons/WarningRounded';
+import { useTracker } from "meteor/react-meteor-data";
 import React, { useState } from "react";
 import { LikeButton } from "./components/LikeButton";
 import { OrderButton } from "./components/OrderButton";
 import { getNutriscoreImage } from "/imports/api/apiPersfo";
 import { getRecipePrice } from "/imports/api/auxMethods";
-
+import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
 
 const componentName = "DetailScreen";
 export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTitles, translatedName }) => {
@@ -87,6 +88,24 @@ export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTi
     Meteor.call("log", componentName, "changeTab", navigator.userAgent, newValue);
   };
 
+  const { status } = useTracker(() => {
+    const noDataAvailable = {
+      status: "test"
+    };
+    const handler = Meteor.subscribe("userpreferences");
+
+    if (!Meteor.user() || !handler.ready()) {
+        return { ...noDataAvailable, isLoading: true };
+    }
+
+    const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
+
+    const status = userPreferences.ffqAnswers.status_survey;
+    console.log(status);
+
+    return {  status };
+});
+
   if (recipe) {
     return (
       <div className={classes.gapInBetween}>
@@ -120,7 +139,7 @@ export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTi
               }}
             >
               <LikeButton recipe={recipe}></LikeButton>
-              <span className={classes.pricing}>{getRecipePrice(recipe)}</span>
+              <span className={classes.pricing}>{getRecipePrice(recipe, status)}</span>
             </div>
           </div>
 

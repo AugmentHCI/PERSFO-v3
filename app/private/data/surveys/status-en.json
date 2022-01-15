@@ -1,0 +1,30 @@
+{
+    "ID": "1",
+    "Title": "More information about yourself",
+    "Subtitle": "Based on this information, we can show you the corrct prices.",
+    "CombinedQuestions": null,
+    "Questions": [
+        {
+            "Title": "Please indicate whether you work internally or externally at J&J.",
+            "Answers": [
+                {
+                    "Value": "intern",
+                    "Answer": "Internal employee J&J"
+                },
+                {
+                    "Value": "extern",
+                    "Answer": "External employee J&J"
+                },
+                {
+                    "Value": "test",
+                    "Answer": "Technical tester"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "status_survey",
+            "DependsOn": null,
+            "DisabledWhen": null
+        }
+    ]
+}

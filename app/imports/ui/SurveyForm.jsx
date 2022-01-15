@@ -26,17 +26,18 @@ export const SurveyForm = () => {
 
 
         const language = userPreferences.languageChosen;
-        console.log(language);
 
+        let status = surveysCollection.statusQuestionSurvey
         let surveyFFQ = surveysCollection.ffqSurvey;
         let surveys = surveysCollection.hexadSurvey;
 
         if(language == "en") {
             surveyFFQ = surveysCollection.ffqSurveyEN;
             surveys = surveysCollection.hexadSurveyEN;
+            status = surveysCollection.statusQuestionSurveyEN
         }
 
-        let pages = [].concat(surveys, surveyFFQ);
+        let pages = [].concat(status, surveys, surveyFFQ);
 
         let json = {
             pages: [],

@@ -28,13 +28,13 @@ export function getRecipeName(recipe, language) {
 }
 
 export function getRecipePrice(recipe, internal) {
-  if (!internal && recipe.current_sell_price) {
+  if (internal !== "intern" && recipe.current_sell_price) {
     return "€" + recipe.current_sell_price?.pricing?.toFixed(2)
-  } else if (internal) {
+  } else if (internal == "intern") {
     for (let i = 0; i < recipe.custom_fields.length; i++) {
       let custom = recipe.custom_fields[i];
       if (custom.name == "salesprice2") {
-        return "€" + custom.value.toFixed(2);
+        return "€" + Number(custom.value).toFixed(2);
       }
     }
   } else {

@@ -1,0 +1,30 @@
+{
+    "ID": "1",
+    "Title": "Meer informatie over u",
+    "Subtitle": "Op basis van deze informatie kunnen we de juiste prijzen tonen.",
+    "CombinedQuestions": null,
+    "Questions": [
+        {
+            "Title": "Gelieve aan te geven of u intern bij J&J werkt of extern.",
+            "Answers": [
+                {
+                    "Value": "intern",
+                    "Answer": "Interne werknemer J&J"
+                },
+                {
+                    "Value": "extern",
+                    "Answer": "Externe werknemer J&J"
+                },
+                {
+                    "Value": "test",
+                    "Answer": "Technisch testpersoon"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "status_survey",
+            "DependsOn": null,
+            "DisabledWhen": null
+        }
+    ]
+}

@@ -1,8 +1,4 @@
-import { Button, Tab, Tabs } from "@material-ui/core/";
-import { red } from "@material-ui/core/colors";
 import { makeStyles } from "@material-ui/core/styles";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import WarningRoundedIcon from '@material-ui/icons/WarningRounded';
 import { useTracker } from "meteor/react-meteor-data";
 import React, { useState } from "react";
 import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
