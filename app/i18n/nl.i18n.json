@@ -147,7 +147,8 @@
         "shopping_cart": "Winkelmandje",
         "empty": "U heeft nog geen maaltijden besteld.",
         "total_price": "Totale prijs",
-        "confirm": "Bevestig uw keuzes",
+        "confirm": "Bevestig uw keuze(s)",
+        "virtual_confirm": "Bevestig uw virtuele keuze(s)",
         "added": "Toegevoegd aan uw winkelmandje",
         "warning": "OPGEPAST: deze maaltijd voeldoet niet aan uw instellingen!"
     },

@@ -165,7 +165,16 @@ Meteor.methods({
         OrdersCollection.upsert({
             userid: this.userId,
             orderday: nowString,
-        }, {$set: {confirmed: true}});
+        }, {$set: {confirmed: true, confirmedVirtual: false}});
+    },
+    "orders.confirmVirtualOrders"(){
+        // only filter today's orders
+        const now = new Date();
+        const nowString = now.toISOString().substring(0, 10);
+        OrdersCollection.upsert({
+            userid: this.userId,
+            orderday: nowString,
+        }, {$set: {confirmed: true, confirmedVirtual: true}});
     },
     "orders.undoConfirmation"(){
         // only filter today's orders

@@ -143,6 +143,12 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
         Meteor.call("log", componentName, "confirmOrders", navigator.userAgent);
     }
 
+    const submitVirtual = () => {
+        Meteor.call('orders.confirmVirtualOrders');
+        toggleDrawer(false).call(); // not sure why call is needed here, but does not work without.
+        Meteor.call("log", componentName, "confirmVirtualOrders", navigator.userAgent);
+    }
+
     const action = (
         <>
             <Button color="secondary" size="small" onClick={() => handleUndoDelete(deletedRecipe, deletedOrderAmount)}>
@@ -207,6 +213,17 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
             <Typography className={classes.header} variant="subtitle1" color="primary">
                 {i18n.__("shopping.total_price")}{": € " + totalPrice.toFixed(2)}
             </Typography>
+            <Button
+                type="submit"
+                variant="contained"
+                color="primary"
+                className={classes.complete}
+                disabled={orders.length > 0 ? false : true}
+                onClick={submitVirtual}
+                style={{ color: "white" }}
+            >
+                {i18n.__("shopping.virtual_confirm")} ({orders.reduce((s, f) => s + f.amount, 0)})
+            </Button>
             <Button
                 type="submit"
                 variant="contained"

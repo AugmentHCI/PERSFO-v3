@@ -147,7 +147,8 @@
         "shopping_cart": "Shopping cart",
         "empty": "You did not order any meals yet.",
         "total_price": "Total price",
-        "confirm": "Confirm your choices",
+        "confirm": "Confirm your choice(s)",
+        "virtual_confirm": "Confirm your virtual choice(s)",
         "added": "Added to your shopping cart",
         "warning": "Careful! this meal does not meet your preferences!"
     },
