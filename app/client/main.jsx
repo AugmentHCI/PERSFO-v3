@@ -21,7 +21,6 @@ Meteor.startup(() => {
 
     // if (user) {
     //   const locale = user.profile.lang || deviceLocale;
-    console.log(deviceLocale);
     i18n.setLocale(deviceLocale);
     // } else {
     //   i18n.setLocale(deviceLocale);

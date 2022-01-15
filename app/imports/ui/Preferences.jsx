@@ -404,7 +404,7 @@ export const Preferences = () => {
     }
 
     // const allDietaries = _.map(recipe.dietary_info, (value, key) => key); // TODO
-    const allDietaries = ["kosher", "vegetarian", "halal", "vegan"].sort();
+    const allDietaries = ["vegetarian", "vegan"].sort();
     let tempDietaries = allDietaries.map(dietary => {
       let userPresent = _.find(userDietaries, (ud) => ud.dietary === dietary);
       userPresent = userPresent ? userPresent.present : 0;
@@ -534,7 +534,7 @@ export const Preferences = () => {
           </div>
         </div>
 
-        <h1 className={classes.title}>{i18n.__("preferences.configure_goals")}</h1>
+        {/* <h1 className={classes.title}>{i18n.__("preferences.configure_goals")}</h1>
         <div className={classes.formContainer}>
           <h1 className={classes.subtitle}>{i18n.__("preferences.maximum_nutrients")}</h1>
           <div className={classes.form}>
@@ -673,7 +673,7 @@ export const Preferences = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <h1 className={classes.title}>{i18n.__("preferences.languagePreferences")}</h1>
         <div className={classes.formContainer}>

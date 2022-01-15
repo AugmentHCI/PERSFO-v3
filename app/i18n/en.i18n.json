@@ -1,29 +1,169 @@
 {
     "_locale": "en",
     "AppBarPersfo": {
-        "welcome": "Welcome to the PERSFO app!",
+        "welcome": "Welcome to the PERSFO app",
         "icf": "Informed consent information",
         "survey": "Study questionnaires",
-        "progress": "Progress",
+        "progress": "Personal advice",
         "settings": "Settings",
         "feedback": "Feedback",
         "thanks": "Thank you",
-        "title": "Your meals from the last five days"
+        "title": "Meals of the last five days",
+        "logout": "Sign off"
+    },
+    "app": {
+        "today_options": "The options of today in",
+        "today_recommendation": "Your recommended meal today",
+        "temp_explanation": "In this pilot study, we try to find a good match based on your answers to the Food Frequency Questionnaire. The aim of this study is to improve these recommendations."
     },
     "orderLogic": {
         "order": "order",
         "ordered": "ordered",
-        "orderLogic.addedToShoppingCart": "Added to your shopping cart!"
+        "orderLogic.addedToShoppingCart": "Add to shopping cart!"
+    },
+    "general": {
+        "send": "Send",
+        "cancel": "Cancel",
+        "today": "Today",
+        "five_days_ago": "5 days ago",
+        "more_info": "Why",
+        "no_data": "No data",
+        "nutrients": "Nutrients",
+        "allergens": "Allergens",
+        "energy": "Energy",
+        "total_fat": "Total fat",
+        "saturated_fats": "Saturated fats",
+        "sugar": "Sugars",
+        "proteins": "Proteins",
+        "fibers": "Fibers",
+        "salt": "Salt",
+        "potasium": "Potassium",
+        "ingredients": "Ingredients",
+        "i_agree": "Ik agree",
+        "continue": "Continue",
+        "back": "Back",
+        "home": "Home",
+        "questionnaire": "Questionnaire",
+        "history": "History",
+        "preferences": "Preferences",
+        "popularity": "Popularity",
+        "contribution": "Contribution",
+        "personal_advise": "Personal advice",
+        "and": "and",
+        "popularity_explanation": "The most popular meals are not always the healthiest meals. Therefore, the popularity of a meal is only taken into account for 10%.",
+        "preferences_explanation": "Based on your previously chosen meals, we try to find similar recipes."
+    },
+    "errors": {
+        "no_ingredients": "There are no ingredients known for this meal yet.",
+        "quisper": "Something went wrong while retrieving your personal advice. You should not see this message. Please contact robin.decroon@kuleuven.be so that we can send you your personal advice."
+    },
+    "sustainability": {
+        "sustainability": "Sustainability",
+        "labels": "Food labels",
+        "co2": "CO2 footprint"
     },
     "recommendations": {
-        "explanation": "Please help us by telling us why you dislike this recommendation?"
-        
+        "explanation": "Please help us why you don't like this recommendation. I don't like:"
     },
     "done": {
-        "thanks": "Thank you for participating in the PERSFO study today. Your orders are confirmed.",
-        "undo": "Undo your orders of today"
+        "thanks": "Thank you for participating in the PERSFO study today. Your choices have been (virtually) confirmed.",
+        "undo": "Cancel your order"
     },
     "feedback": {
-        "thanks": "Thank you for providing feedback!"
+        "thanks": "Thank you for giving us feedback!",
+        "thanks_submitted": "Thanks for your feedback!",
+        "submit": "Submit feedback"
+    },
+    "login": {
+        "forgot_password_title": "Forgot your password",
+        "register_title": "Create an account",
+        "register": "Create account",
+        "username": "User name",
+        "password": "Password",
+        "enter_new_password": "Enter a new password",
+        "reenter_password": "Confirm password",
+        "forgot_password": "Forgot password?",
+        "reset_password": "Reset password",
+        "already_an_account": "Already have an account? Sign in",
+        "not_already_an_account": "No account yet? Register",
+        "incorrect_username_or_token": "Incorrect user name or token!",
+        "incorrect_username_or_password": "Incorrect user name or password!",
+        "mismatch_passwords": "Passwords do not match!",
+        "user_exists": "This user name is already in use!",
+        "sign_in": "Sign in",
+        "warning": "To guarantee your anonymity, it is best not to use a recognizable login name!"
+    },
+    "icf": {
+        "step1_label": "PERSFO project: general information study",
+        "step1_description": "You are invited to participate in a scientific study of KU Leuven. Here you will find all information regarding this research. You can decide for yourself whether or not you wish to participate in the study. When you confirm your participation, you can cancel it at any time and you do not have to give a reason for this. This will not affect your work or your relationship with your employer. This page gives you information about the study. Please take your time to read it carefully and decide whether or not you wish to participate. After you review and understand this information and all of your questions have been answered, you will be asked to agree with the informed consent form if you decide to participate in the study.",
+        "step2_label": "Introduction",
+        "step2_description": "While people are increasingly aware of the importance of healthy eating, the prevalence of obesity tripled between 1975-2016. This suggests that information campaigns do not always lead to healthy eating behaviour. This study is part of a larger project, PERSFO, which aims to design an innovative and 'smart' recommendation platform to provide employees with personalized nutritional advice. The PERSFO project wants to increase the transparency of personalized nutritional advice and also ensure that the advice actually motivates and supports people.",
+        "step3_label": "Goal",
+        "step3_description":"The overall aim of this study is to explore and develop a mobile application. We strive for a mobile application that can present the daily menus in Sodexo's company restaurants in a transparent and interactive way. Through this research, the researchers want to gain more insight into how they can give employees a better insight into their eating habits. Specifically, the researchers want to explore the possibilities of combining visualizations and recommendation methods in a health application. This is to support employees to make more informed decisions. If you participate in this study, you are using a study version of our application and have a direct input into the study. Through this direct input, we want to ensure that the PERSFO software application can meet your needs and wishes.",
+        "step4_label": "What happens when I participate?",
+        "step4_description": "Initially you will be asked to complete two questionnaires. Your answers will be used to measure the impact of the PERSFO application as well as to provide you with personalized recommendations. The first questionnaires will then assess your motivation to eat healthily. The second long questionnaire asks about your personal eating habits. After completing the questionnaires you will be asked to use this application. You can then use this application to see which meals are available in the company restaurant today. Meals will be recommended based on personal advice. By using this application you can possibly gain more insight into why meals are recommended for you. We will only log technical usage data when you use the application. This information can be used to improve the recommendation system that provides insight into menu choices. You will not experience any inconvenience from this. By participating, you give permission that anonymized usage data may be shared with the researchers. During the study period of 8 to 12 weeks, you will be asked without obligation to sit briefly (max. 1 hour) with a researcher in a virtual meeting. This so that you can give feedback on your experiences with the mobile application in an informal setting. After all, your feedback is very valuable to improve the application in further iterations. Finally, at the end of the study, you will be asked to complete the questionnaires again.",
+        "step5_label": "What are the possible advantages and disadvantages, risks and costs of my participation?",
+        "step5_description": "There are no direct disadvantages, risks or additional costs associated with your participation. Since the project builds on previous European projects, such as the Food4Me project, we will be able to offer you personalized nutritional advice (in any case limited).",
+        "step6_label": "Will my participation in the study remain confidential?",
+        "step6_description": "All information that the researchers collect through this testing period is confidential. Only researchers of the project have access to this information. All employees and persons involved in this study undertake to act in good faith and to respect the European GDPR legislation (Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons relating to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (General Data Protection Regulation) and its correction of 23 May 2018).",
+        "step7_label": "What will happen to the results of the study?",
+        "step7_description": "The results will be used in the context of a scientific study. It is possible that the results will be published in a scientific journal. In this case, your identity will never be released. Your name will never be mentioned.",
+        "step8_label": "Who audited the study?",
+        "step8_description": "This research project has been submitted for approval to the Socio-Social Ethics Committee (SMEC) in Leuven. It is the task of this committee to verify that all conditions regarding security and safeguarding of rights are met. The Commission has not expressed any objections to the conduct of this investigation.",
+        "step9_label": "Do you have any further questions about the study?",
+        "step9_description": "You can always contact Robin De Croon, KU Leuven robin.decroon@kuleuven.be 016 / 37 39",
+        "step10_label": "Start with the study",
+        "step10_description": "Thank you for your interest in our study. If you agree with the above information, you can participate by clicking agree below. You will then proceed to the questionnaires."
+    },
+    "preferences": {
+        "configure_goals": "Configure your goals",
+        "maximum_nutrients": "Set your desired maximum nutrients.",
+        "dietary_info": "Dietary preferences",
+        "dietary_info_configuration": "Please set your food preferences here.",
+        "allergens_configuration": "Please indicate here if you are allergic to certain products.",
+        "resetDislikes": "Reset your preferences",
+        "resetDislikes_info": "Remove the list of ingredients you don't like.",
+        "resetted": "Your recommendations have been reset.",
+        "languagePreferences": "Language preferences",
+        "languageExplanation": "Use the PERSFO app in English",
+        "language": "Language",
+        "otherLanguage": "Show app in English"
+    },
+    "progress": {
+        "weekly_overview": "Week overview",
+        "goals": "Goals",
+        "hello": "Hello",
+        "creation1": "You have created your account",
+        "creation2": "days ago.",
+        "using1": "Since you started with this study, you have ordered",
+        "using2": "meals. With in total",
+        "liked1": "You liked",
+        "liked2": "meals and disliked",
+        "liked3": "ingredients.",
+        "advice": "Personal advice",
+        "wip": "This feature is currently under development. Please confirm your meals in the shopping cart to help us optimize this feature."
+    },
+    "shopping": {
+        "shopping_cart": "Shopping cart",
+        "empty": "You did not order any meals yet.",
+        "total_price": "Total price",
+        "confirm": "Confirm your choices",
+        "added": "Added to your shopping cart",
+        "warning": "Careful! this meal does not meet your preferences!"
+    },
+    "food4me": {
+        "fiber": "Fibers",
+        "VitaminA": "Vitamine A",
+        "VitaminB12": "Vitamine B12",
+        "VitaminC": "Vitamine C",
+        "UnsaturatedFat.MonoUnsaturatedFat": "Mono unsaturated fat",
+        "UnsaturatedFat.PolyUnsaturatedFat": "Poly unsaturated fat",
+        "Protein": "Protein",
+        "TotalFat": "Total fat",
+        "Calcium": "Calcium",
+        "Iron": "Iron",
+        "SaturatedFats": "Saturated fats",
+        "Carbohydrate": "Carbohydrate",
+        "explanation": "Based on the 'Food Frequency Questionnaire' we were able to create personal advice. Your personal recommendations count for 65% in determining your recommended meal."
     }
 }

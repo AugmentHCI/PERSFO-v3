@@ -171,7 +171,7 @@ export const App = () => {
 
     const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
     const languageChosen = userPreferences?.languageChosen;
-    i18n.setLocale(languageChosen);
+    if (languageChosen) i18n.setLocale(languageChosen);
     const icfFinished = userPreferences?.icfFinished;
     const surveyFinished = userPreferences?.ffqAnswers;
 
