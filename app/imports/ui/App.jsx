@@ -238,8 +238,8 @@ export const App = () => {
         return <IngredientsContent recipe={recipe} />;
       case 2:
         return <AllergiesContent recipe={recipe} />;
-      case 3:
-        return <SustainabilityContent recipe={recipe} />;
+      // case 3:
+      //   return <SustainabilityContent recipe={recipe} />;
     }
   };
 
@@ -335,7 +335,7 @@ export const App = () => {
                     allergensPresent={GetOpenMealDetails[1]}
                     translatedName={GetOpenMealDetails[2]}
                     renderTabContent={renderMealScreenTabContent}
-                    tabTitles={[i18n.__("general.nutrients"), i18n.__("general.ingredients"), i18n.__("general.allergens"), i18n.__("sustainability.sustainability")]}
+                    tabTitles={[i18n.__("general.nutrients"), i18n.__("general.ingredients"), i18n.__("general.allergens")]}
                   />
                 );
               }
