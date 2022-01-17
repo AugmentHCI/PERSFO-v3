@@ -44,6 +44,7 @@ export function getRecipePrice(recipe, internal) {
     }
   } catch (error) {
     console.log("Error in recipe price");
+    console.log(error);
       return "€0";
   }
 }
@@ -64,7 +65,8 @@ export function getRecipePriceValue(recipe, internal) {
       return 0;
     }
   } catch (error) {
-      console.log("Error in recipe price");
+      console.log("Error in recipe price value");
+      console.log(error);
       return 0;
   }
 }

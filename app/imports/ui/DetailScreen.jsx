@@ -101,7 +101,6 @@ export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTi
     const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
 
     const status = userPreferences.ffqAnswers.status_survey;
-    console.log(status);
 
     return {  status };
 });
