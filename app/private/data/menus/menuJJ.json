@@ -31,7 +31,6 @@
                     "name": "Warm Dishes",
                     "recipes": [
                         "https://app.apicbase.com/api/v1/recipes/249553923100001/",
-                        "https://app.apicbase.com/api/v1/recipes/649553725130008/",
                         "https://app.apicbase.com/api/v1/recipes/949553135190001/"
                     ]
                 },
@@ -62,12 +61,6 @@
                         "https://app.apicbase.com/api/v1/recipes/249553907120000/",
                         "https://app.apicbase.com/api/v1/recipes/649553217180004/",
                         "https://app.apicbase.com/api/v1/recipes/449553427100001/"
-                    ]
-                },
-                {
-                    "name": "Sweet",
-                    "recipes": [
-                        "https://app.apicbase.com/api/v1/recipes/949553543180000/"
                     ]
                 }
             ],
