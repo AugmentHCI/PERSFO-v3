@@ -99,7 +99,7 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
         const recipeHandler = Meteor.subscribe("recipes");
         const handlerPref = Meteor.subscribe("userpreferences");
 
-        if (!handler.ready() || !recipeHandler.ready() || !handlerPref.ready()) {
+        if (!Meteor.user() || !handler.ready() || !recipeHandler.ready() || !handlerPref.ready()) {
             return { ...noDataAvailable, isLoading: true };
         }
 
@@ -112,7 +112,7 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
 
         const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
 
-        const status = userPreferences.ffqAnswers.status_survey;
+        const status = userPreferences?.ffqAnswers?.status_survey;
 
         let totalPriceTemp = 0;
         orders.forEach(order => {
@@ -196,22 +196,24 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
                             try {
                                 const labelId = `checkbox-list-secondary-label-${value.recipeId}`;
                                 const recipe = RecipesCollection.findOne({ id: value.recipeId });
-                                return (
-                                    <div key={value.recipeId}>
-                                        <ListItem button>
-                                            <ListItemAvatar>
-                                                <Avatar
-                                                    alt={`Avatar n°${value.recipeId}`}
-                                                    src={getImage(recipe)}
-                                                />
-                                            </ListItemAvatar>
-                                            <ListItemText id={labelId} primary={recipe.name} secondary={"prijs: " + getRecipePrice(recipe, status)} />
-                                            <DeleteIcon className={classes.deleteButtons} onClick={handleRemove(value)} style={{ color: grey[500] }} />
-                                            <GroupedButtons recipeId={value.recipeId} className={classes.counterButtons}></GroupedButtons>
-                                        </ListItem>
-                                        <Divider variant="inset" component="li" />
-                                    </div>
-                                );
+                                if(recipe) {
+                                    return (
+                                        <div key={value.recipeId}>
+                                            <ListItem button>
+                                                <ListItemAvatar>
+                                                    <Avatar
+                                                        alt={`Avatar n°${value.recipeId}`}
+                                                        src={getImage(recipe)}
+                                                    />
+                                                </ListItemAvatar>
+                                                <ListItemText id={labelId} primary={recipe.name} secondary={"prijs: " + getRecipePrice(recipe, status)} />
+                                                <DeleteIcon className={classes.deleteButtons} onClick={handleRemove(value)} style={{ color: grey[500] }} />
+                                                <GroupedButtons recipeId={value.recipeId} className={classes.counterButtons}></GroupedButtons>
+                                            </ListItem>
+                                            <Divider variant="inset" component="li" />
+                                        </div>
+                                    );
+                                }
                             } catch (error) {
                                 console.log("shoppingbasket: " + error);
                             }
