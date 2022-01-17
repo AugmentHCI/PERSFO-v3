@@ -16,6 +16,7 @@ import { getImage } from '../api/apiPersfo';
 import { OrdersCollection } from '/imports/db/orders/OrdersCollection';
 import { RecipesCollection } from '/imports/db/recipes/RecipesCollection';
 import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
+import { getRecipePrice, getRecipePriceValue } from "/imports/api/auxMethods";
 
 const useStyles = makeStyles(() => ({
     list: {
@@ -41,12 +42,11 @@ const useStyles = makeStyles(() => ({
 }));
 
 const GroupedButtons = ({ recipeId }) => {
-    const { counter, status } = useTracker(() => {
+    const { counter } = useTracker(() => {
         const noDataAvailable = { counter: 1, status: "test" };
         const handler = Meteor.subscribe("orders");
-        const handlerPref = Meteor.subscribe("userpreferences");
 
-        if (!handler.ready() || !handlerPref.ready()) {
+        if (!handler.ready()) {
             return { ...noDataAvailable, isLoading: true };
         }
 
@@ -59,10 +59,7 @@ const GroupedButtons = ({ recipeId }) => {
         });
         const counter = order.amount;
 
-        const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
-
-        const status = userPreferences.ffqAnswers.status_survey;
-        return { counter, status };
+        return { counter };
     });
 
     handleIncrement = () => {
@@ -96,12 +93,13 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
 
     const classes = useStyles();
 
-    const { orders, totalPrice } = useTracker(() => {
-        const noDataAvailable = { orders: [], totalPrice: 0 };
+    const { orders, totalPrice, status } = useTracker(() => {
+        const noDataAvailable = { orders: [], totalPrice: 0, status: "test" };
         const handler = Meteor.subscribe("orders");
         const recipeHandler = Meteor.subscribe("recipes");
+        const handlerPref = Meteor.subscribe("userpreferences");
 
-        if (!handler.ready() || !recipeHandler.ready()) {
+        if (!handler.ready() || !recipeHandler.ready() || !handlerPref.ready()) {
             return { ...noDataAvailable, isLoading: true };
         }
 
@@ -112,6 +110,10 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
             orderday: now.toISOString().substring(0, 10),
         }).fetch();
 
+        const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
+
+        const status = userPreferences.ffqAnswers.status_survey;
+
         let totalPriceTemp = 0;
         orders.forEach(order => {
             const recipe = RecipesCollection.findOne({ id: order.recipeId });
@@ -120,7 +122,7 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
 
         const totalPrice = totalPriceTemp;
 
-        return { orders, totalPrice };
+        return { orders, totalPrice, status };
     });
 
     const handleRemove = (order) => () => {
@@ -202,7 +204,7 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
                                                 src={getImage(recipe)}
                                             />
                                         </ListItemAvatar>
-                                        <ListItemText id={labelId} primary={recipe.name} secondary={"prijs: € " + recipe.current_sell_price.pricing.toFixed(2)} />
+                                        <ListItemText id={labelId} primary={recipe.name} secondary={"prijs: " + getRecipePrice(recipe, status)} />
                                         <DeleteIcon className={classes.deleteButtons} onClick={handleRemove(value)} style={{ color: grey[500] }} />
                                         <GroupedButtons recipeId={value.recipeId} className={classes.counterButtons}></GroupedButtons>
                                     </ListItem>

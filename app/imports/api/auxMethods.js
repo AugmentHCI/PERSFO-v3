@@ -46,7 +46,27 @@ export function getRecipePrice(recipe, internal) {
     console.log("Error in recipe price for: " + recipe.id);
       return "€0";
   }
+}
 
+export function getRecipePriceValue(recipe, internal) {
+  try {
+    if (internal !== "intern" && recipe.current_sell_price) {
+      return recipe.current_sell_price?.pricing
+    } else if (internal == "intern") {
+      for (let i = 0; i < recipe.custom_fields.length; i++) {
+        let custom = recipe.custom_fields[i];
+        if (custom.name == "salesprice2") {
+          return Number(custom.value)
+        }
+      }
+    } else {
+      console.log("Error in recipe price for: " + recipe.id);
+      return 0;
+    }
+  } catch (error) {
+    console.log("Error in recipe price for: " + recipe.id);
+      return 0;
+  }
 }
 
 export function getENComposition(ingredient) {
