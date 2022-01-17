@@ -28,19 +28,25 @@ export function getRecipeName(recipe, language) {
 }
 
 export function getRecipePrice(recipe, internal) {
-  if (internal !== "intern" && recipe.current_sell_price) {
-    return "€" + recipe.current_sell_price?.pricing?.toFixed(2)
-  } else if (internal == "intern") {
-    for (let i = 0; i < recipe.custom_fields.length; i++) {
-      let custom = recipe.custom_fields[i];
-      if (custom.name == "salesprice2") {
-        return "€" + Number(custom.value).toFixed(2);
+  try {
+    if (internal !== "intern" && recipe.current_sell_price) {
+      return "€" + recipe.current_sell_price?.pricing?.toFixed(2)
+    } else if (internal == "intern") {
+      for (let i = 0; i < recipe.custom_fields.length; i++) {
+        let custom = recipe.custom_fields[i];
+        if (custom.name == "salesprice2") {
+          return "€" + Number(custom.value).toFixed(2);
+        }
       }
+    } else {
+      console.log("Error in recipe price for: " + recipe.id);
+      return "€0";
     }
-  } else {
+  } catch (error) {
     console.log("Error in recipe price for: " + recipe.id);
-    return "€0";
+      return "€0";
   }
+
 }
 
 export function getENComposition(ingredient) {

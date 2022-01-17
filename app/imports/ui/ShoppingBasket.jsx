@@ -15,6 +15,7 @@ import React, { useState } from "react";
 import { getImage } from '../api/apiPersfo';
 import { OrdersCollection } from '/imports/db/orders/OrdersCollection';
 import { RecipesCollection } from '/imports/db/recipes/RecipesCollection';
+import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
 
 const useStyles = makeStyles(() => ({
     list: {
@@ -40,10 +41,12 @@ const useStyles = makeStyles(() => ({
 }));
 
 const GroupedButtons = ({ recipeId }) => {
-    const { counter } = useTracker(() => {
-        const noDataAvailable = { counter: 1 };
+    const { counter, status } = useTracker(() => {
+        const noDataAvailable = { counter: 1, status: "test" };
         const handler = Meteor.subscribe("orders");
-        if (!handler.ready()) {
+        const handlerPref = Meteor.subscribe("userpreferences");
+
+        if (!handler.ready() || !handlerPref.ready()) {
             return { ...noDataAvailable, isLoading: true };
         }
 
@@ -55,7 +58,11 @@ const GroupedButtons = ({ recipeId }) => {
             recipeId: recipeId
         });
         const counter = order.amount;
-        return { counter };
+
+        const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
+
+        const status = userPreferences.ffqAnswers.status_survey;
+        return { counter, status };
     });
 
     handleIncrement = () => {
@@ -108,7 +115,7 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
         let totalPriceTemp = 0;
         orders.forEach(order => {
             const recipe = RecipesCollection.findOne({ id: order.recipeId });
-            totalPriceTemp += (recipe.current_sell_price.pricing * order.amount);
+            totalPriceTemp += getRecipePriceValue(recipe, status) * order.amount;
         });
 
         const totalPrice = totalPriceTemp;
