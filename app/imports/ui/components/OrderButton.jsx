@@ -65,7 +65,7 @@ export const OrderButton = ({ recipe, allergensPresent, dietaryConflict, floatin
         }).fetch();
         const ordered = orders.length > 0;
 
-        let randomConfirmedOrderToday = OrdersCollection.findOne({ orderday: nowString, confirmed: true });
+        let randomConfirmedOrderToday = OrdersCollection.findOne({ userid: Meteor.userId(), orderday: nowString, confirmed: true });
         const confirmed = randomConfirmedOrderToday !== undefined;
 
         return { ordered, confirmed };
