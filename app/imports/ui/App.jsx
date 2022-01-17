@@ -166,7 +166,7 @@ export const App = () => {
     // pick menu of December 6 when no menu available today
     if (!menu) menu = MenusCollection.findOne({ starting_date: FALLBACK_DATE });
 
-    let randomConfirmedOrder = OrdersCollection.findOne({ orderday: nowString, confirmed: true });
+    let randomConfirmedOrder = OrdersCollection.findOne({ userid: Meteor.userId(), orderday: nowString, confirmed: true });
     const doneForToday = randomConfirmedOrder !== undefined;
 
     const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
