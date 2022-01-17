@@ -193,24 +193,28 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
                 >
                     <List className={classes.list}>
                         {orders.map((value) => {
-                            const labelId = `checkbox-list-secondary-label-${value.recipeId}`;
-                            const recipe = RecipesCollection.findOne({ id: value.recipeId });
-                            return (
-                                <div key={value.recipeId}>
-                                    <ListItem button>
-                                        <ListItemAvatar>
-                                            <Avatar
-                                                alt={`Avatar n°${value.recipeId}`}
-                                                src={getImage(recipe)}
-                                            />
-                                        </ListItemAvatar>
-                                        <ListItemText id={labelId} primary={recipe.name} secondary={"prijs: " + getRecipePrice(recipe, status)} />
-                                        <DeleteIcon className={classes.deleteButtons} onClick={handleRemove(value)} style={{ color: grey[500] }} />
-                                        <GroupedButtons recipeId={value.recipeId} className={classes.counterButtons}></GroupedButtons>
-                                    </ListItem>
-                                    <Divider variant="inset" component="li" />
-                                </div>
-                            );
+                            try {
+                                const labelId = `checkbox-list-secondary-label-${value.recipeId}`;
+                                const recipe = RecipesCollection.findOne({ id: value.recipeId });
+                                return (
+                                    <div key={value.recipeId}>
+                                        <ListItem button>
+                                            <ListItemAvatar>
+                                                <Avatar
+                                                    alt={`Avatar n°${value.recipeId}`}
+                                                    src={getImage(recipe)}
+                                                />
+                                            </ListItemAvatar>
+                                            <ListItemText id={labelId} primary={recipe.name} secondary={"prijs: " + getRecipePrice(recipe, status)} />
+                                            <DeleteIcon className={classes.deleteButtons} onClick={handleRemove(value)} style={{ color: grey[500] }} />
+                                            <GroupedButtons recipeId={value.recipeId} className={classes.counterButtons}></GroupedButtons>
+                                        </ListItem>
+                                        <Divider variant="inset" component="li" />
+                                    </div>
+                                );
+                            } catch (error) {
+                                console.log("shoppingbasket: " + error);
+                            }
                         })}
                     </List>
                 </div>
