@@ -117,7 +117,7 @@ export const ShoppingBasket = ({ drawerOpen, toggleDrawer }) => {
         let totalPriceTemp = 0;
         orders.forEach(order => {
             const recipe = RecipesCollection.findOne({ id: order.recipeId });
-            totalPriceTemp += getRecipePriceValue(recipe, status) * order.amount;
+            totalPriceTemp += getRecipePriceValue(recipe, status) ? getRecipePriceValue(recipe, status) * order.amount : 0;
         });
 
         const totalPrice = totalPriceTemp;
