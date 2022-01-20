@@ -4,7 +4,7 @@ import { IngredientCollection } from '/imports/db/ingredients/IngredientCollecti
 import { HexadCollection } from "../db/surveys/HexadCollection";
 import { capitalizeFirstLetter, getENComposition } from "/imports/api/auxMethods";
 
-const token = "bn2b2dcNrzO9JjkcgTJW7iNBI5SL9f";
+const token = "nZp7fXmyUdYBlTLtmt7xlCDKwvRsZv";
 const url = "https://www.apicbase.com/api/v1/recipes/";
 const API_LOGS = false;
 
