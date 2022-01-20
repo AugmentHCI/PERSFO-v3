@@ -160,7 +160,7 @@ export const App = () => {
     // let menu = MenusCollection.findOne({ starting_date: "2021-12-07" });
     // pick menu of today TODO
     let menu = MenusCollection.findOne({
-      starting_date: earlier,
+      starting_date: nowString,
     });
 
     // pick menu of December 6 when no menu available today
