@@ -29,9 +29,9 @@ export function getRecipeName(recipe, language) {
 
 export function getRecipePrice(recipe, internal) {
   try {
-    if (internal !== "intern" && recipe.current_sell_price) {
+    if ((internal !== "intern" || internal !== "intern-geel") && recipe.current_sell_price) {
       return "€" + recipe.current_sell_price?.pricing?.toFixed(2)
-    } else if (internal == "intern") {
+    } else if (internal == "intern" || internal == "intern-geel") {
       for (let i = 0; i < recipe.custom_fields.length; i++) {
         let custom = recipe.custom_fields[i];
         if (custom.name == "salesprice2") {
@@ -51,9 +51,9 @@ export function getRecipePrice(recipe, internal) {
 
 export function getRecipePriceValue(recipe, internal) {
   try {
-    if (internal !== "intern" && recipe.current_sell_price) {
+    if ((internal !== "intern" || internal !== "intern-geel") && recipe.current_sell_price) {
       return recipe.current_sell_price?.pricing
-    } else if (internal == "intern") {
+    } else if (internal == "intern" || internal == "intern-geel") {
       for (let i = 0; i < recipe.custom_fields.length; i++) {
         let custom = recipe.custom_fields[i];
         if (custom.name == "salesprice2") {
@@ -79,6 +79,10 @@ export function getENComposition(ingredient) {
       }
     }
     return "No en ingredients for: " + ingredient.id
+}
+
+export function getLocation(status) {
+  return (status == "intern-geel" || status == "extern-geel") ? "geel" : "beerse";
 }
 
 export function getLang() {

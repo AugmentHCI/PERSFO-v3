@@ -3,8 +3,9 @@ import { RecipesCollection } from "/imports/db/recipes/RecipesCollection";
 import { IngredientCollection } from '/imports/db/ingredients/IngredientCollection';
 import { HexadCollection } from "../db/surveys/HexadCollection";
 import { capitalizeFirstLetter, getENComposition } from "/imports/api/auxMethods";
+import { LAST_MENU_UPDATE } from "./methods";
 
-const token = "nZp7fXmyUdYBlTLtmt7xlCDKwvRsZv";
+const token = "RLFaYNhh0n2BJjUlPFUrPvK2QfGOjd";
 const url = "https://www.apicbase.com/api/v1/recipes/";
 const API_LOGS = false;
 
@@ -20,17 +21,26 @@ export function initData() {
 
   allMenus.forEach((menu) => {
     menu.courses = _.filter(menu.courses, c => !_.isEmpty(c.recipes));
-    MenusCollection.upsert({ id: menu.id }, { $set: menu });
+    menu.last_update = LAST_MENU_UPDATE;
+
+    // full menu in Beerse
+    // menu.location = "beerse";
+    MenusCollection.upsert({ starting_date: menu.starting_date, location:"beerse" }, { $set: menu });
+
+    // refresh all recipe data
     menu.courses.forEach((course) => {
       course.recipes.forEach((recipeURL) => {
         allRecipeIds.push(getElementID(recipeURL));
       });
     });
+
+    // limited menu in Geel
+    // menu.location = "geel";
+    menu.courses = _.filter(menu.courses, c => c.name.toLowerCase().indexOf("modern recipe") < 0);
+    MenusCollection.upsert({ starting_date: menu.starting_date, location:"geel" }, { $set: menu });
   });
 
-
   allRecipeIds = [...new Set(allRecipeIds)];
-
 
   console.log("initData: menus loaded: " + new Date());
 
@@ -113,8 +123,6 @@ export function initData() {
         } else {
           console.log("initData: recipe error at index: " + index);
           console.log("initData: recipe error at id: " + currentId);
-          console.log(allRecipeIds)
-
         }
       } catch (error) {
         console.log(error);

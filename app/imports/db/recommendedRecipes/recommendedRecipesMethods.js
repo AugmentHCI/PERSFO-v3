@@ -1,15 +1,12 @@
-import { check } from 'meteor/check';
-import { RecommendedRecipes } from '/imports/db/recommendedRecipes/RecommendedRecipes';
-import { MenusCollection } from '/imports/db/menus/MenusCollection';
-import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
-import { RecipesCollection } from '/imports/db/recipes/RecipesCollection';
-import { OrdersCollection } from '/imports/db/orders/OrdersCollection';
-
-import { getElementID, getNutriscoreRankingValue, getNbDisliked } from "/imports/api/apiPersfo";
 import { calculateNutrientforRecipe } from '../../api/apiPersfo';
-
-import { FALLBACK_DATE } from "/imports/api/methods.js";
-import { red } from '@material-ui/core/colors';
+import { getElementID, getNbDisliked, getNutriscoreRankingValue } from "/imports/api/apiPersfo";
+import { getLocation } from "/imports/api/auxMethods";
+import { FALLBACK_DATE, LAST_MENU_UPDATE } from "/imports/api/methods.js";
+import { MenusCollection } from '/imports/db/menus/MenusCollection';
+import { OrdersCollection } from '/imports/db/orders/OrdersCollection';
+import { RecipesCollection } from '/imports/db/recipes/RecipesCollection';
+import { RecommendedRecipes } from '/imports/db/recommendedRecipes/RecommendedRecipes';
+import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
 
 const coursesToIgnore = ["Dranken", "Soep", "Soup"];
 
@@ -23,22 +20,29 @@ Meteor.methods({
 
         // 7 days earlier
         // const earlier = new Date(new Date().setDate(new Date().getDate() - 7)).toISOString().substring(0, 10);
+        const userpreferences = UserPreferences.findOne({ userid: this.userId });
+        const status = userpreferences?.ffqAnswers?.status_survey;
 
         const today = new Date().toISOString().substring(0, 10);
         // find today's menu
         let menu = MenusCollection.findOne({
             // starting_date: earlier,
             starting_date: today,
+            last_update: LAST_MENU_UPDATE,
+            location: getLocation(status) 
         });
         // pick random menu when no menu available today
         if (!menu) {
-            menu = MenusCollection.findOne({ starting_date: FALLBACK_DATE });
+            menu = MenusCollection.findOne({ 
+                starting_date: FALLBACK_DATE, 
+                last_update: LAST_MENU_UPDATE,
+                location: getLocation(status) 
+            });
             console.log("recommender: no menu for today!")
         }
 
         let todaysCourses = menu.courses;
 
-        const userpreferences = UserPreferences.findOne({ userid: this.userId });
 
         // Find all recipes that are available today --> TODO tailor per course
         let todaysRecipes = [];

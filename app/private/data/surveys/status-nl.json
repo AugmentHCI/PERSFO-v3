@@ -1,19 +1,27 @@
 {
     "ID": "1",
     "Title": "Meer informatie over u",
-    "Subtitle": "Op basis van deze informatie kunnen we de juiste prijzen tonen.",
+    "Subtitle": "Op basis van deze informatie kunnen we de juiste gerechten en prijzen tonen.",
     "CombinedQuestions": null,
     "Questions": [
         {
-            "Title": "Gelieve aan te geven of u intern bij J&J werkt of extern.",
+            "Title": "Gelieve aan te geven waar u werkt en onder welke status.",
             "Answers": [
                 {
                     "Value": "intern",
-                    "Answer": "Interne werknemer J&J"
+                    "Answer": "Interne werknemer J&J Beerse"
                 },
                 {
                     "Value": "extern",
-                    "Answer": "Externe werknemer J&J"
+                    "Answer": "Externe werknemer J&J Beerse"
+                },
+                {
+                    "Value": "intern-geel",
+                    "Answer": "Interne werknemer J&J Geel"
+                },
+                {
+                    "Value": "extern-geel",
+                    "Answer": "Externe werknemer J&J Geel"
                 },
                 {
                     "Value": "test",

@@ -6,33 +6,32 @@ import { useTracker } from "meteor/react-meteor-data";
 import React, { useState } from "react";
 import { AppBarPersfo } from "./AppBarPersfo";
 import { AuthenticationScreen } from "./AuthenticationScreen";
+import { DetailScreen } from "./DetailScreen";
 import { Done } from "./Done";
 import { Feedback } from "./Feedback";
-import { DetailScreen } from "./DetailScreen";
+import { LanguageSurveyForm } from "./LanguageSurveyForm";
 import { Onboarding } from "./Onboarding";
 import { Preferences } from "./Preferences";
 import { Progress } from "./Progress";
 import { SurveyForm } from "./SurveyForm";
-import { LanguageSurveyForm } from "./LanguageSurveyForm";
 import { TabHomeScreen } from "./TabHomeScreen";
+import { AllergiesContent } from "./tabs/AllergiesContent";
+import { Food4MeContent } from "./tabs/Food4MeContent";
+import { FoodPreferencesContext } from "./tabs/FoodPreferences";
+import { IngredientsContent } from "./tabs/IngredientsContent";
+import { NutrientsContent } from "./tabs/NutrientsContent";
+import { PopularityContent } from "./tabs/PopularityContent";
+import { getLocation } from "/imports/api/auxMethods";
 import {
-  OpenFeedback, OpenMealDetails,
-  OpenProgress,
-  OpenSettings, OpenRecommenderExplanations,
-  FALLBACK_DATE
+  FALLBACK_DATE, LAST_MENU_UPDATE, OpenFeedback, OpenMealDetails,
+  OpenProgress, OpenRecommenderExplanations, OpenSettings
 } from "/imports/api/methods.js";
 import { MenusCollection } from '/imports/db/menus/MenusCollection';
 import { OrdersCollection } from '/imports/db/orders/OrdersCollection';
 import { RecipesCollection } from '/imports/db/recipes/RecipesCollection';
 import { RecommendedRecipes } from '/imports/db/recommendedRecipes/RecommendedRecipes';
 import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
-import { AllergiesContent } from "./tabs/AllergiesContent";
-import { IngredientsContent } from "./tabs/IngredientsContent";
-import { NutrientsContent } from "./tabs/NutrientsContent";
-import { SustainabilityContent } from "./tabs/SustainabilityContent";
-import { Food4MeContent } from "./tabs/Food4MeContent";
-import { PopularityContent } from "./tabs/PopularityContent";
-import { FoodPreferencesContext } from "./tabs/FoodPreferences";
+
 
 const persfoTheme = createTheme({
   palette: {
@@ -152,6 +151,9 @@ export const App = () => {
     // // wait for menus, recipes, AND userpreferences to load before initializing recommendations
     // // recalculate new recommendation on every app startup
 
+    const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
+    const status = userPreferences?.ffqAnswers?.status_survey;
+
     const now = new Date();
     const nowString = now.toISOString().substring(0, 10);
 
@@ -161,15 +163,20 @@ export const App = () => {
     // pick menu of today TODO
     let menu = MenusCollection.findOne({
       starting_date: nowString,
+      last_update: LAST_MENU_UPDATE,
+      location: getLocation(status)
     });
 
-    // pick menu of December 6 when no menu available today
-    if (!menu) menu = MenusCollection.findOne({ starting_date: FALLBACK_DATE });
+    // pick menu of Fallback variable when no menu available today
+    if (!menu) menu = MenusCollection.findOne({
+      starting_date: FALLBACK_DATE,
+      last_update: LAST_MENU_UPDATE,
+      location: getLocation(status)
+    });
 
     let randomConfirmedOrder = OrdersCollection.findOne({ userid: Meteor.userId(), orderday: nowString, confirmed: true });
     const doneForToday = randomConfirmedOrder !== undefined;
 
-    const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
     const languageChosen = userPreferences?.languageChosen;
     if (languageChosen) i18n.setLocale(languageChosen);
     const icfFinished = userPreferences?.icfFinished;
@@ -178,7 +185,6 @@ export const App = () => {
     let recommendedRecipeId = "";
     let tempRecommendation = null;
     let noMoreRecommendations = false;
-
 
     if (surveyFinished && languageChosen) {
 

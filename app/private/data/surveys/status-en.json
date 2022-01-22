@@ -1,19 +1,27 @@
 {
     "ID": "1",
     "Title": "More information about yourself",
-    "Subtitle": "Based on this information, we can show you the corrct prices.",
+    "Subtitle": "Based on this information, we can show you the correct meals and prices.",
     "CombinedQuestions": null,
     "Questions": [
         {
-            "Title": "Please indicate whether you work internally or externally at J&J.",
+            "Title": "Please indicate where you work and whether you work internally or externally at J&J.",
             "Answers": [
                 {
                     "Value": "intern",
-                    "Answer": "Internal employee J&J"
+                    "Answer": "Internal employee J&J Beerse"
                 },
                 {
                     "Value": "extern",
-                    "Answer": "External employee J&J"
+                    "Answer": "External employee J&J Beerse"
+                },
+                {
+                    "Value": "intern-geel",
+                    "Answer": "Internal employee J&J Geel"
+                },
+                {
+                    "Value": "extern-geel",
+                    "Answer": "External employee J&J Geel"
                 },
                 {
                     "Value": "test",

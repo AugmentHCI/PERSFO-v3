@@ -4,6 +4,81 @@
     "previous": null,
     "results": [
         {
+            "url": "https://app.apicbase.com/api/v1/menus/490800315430008/",
+            "id": "490800315430008",
+            "name": "Maandag 24/01",
+            "uid": "",
+            "description": "JJ Beerse 1",
+            "created_date": "2022-01-20T20:53:29.935681+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2022-01-21T13:38:04.215206+01:00",
+            "courses": [
+                {
+                    "name": "Soup",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249653188540006/"
+                    ]
+                },
+                {
+                    "name": "Fresh Salad & Cold dish",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/349653798590003/",
+                        "https://app.apicbase.com/api/v1/recipes/949653909530002/",
+                        "https://app.apicbase.com/api/v1/recipes/349653219570003/"
+                    ]
+                },
+                {
+                    "name": "Warm Dishes",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649653329550003/",
+                        "https://app.apicbase.com/api/v1/recipes/449653039500003/"
+                    ]
+                },
+                {
+                    "name": "Snack",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249553133120008/",
+                        "https://app.apicbase.com/api/v1/recipes/849653849530004/"
+                    ]
+                },
+                {
+                    "name": "Modern Recipe Salads",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649553447120006/",
+                        "https://app.apicbase.com/api/v1/recipes/849553857170005/",
+                        "https://app.apicbase.com/api/v1/recipes/949653793610004/",
+                        "https://app.apicbase.com/api/v1/recipes/749653104670002/"
+                    ]
+                },
+                {
+                    "name": "Modern Recipe Ready Meals",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/349553256120005/",
+                        "https://app.apicbase.com/api/v1/recipes/649553366130008/",
+                        "https://app.apicbase.com/api/v1/recipes/449553576190005/",
+                        "https://app.apicbase.com/api/v1/recipes/449553386100002/"
+                    ]
+                },
+                {
+                    "name": "Sweet",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/949653169530002/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2022-01-24",
+            "ending_date": "2022-01-24",
+            "time_of_day": null,
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
             "url": "https://app.apicbase.com/api/v1/menus/490800372420002/",
             "id": "490800372420002",
             "name": "Vrijdag 21/01",
@@ -11,7 +86,7 @@
             "description": "JJ Beerse 1",
             "created_date": "2022-01-17T16:01:47.775736+01:00",
             "created_by": "hans@alberts.be",
-            "modified_date": "2022-01-17T16:02:11.496006+01:00",
+            "modified_date": "2022-01-17T17:55:19.407455+01:00",
             "courses": [
                 {
                     "name": "Soup",
@@ -401,57 +476,6 @@
             "current_sell_price": null,
             "sell_price_history": [],
             "custom_fields": []
-        },
-        {
-            "url": "https://app.apicbase.com/api/v1/menus/690800095310004/",
-            "id": "690800095310004",
-            "name": "Maandag 10/01",
-            "uid": "",
-            "description": "JJ Beerse 1",
-            "created_date": "2022-01-07T20:13:14.831572+01:00",
-            "created_by": "hans@alberts.be",
-            "modified_date": "2022-01-13T10:25:32.047390+01:00",
-            "courses": [
-                {
-                    "name": "Soup",
-                    "recipes": [
-                        "https://app.apicbase.com/api/v1/recipes/449443812900007/"
-                    ]
-                },
-                {
-                    "name": "Fresh Salad & Cold dish",
-                    "recipes": []
-                },
-                {
-                    "name": "Warm Dishes",
-                    "recipes": []
-                },
-                {
-                    "name": "Snack",
-                    "recipes": []
-                },
-                {
-                    "name": "NFM Salads",
-                    "recipes": [
-                        "https://app.apicbase.com/api/v1/recipes/349743880490000/"
-                    ]
-                },
-                {
-                    "name": "NFM Ready meals",
-                    "recipes": []
-                }
-    ],
-    "cycle_year": null,
-    "cycle_week": null,
-    "cycle_day": null,
-    "starting_date": "2022-01-17",
-    "ending_date": "2022-01-17",
-    "time_of_day": null,
-    "vat": null,
-    "target_profit_margin": null,
-    "current_sell_price": null,
-    "sell_price_history": [],
-    "custom_fields": []
-}
-]
+        }
+    ]
 }
