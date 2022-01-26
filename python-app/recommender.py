@@ -187,9 +187,10 @@ def content_based_recommendation(num: int, topk_features: int, ingredients_to_re
 
         all_ingredients_from_orders = dict(Counter(preferences_of_users[user_id]))
 
+        #"ingredientsFromOrders": all_ingredients_from_orders,
+
         data_for_db = {
             "orderBasedRecommendations": suggested_recipes,
-            "ingredientsFromOrders": all_ingredients_from_orders,
             "recommenderMetaData": {
                 "timestamp": datetime.datetime.utcnow(),
                 "numOfRecommendationsRequested": num,

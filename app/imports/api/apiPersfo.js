@@ -231,6 +231,7 @@ export function initData() {
                 .trim()
                 .replace(/\[|\]/g, "")
                 .replace(/(^'+|'+$)/mg, "")
+                .replace(/\./g,"")
                 .toLowerCase()));
               cleanedIngredients.push(tempIngredients);
             }
@@ -244,6 +245,7 @@ export function initData() {
                 .trim()
                 .replace(/\[|\]/g, "")
                 .replace(/(^'+|'+$)/mg, "")
+                .replace(/\./g,"")
                 .toLowerCase()));
               cleanedIngredientsEN.push(tempIngredients);
             }
