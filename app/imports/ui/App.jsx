@@ -247,6 +247,7 @@ export const App = () => {
       // case 3:
       //   return <SustainabilityContent recipe={recipe} />;
     }
+    Meteor.call("log", componentName, "renderMealScreenTabContent", tabValue);
   };
 
   const renderExplanationTabContent = (tabValue) => {
@@ -259,6 +260,7 @@ export const App = () => {
       case 2:
         return <PopularityContent recipe={recipe} />;
     }
+    Meteor.call("log", componentName, "renderExplanationTabContent", tabValue);
   };
 
   const switchRenderScreen = () => {
