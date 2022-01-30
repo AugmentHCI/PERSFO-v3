@@ -108,6 +108,7 @@ export const App = () => {
   };
 
   const [lastRecommenderUpdate, setLastRecommenderUpdate] = useState(undefined);
+  const [lastFood4MeUpdate, setFood4MeUpdate] = useState(undefined);
 
   const {
     GetOpenMealDetails,
@@ -192,6 +193,16 @@ export const App = () => {
         Meteor.call("recommender.updateRecommendations");
         setLastRecommenderUpdate(now.getTime());
       }
+
+      try {
+        if (lastFood4MeUpdate === undefined || now.getTime() - lastFood4MeUpdate >= (3600 * 10 * 1000)) {
+          Meteor.call("users.saveSurvey", userPreferences.ffqAnswers);
+          setFood4MeUpdate(now.getTime());
+        }
+      } catch (error) {
+        console.log("error in update 2022-01-31");
+      }
+
 
       try {
         const recommendedRecipes = RecommendedRecipes.findOne({ userid: Meteor.userId() }).recommendations;
