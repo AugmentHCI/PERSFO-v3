@@ -165,6 +165,10 @@
         "Iron": "Ijzer",
         "SaturatedFats": "Verzadigd vet",
         "Carbohydrate": "Koolhydraten",
-        "explanation": "Op basis van de 'Food Frequency Vragenlijst' konden we een persoonlijk plan opstellen. Jouw persoonlijke aanbevelingen tellen voor 65% mee bij het bepalen van je aanbevolen maaltijd."
+        "explanation": "Op basis van de 'Food Frequency Vragenlijst' konden we een persoonlijk plan opstellen. Jouw persoonlijke aanbevelingen tellen voor 65% mee bij het bepalen van je aanbevolen maaltijd.",
+        "plus_part_1": "Je wordt aangeraden",
+        "plus_part_2": " te nuttigen. Deze maaltijd is rijk aan:",
+        "min_part_1": "Je krijgt al veel",
+        "min_part_2": "binnen, deze maaltijd is daarom arm aan:"
     }
 }

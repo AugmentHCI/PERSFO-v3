@@ -93,7 +93,7 @@ export const Food4MeContent = ({ recipe }) => {
                 {lowExplanations.length > 0 ?
                     <>
                         <p className={classes.auxiliaryText}>
-                            Je wordt aangeraden om meer {getListNutrients(lowExplanations)} te nuttigen. Deze maaltijd is rijk aan:
+                            {i18n.__("food4me.plus_part_1") + " " + getListNutrients(lowExplanations) + i18n.__("food4me.plus_part_2")}
                         </p>
                         {_.map(lowExplanations, (explanation) => {
                             return (
@@ -114,7 +114,7 @@ export const Food4MeContent = ({ recipe }) => {
                 {highExplanations.length > 0 ?
                     <>
                         <p className={classes.auxiliaryText}>
-                            Je krijgt al veel {getListNutrients(highExplanations)} binnen, deze maaltijd is daarom arm aan:
+                            {i18n.__("food4me.min_part_1") + " " + getListNutrients(highExplanations) + " " + i18n.__("food4me.min_part_2")}
                         </p>
                         {_.map(highExplanations, (explanation) => {
                             return (

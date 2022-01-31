@@ -165,6 +165,10 @@
         "Iron": "Iron",
         "SaturatedFats": "Saturated fats",
         "Carbohydrate": "Carbohydrate",
-        "explanation": "Based on the 'Food Frequency Questionnaire' we were able to create personal advice. Your personal recommendations count for 65% in determining your recommended meal."
+        "explanation": "Based on the 'Food Frequency Questionnaire' we were able to create personal advice. Your personal recommendations count for 65% in determining your recommended meal.",
+        "plus_part_1": "You are adviced to eat more",
+        "plus_part_2": ".",
+        "min_part_1": "You already eat a lot of",
+        "min_part_2": "this meal is low in:"
     }
 }
