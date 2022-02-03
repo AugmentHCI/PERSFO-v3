@@ -86,7 +86,7 @@
             "description": "JJ Beerse 1 - Geel",
             "created_date": "2022-01-30T22:12:33.097985+01:00",
             "created_by": "hans@alberts.be",
-            "modified_date": "2022-01-30T22:22:11.906798+01:00",
+            "modified_date": "2022-02-01T23:10:18.004039+01:00",
             "courses": [
                 {
                     "name": "Soup",
@@ -138,7 +138,9 @@
                 },
                 {
                     "name": "Sweet",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249063038280009/"
+                    ]
                 }
             ],
             "cycle_year": null,
