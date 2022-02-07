@@ -7,38 +7,39 @@
             "url": "https://app.apicbase.com/api/v1/menus/890800337580007/",
             "id": "890800337580007",
             "name": "Maandag 07/02",
-            "uid": null,
+            "uid": "",
             "description": "JJ Beerse 1 - Geel",
             "created_date": "2022-02-07T09:50:57.036705+01:00",
             "created_by": "hans@alberts.be",
-            "modified_date": "2022-02-07T09:50:57.036718+01:00",
+            "modified_date": "2022-02-07T09:53:12.454811+01:00",
             "courses": [
                 {
                     "name": "Soup",
                     "recipes": [
-                        "https://app.apicbase.com/api/v1/recipes/449063548200003/"
+                        "https://app.apicbase.com/api/v1/recipes/749263583260003/"
                     ]
                 },
                 {
                     "name": "Fresh Salad & Cold dish",
                     "recipes": [
-                        "https://app.apicbase.com/api/v1/recipes/149063494240006/",
-                        "https://app.apicbase.com/api/v1/recipes/149063305260000/",
-                        "https://app.apicbase.com/api/v1/recipes/249063315230008/"
+                        "https://app.apicbase.com/api/v1/recipes/549263893280008/",
+                        "https://app.apicbase.com/api/v1/recipes/649263504220002/",
+                        "https://app.apicbase.com/api/v1/recipes/849263614280001/"
                     ]
                 },
                 {
                     "name": "Warm Dishes",
                     "recipes": [
-                        "https://app.apicbase.com/api/v1/recipes/549063188210002/",
-                        "https://app.apicbase.com/api/v1/recipes/649063098250001/",
-                        "https://app.apicbase.com/api/v1/recipes/149063609210006/"
+                        "https://app.apicbase.com/api/v1/recipes/949263624250008/",
+                        "https://app.apicbase.com/api/v1/recipes/849263434240009/",
+                        "https://app.apicbase.com/api/v1/recipes/849263344250004/"
                     ]
                 },
                 {
                     "name": "Snack",
                     "recipes": [
-                        "https://app.apicbase.com/api/v1/recipes/249553133120008/"
+                        "https://app.apicbase.com/api/v1/recipes/249553133120008/",
+                        "https://app.apicbase.com/api/v1/recipes/349263754200002/"
                     ]
                 },
                 {
@@ -62,14 +63,16 @@
                 },
                 {
                     "name": "Sweet",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/149263574210005/"
+                    ]
                 }
             ],
             "cycle_year": null,
             "cycle_week": null,
             "cycle_day": null,
-            "starting_date": "2022-02-04",
-            "ending_date": "2022-02-04",
+            "starting_date": "2022-02-07",
+            "ending_date": "2022-02-07",
             "time_of_day": null,
             "vat": null,
             "target_profit_margin": null,
