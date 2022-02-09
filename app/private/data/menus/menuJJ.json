@@ -11,11 +11,13 @@
             "description": "JJ Beerse 1 - Geel",
             "created_date": "2022-02-07T16:18:04.559055+01:00",
             "created_by": "hans@alberts.be",
-            "modified_date": "2022-02-07T16:24:24.502662+01:00",
+            "modified_date": "2022-02-09T09:55:59.071378+01:00",
             "courses": [
                 {
                     "name": "Soup",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/549263587200007/"
+                    ]
                 },
                 {
                     "name": "Fresh Salad & Cold dish",
@@ -27,7 +29,20 @@
                 },
                 {
                     "name": "Warm Dishes",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/849263228220000/",
+                        "https://app.apicbase.com/api/v1/recipes/949263038290003/",
+                        "https://app.apicbase.com/api/v1/recipes/749263648280003/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/"
+                    ]
                 },
                 {
                     "name": "Snack",
@@ -57,7 +72,9 @@
                 },
                 {
                     "name": "Sweet",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/949263678230006/"
+                    ]
                 }
             ],
             "cycle_year": null,
@@ -80,11 +97,13 @@
             "description": "JJ Beerse 1 - Geel",
             "created_date": "2022-02-07T16:17:01.641300+01:00",
             "created_by": "hans@alberts.be",
-            "modified_date": "2022-02-07T16:17:35.564512+01:00",
+            "modified_date": "2022-02-09T09:55:34.184811+01:00",
             "courses": [
                 {
                     "name": "Soup",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/949263286200002/"
+                    ]
                 },
                 {
                     "name": "Fresh Salad & Cold dish",
@@ -96,7 +115,19 @@
                 },
                 {
                     "name": "Warm Dishes",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/849263127210000/",
+                        "https://app.apicbase.com/api/v1/recipes/849263747270002/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/"
+                    ]
                 },
                 {
                     "name": "Snack",
@@ -126,7 +157,9 @@
                 },
                 {
                     "name": "Sweet",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249263977250006/"
+                    ]
                 }
             ],
             "cycle_year": null,
@@ -149,11 +182,13 @@
             "description": "JJ Beerse 1 - Geel",
             "created_date": "2022-02-07T16:15:27.393751+01:00",
             "created_by": "hans@alberts.be",
-            "modified_date": "2022-02-07T16:16:07.392555+01:00",
+            "modified_date": "2022-02-09T07:32:03.468674+01:00",
             "courses": [
                 {
                     "name": "Soup",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/949263285220007/"
+                    ]
                 },
                 {
                     "name": "Fresh Salad & Cold dish",
@@ -165,7 +200,20 @@
                 },
                 {
                     "name": "Warm Dishes",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/749263426230006/",
+                        "https://app.apicbase.com/api/v1/recipes/749263736280004/",
+                        "https://app.apicbase.com/api/v1/recipes/849263346240007/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/"
+                    ]
                 },
                 {
                     "name": "Snack",
@@ -195,7 +243,9 @@
                 },
                 {
                     "name": "Sweet",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/849263876230007/"
+                    ]
                 }
             ],
             "cycle_year": null,
@@ -218,11 +268,13 @@
             "description": "JJ Beerse 1 - Geel",
             "created_date": "2022-02-07T16:11:09.857186+01:00",
             "created_by": "hans@alberts.be",
-            "modified_date": "2022-02-07T16:11:49.638631+01:00",
+            "modified_date": "2022-02-08T12:43:18.841613+01:00",
             "courses": [
                 {
                     "name": "Soup",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249263384240008/"
+                    ]
                 },
                 {
                     "name": "Fresh Salad & Cold dish",
@@ -234,7 +286,20 @@
                 },
                 {
                     "name": "Warm Dishes",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249263725210004/",
+                        "https://app.apicbase.com/api/v1/recipes/549263335270003/",
+                        "https://app.apicbase.com/api/v1/recipes/149263045200009/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/"
+                    ]
                 },
                 {
                     "name": "Snack",
@@ -264,7 +329,9 @@
                 },
                 {
                     "name": "Sweet",
-                    "recipes": []
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263475220008/"
+                    ]
                 }
             ],
             "cycle_year": null,
