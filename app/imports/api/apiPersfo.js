@@ -5,7 +5,7 @@ import { HexadCollection } from "../db/surveys/HexadCollection";
 import { capitalizeFirstLetter, getENComposition } from "/imports/api/auxMethods";
 import { LAST_MENU_UPDATE } from "./methods";
 
-const token = "DmKBNrkeKm8stDiaua8cPrpFOpCLKd";
+const token = "6bnmK3We441BKe0auH1X8GjgiAIvDc";
 const url = "https://www.apicbase.com/api/v1/recipes/";
 const API_LOGS = false;
 
