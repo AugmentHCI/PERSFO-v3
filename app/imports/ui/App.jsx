@@ -194,14 +194,14 @@ export const App = () => {
         setLastRecommenderUpdate(now.getTime());
       }
 
-      try {
-        if (lastFood4MeUpdate === undefined || now.getTime() - lastFood4MeUpdate >= (3600 * 10 * 1000)) {
-          Meteor.call("users.saveSurvey", userPreferences.ffqAnswers);
-          setFood4MeUpdate(now.getTime());
-        }
-      } catch (error) {
-        console.log("error in update 2022-01-31");
-      }
+      // try {
+      //   if (lastFood4MeUpdate === undefined || now.getTime() - lastFood4MeUpdate >= (3600 * 10 * 1000)) {
+      //     Meteor.call("users.saveSurvey", userPreferences.ffqAnswers);
+      //     setFood4MeUpdate(now.getTime());
+      //   }
+      // } catch (error) {
+      //   console.log("error in update 2022-01-31");
+      // }
 
 
       try {
