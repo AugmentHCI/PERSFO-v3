@@ -311,6 +311,7 @@ export const App = () => {
                     <DetailScreen
                       recipe={GetOpenRecommenderExplanations[0]}
                       allergensPresent={GetOpenRecommenderExplanations[1]}
+                      translatedName={GetOpenRecommenderExplanations[2]}
                       renderTabContent={renderExplanationTabContent}
                       tabTitles={[i18n.__("general.questionnaire"), i18n.__("general.preferences"), i18n.__("general.popularity")]}
                     />

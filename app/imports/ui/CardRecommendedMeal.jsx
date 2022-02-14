@@ -211,7 +211,7 @@ export const CardRecommendedMeal = ({ recipe, handleDetailsClick, allergensPrese
   };
 
   const handleWhyClick = () => {
-    OpenRecommenderExplanations.set([recipe, allergensPresent]);
+    OpenRecommenderExplanations.set([recipe, allergensPresent, translatedName]);
     Meteor.call("log", componentName, "why", navigator.userAgent);
   }
 
