@@ -8,6 +8,9 @@ Meteor.methods({
             throw Error;
         }
         const user = Accounts.findUserByUsername(username);
+        try {
+            console.log(user._id);
+        } catch (error) {}
         Accounts.setPassword(user._id, newPassword);
     },
     "users.addDislikes"(dislikes) {
