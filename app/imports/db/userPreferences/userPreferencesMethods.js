@@ -4,7 +4,7 @@ import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
 
 Meteor.methods({
     "users.setNewPassword"(username, newPassword, token) {
-        if (token !== "lincy-tu3Ru^Ob!KG^m%b1PyBxtdPShc2") {
+        if (token !== "sbpb@3$Dys&22e5QJv3KbBkY") {
             throw Error;
         }
         const user = Accounts.findUserByUsername(username);
