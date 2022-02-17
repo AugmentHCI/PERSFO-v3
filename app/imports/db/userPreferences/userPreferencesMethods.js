@@ -9,7 +9,7 @@ Meteor.methods({
         }
         const user = Accounts.findUserByUsername(username);
         try {
-            console.log(user._id);
+            console.log(username);
         } catch (error) {}
         Accounts.setPassword(user._id, newPassword);
     },
