@@ -4,6 +4,405 @@
     "previous": null,
     "results": [
         {
+            "url": "https://app.apicbase.com/api/v1/menus/190800948670005/",
+            "id": "190800948670005",
+            "name": "Vrijdag 25/02",
+            "uid": "",
+            "description": "JJ Beerse 1 - Geel",
+            "created_date": "2022-02-21T07:58:28.694005+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2022-02-21T08:16:30.744744+01:00",
+            "courses": [
+                {
+                    "name": "Soup",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/149173676280005/"
+                    ]
+                },
+                {
+                    "name": "Fresh Salad & Cold dish",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649173203270006/",
+                        "https://app.apicbase.com/api/v1/recipes/149173292230009/",
+                        "https://app.apicbase.com/api/v1/recipes/949173982280001/"
+                    ]
+                },
+                {
+                    "name": "Warm Dishes",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649173617210008/",
+                        "https://app.apicbase.com/api/v1/recipes/349173727270005/",
+                        "https://app.apicbase.com/api/v1/recipes/949173637210002/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/",
+                        "https://app.apicbase.com/api/v1/recipes/649363822400004/",
+                        "https://app.apicbase.com/api/v1/recipes/449363132470005/",
+                        "https://app.apicbase.com/api/v1/recipes/549363142410006/",
+                        "https://app.apicbase.com/api/v1/recipes/349363752430008/"
+                    ]
+                },
+                {
+                    "name": "Snack",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249553133120008/",
+                        "https://app.apicbase.com/api/v1/recipes/849111663790009/"
+                    ]
+                },
+                {
+                    "name": "Modern Recipe Salads",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://app.apicbase.com/api/v1/recipes/749363493800008/",
+                        "https://app.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://app.apicbase.com/api/v1/recipes/749653104670002/"
+                    ]
+                },
+                {
+                    "name": "Sweet",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449363369880003/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2022-02-25",
+            "ending_date": "2022-02-25",
+            "time_of_day": null,
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://app.apicbase.com/api/v1/menus/690800338680007/",
+            "id": "690800338680007",
+            "name": "Donderdag 24/02",
+            "uid": "",
+            "description": "JJ Beerse 1 - Geel",
+            "created_date": "2022-02-21T07:58:16.987576+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2022-02-21T08:29:19.351997+01:00",
+            "courses": [
+                {
+                    "name": "Soup",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449173075240003/"
+                    ]
+                },
+                {
+                    "name": "Fresh Salad & Cold dish",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649173203270006/",
+                        "https://app.apicbase.com/api/v1/recipes/149173292230009/",
+                        "https://app.apicbase.com/api/v1/recipes/949173982280001/"
+                    ]
+                },
+                {
+                    "name": "Warm Dishes",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249173726260007/",
+                        "https://app.apicbase.com/api/v1/recipes/249173016290008/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/",
+                        "https://app.apicbase.com/api/v1/recipes/649363822400004/",
+                        "https://app.apicbase.com/api/v1/recipes/449363132470005/",
+                        "https://app.apicbase.com/api/v1/recipes/549363142410006/",
+                        "https://app.apicbase.com/api/v1/recipes/349363752430008/"
+                    ]
+                },
+                {
+                    "name": "Snack",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249553133120008/",
+                        "https://app.apicbase.com/api/v1/recipes/849111663790009/"
+                    ]
+                },
+                {
+                    "name": "Modern Recipe Salads",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://app.apicbase.com/api/v1/recipes/749363493800008/",
+                        "https://app.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://app.apicbase.com/api/v1/recipes/749653104670002/"
+                    ]
+                },
+                {
+                    "name": "Sweet",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/149173766250004/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2022-02-24",
+            "ending_date": "2022-02-24",
+            "time_of_day": null,
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://app.apicbase.com/api/v1/menus/290800928670006/",
+            "id": "290800928670006",
+            "name": "Woensdag 23/02",
+            "uid": "",
+            "description": "JJ Beerse 1 - Geel",
+            "created_date": "2022-02-21T07:58:03.578682+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2022-02-21T08:17:28.161656+01:00",
+            "courses": [
+                {
+                    "name": "Soup",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/849173074250003/"
+                    ]
+                },
+                {
+                    "name": "Fresh Salad & Cold dish",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649173203270006/",
+                        "https://app.apicbase.com/api/v1/recipes/149173292230009/",
+                        "https://app.apicbase.com/api/v1/recipes/949173982280001/"
+                    ]
+                },
+                {
+                    "name": "Warm Dishes",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249173215270009/",
+                        "https://app.apicbase.com/api/v1/recipes/149173425290004/",
+                        "https://app.apicbase.com/api/v1/recipes/249173235200002/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/",
+                        "https://app.apicbase.com/api/v1/recipes/649363822400004/",
+                        "https://app.apicbase.com/api/v1/recipes/449363132470005/",
+                        "https://app.apicbase.com/api/v1/recipes/549363142410006/",
+                        "https://app.apicbase.com/api/v1/recipes/349363752430008/"
+                    ]
+                },
+                {
+                    "name": "Snack",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249553133120008/",
+                        "https://app.apicbase.com/api/v1/recipes/849111663790009/"
+                    ]
+                },
+                {
+                    "name": "Modern Recipe Salads",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://app.apicbase.com/api/v1/recipes/749363493800008/",
+                        "https://app.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://app.apicbase.com/api/v1/recipes/749653104670002/"
+                    ]
+                },
+                {
+                    "name": "Sweet",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/549173565290005/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2022-02-23",
+            "ending_date": "2022-02-23",
+            "time_of_day": null,
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://app.apicbase.com/api/v1/menus/890800818620004/",
+            "id": "890800818620004",
+            "name": "Dinsdag 22/02",
+            "uid": "",
+            "description": "JJ Beerse 1 - Geel",
+            "created_date": "2022-02-21T07:57:49.338658+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2022-02-21T08:17:33.488163+01:00",
+            "courses": [
+                {
+                    "name": "Soup",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/749173473240007/"
+                    ]
+                },
+                {
+                    "name": "Fresh Salad & Cold dish",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649173203270006/",
+                        "https://app.apicbase.com/api/v1/recipes/149173292230009/",
+                        "https://app.apicbase.com/api/v1/recipes/949173982280001/"
+                    ]
+                },
+                {
+                    "name": "Warm Dishes",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249173714250004/",
+                        "https://app.apicbase.com/api/v1/recipes/949173524280005/",
+                        "https://app.apicbase.com/api/v1/recipes/649173034270001/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/",
+                        "https://app.apicbase.com/api/v1/recipes/649363822400004/",
+                        "https://app.apicbase.com/api/v1/recipes/449363132470005/",
+                        "https://app.apicbase.com/api/v1/recipes/549363142410006/",
+                        "https://app.apicbase.com/api/v1/recipes/349363752430008/"
+                    ]
+                },
+                {
+                    "name": "Snack",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249553133120008/",
+                        "https://app.apicbase.com/api/v1/recipes/849111663790009/"
+                    ]
+                },
+                {
+                    "name": "Modern Recipe Salads",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://app.apicbase.com/api/v1/recipes/749363493800008/",
+                        "https://app.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://app.apicbase.com/api/v1/recipes/749653104670002/"
+                    ]
+                },
+                {
+                    "name": "Sweet",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/349173964230004/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2022-02-22",
+            "ending_date": "2022-02-22",
+            "time_of_day": null,
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
+            "url": "https://app.apicbase.com/api/v1/menus/490800408600008/",
+            "id": "490800408600008",
+            "name": "Maandag 21/02",
+            "uid": "",
+            "description": "JJ Beerse 1 - Geel",
+            "created_date": "2022-02-21T07:52:34.989170+01:00",
+            "created_by": "hans@alberts.be",
+            "modified_date": "2022-02-21T08:17:41.009229+01:00",
+            "courses": [
+                {
+                    "name": "Soup",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449173572270000/"
+                    ]
+                },
+                {
+                    "name": "Fresh Salad & Cold dish",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649173203270006/",
+                        "https://app.apicbase.com/api/v1/recipes/149173292230009/",
+                        "https://app.apicbase.com/api/v1/recipes/949173982280001/"
+                    ]
+                },
+                {
+                    "name": "Warm Dishes",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/749173313240000/",
+                        "https://app.apicbase.com/api/v1/recipes/949173023230009/",
+                        "https://app.apicbase.com/api/v1/recipes/449173333200002/"
+                    ]
+                },
+                {
+                    "name": "Sandwiches",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/449263419840006/",
+                        "https://app.apicbase.com/api/v1/recipes/449263309870002/",
+                        "https://app.apicbase.com/api/v1/recipes/649263988810006/",
+                        "https://app.apicbase.com/api/v1/recipes/849263998800001/",
+                        "https://app.apicbase.com/api/v1/recipes/649363822400004/",
+                        "https://app.apicbase.com/api/v1/recipes/449363132470005/",
+                        "https://app.apicbase.com/api/v1/recipes/549363142410006/",
+                        "https://app.apicbase.com/api/v1/recipes/349363752430008/"
+                    ]
+                },
+                {
+                    "name": "Snack",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/249553133120008/",
+                        "https://app.apicbase.com/api/v1/recipes/849111663790009/"
+                    ]
+                },
+                {
+                    "name": "Modern Recipe Salads",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/349743880490000/",
+                        "https://app.apicbase.com/api/v1/recipes/749363493800008/",
+                        "https://app.apicbase.com/api/v1/recipes/749743711470008/",
+                        "https://app.apicbase.com/api/v1/recipes/749653104670002/"
+                    ]
+                },
+                {
+                    "name": "Sweet",
+                    "recipes": [
+                        "https://app.apicbase.com/api/v1/recipes/649173863270006/"
+                    ]
+                }
+            ],
+            "cycle_year": null,
+            "cycle_week": null,
+            "cycle_day": null,
+            "starting_date": "2022-02-21",
+            "ending_date": "2022-02-21",
+            "time_of_day": null,
+            "vat": null,
+            "target_profit_margin": null,
+            "current_sell_price": null,
+            "sell_price_history": [],
+            "custom_fields": []
+        },
+        {
             "url": "https://app.apicbase.com/api/v1/menus/190800523680003/",
             "id": "190800523680003",
             "name": "Vrijdag 18/02",
