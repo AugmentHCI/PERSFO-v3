@@ -5,7 +5,7 @@ import { HexadCollection } from "../db/surveys/HexadCollection";
 import { capitalizeFirstLetter, getENComposition } from "/imports/api/auxMethods";
 import { LAST_MENU_UPDATE } from "./methods";
 
-const token = "2ZVWx4OzoJAYRQztQUEd49lLzXrmf2";
+const token = "f5mLzZY8WSFM9LqiXF6R19VdUZtUHv";
 const url = "https://www.apicbase.com/api/v1/recipes/";
 const API_LOGS = false;
 
@@ -90,7 +90,7 @@ export function initData() {
     ingredientIndex = 0;
     updateRecipeDetails();
 
-  }, 45 * 60 * 1000);
+  }, 50 * 60 * 1000);
 
   updateRecipeDetails();
   console.log("initData: reciped loadings started: " + new Date());
