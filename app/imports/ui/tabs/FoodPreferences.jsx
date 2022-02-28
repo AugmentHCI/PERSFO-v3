@@ -108,7 +108,7 @@ export const FoodPreferencesContext = ({ recipe }) => {
             </h1>
             <div style={{
                 overflowY: "scroll",
-                height: componentHeight - 325 - 65 - 30 - 60 + "px",
+                height: componentHeight - 360 - 65 - 30 - 60 + "px",
             }}>
                 <p className={classes.auxiliaryText}>
                     Deze maaltijd heeft een match van <span className={classes.statNum}>{" " + Math.round(cosineSimilarity * 100) + "% "}</span> met je eerder gekozen maaltijden.

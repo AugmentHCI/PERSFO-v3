@@ -64,7 +64,7 @@ export const IngredientsContent = ({ recipe }) => {
             <h1 className={classes.subtitle}>{" "}{i18n.__("general.ingredients")}{" "}</h1>
             <div style={{
                 overflowY: "scroll",
-                height: componentHeight - 325 - 65 - 30 - 60 + "px"
+                height: componentHeight - 360 - 65 - 30 - 60 + "px"
             }}>
                 <div
                     style={{

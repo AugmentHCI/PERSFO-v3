@@ -88,7 +88,7 @@ export const Food4MeContent = ({ recipe }) => {
             </h1>
             <div style={{
                 overflowY: "scroll",
-                height: componentHeight - 325 - 65 - 30 - 60 + "px",
+                height: componentHeight - 360 - 65 - 30 - 60 + "px",
             }}>
                 {lowExplanations.length > 0 ?
                     <>

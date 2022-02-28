@@ -13,7 +13,7 @@ import { IngredientCollection } from '/imports/db/ingredients/IngredientCollecti
 import { RecommendedRecipes } from '/imports/db/recommendedRecipes/RecommendedRecipes';
 import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
 import { HexadCollection } from "/imports/db/surveys/HexadCollection";
-
+import { DietaryRecommendations } from '/imports/db/dietaryRecommendations/DietaryRecommendations';
 
 // hack to create the RecipesCollection. Upsert does not create a collection.
 RecipesCollection.insert({

@@ -1,17 +1,20 @@
 import { Tab, Tabs } from "@material-ui/core/";
 import { red } from "@material-ui/core/colors";
+import Snackbar from "@material-ui/core/Snackbar";
 import { makeStyles } from "@material-ui/core/styles";
+import CheckIcon from "@material-ui/icons/Check";
 import WarningRoundedIcon from '@material-ui/icons/WarningRounded';
+import MuiAlert from "@material-ui/lab/Alert";
 import { useTracker } from "meteor/react-meteor-data";
 import React, { useState } from "react";
 import { LikeButton } from "./components/LikeButton";
 import { OrderButton } from "./components/OrderButton";
 import { getNutriscoreImage } from "/imports/api/apiPersfo";
-import { getRecipePrice } from "/imports/api/auxMethods";
+import { getRecipePrice, getDietaryRecommendation } from "/imports/api/auxMethods";
 import { UserPreferences } from '/imports/db/userPreferences/UserPreferences';
 
 const componentName = "DetailScreen";
-export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTitles, translatedName }) => {
+export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTitles, translatedName, recommended }) => {
   const [componentHeight, setComponentHeight] = useState(window.innerHeight);
   const [heightBuffer, setHeightBuffer] = useState(window.innerHeight >= 640 ? 60 : 0);
 
@@ -64,7 +67,7 @@ export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTi
       fontSize: "32px",
     },
     tabContent: {
-      height: componentHeight - 325 - 65 - heightBuffer + "px",
+      height: componentHeight - 360 - 65 - heightBuffer + "px",
       background: "white",
       padding: "8px",
       fontSize: "14px",
@@ -88,22 +91,29 @@ export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTi
     Meteor.call("log", componentName, "changeTab", navigator.userAgent, newValue);
   };
 
-  const { status } = useTracker(() => {
+  const { status, userPreferences } = useTracker(() => {
     const noDataAvailable = {
-      status: "test"
+      status: "test",
+      userPreferences: {}
     };
     const handler = Meteor.subscribe("userpreferences");
 
     if (!Meteor.user() || !handler.ready()) {
-        return { ...noDataAvailable, isLoading: true };
+      return { ...noDataAvailable, isLoading: true };
     }
 
     const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
 
     const status = userPreferences.ffqAnswers.status_survey;
 
-    return {  status };
-});
+    return { status, userPreferences };
+  });
+
+  // Thank you message
+  function Alert(props) {
+    return <MuiAlert elevation={6} variant="filled" {...props} />;
+  }
+  const [toastShown, setToast] = useState(true);
 
   if (recipe) {
     return (
@@ -165,6 +175,19 @@ export const DetailScreen = ({ recipe, allergensPresent, renderTabContent, tabTi
           {renderTabContent(tabValue)}
         </div>
         <OrderButton recipe={recipe} allergensPresent={allergensPresent} floating={true}></OrderButton>
+        <Snackbar
+          open={toastShown}
+          autoHideDuration={6000}
+          onClose={() => setToast(false)}
+        >
+          <Alert
+            onClose={() => setToast(false)}
+            icon={<CheckIcon fontSize="inherit" />}
+            variant="outlined"
+            severity="warning">
+            { getDietaryRecommendation(recipe, userPreferences, recommended) }
+          </Alert>
+        </Snackbar>
       </div>
     )
   } else {

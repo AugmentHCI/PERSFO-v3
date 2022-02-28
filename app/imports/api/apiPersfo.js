@@ -81,37 +81,37 @@ export function initData() {
   let allIngredients = [];
   let ingredientIndex = 0;
 
-  Meteor.setInterval(function () {
-    console.log("initData: regular updated started: " + new Date());
-    // start the interval with the first recipe
-    index = 0;
-    allIngredients = [];
-    ingredientIndex = 0;
-    updateRecipeDetails();
+  // Meteor.setInterval(function () {
+  //   console.log("initData: regular updated started: " + new Date());
+  //   // start the interval with the first recipe
+  //   index = 0;
+  //   allIngredients = [];
+  //   ingredientIndex = 0;
+  //   updateRecipeDetails();
 
-  }, 50 * 60 * 1000);
+  // }, 50 * 60 * 1000);
 
-  updateRecipeDetails();
+  // updateRecipeDetails();
   console.log("initData: reciped loadings started: " + new Date());
 
-  try {
-    // update food4me data on each app run
-    const userPreferences = UserPreferences.find({}).fetch();
-    userPreferences.forEach(pref => {
-      // update food4me data
-      food4me(pref.ffqAnswers, pref.userid);
+  // try {
+  //   // update food4me data on each app run
+  //   const userPreferences = UserPreferences.find({}).fetch();
+  //   userPreferences.forEach(pref => {
+  //     // update food4me data
+  //     food4me(pref.ffqAnswers, pref.userid);
 
-      // create export collection for study
-      if (pref.ffqAnswers && pref.ffqAnswers?.status_survey !== "test") {
-        QIBCollection.upsert({ userid: pref.userid }, { userid: pref.userid, ffq: pref.ffqAnswers, food4me: pref.food4me });
-      }
-    });
-    console.log("Food4me update done: " + new Date());
-  } catch (error) {
-    console.log("update in production update: " + new Date());
-    console.log(error);
-  }
-
+  //     // create export collection for study
+  //     // todo: bug: old values are saved in export (asynchronous call)
+  //     if (pref.ffqAnswers && pref.ffqAnswers?.status_survey !== "test") {
+  //       QIBCollection.upsert({ userid: pref.userid }, { userid: pref.userid, ffq: pref.ffqAnswers, food4me: pref.food4me });
+  //     }
+  //   });
+  //   console.log("Food4me update done: " + new Date());
+  // } catch (error) {
+  //   console.log("update in production update: " + new Date());
+  //   console.log(error);
+  // }
 
   // function to fetch data in intervals
   function updateRecipeDetails() {

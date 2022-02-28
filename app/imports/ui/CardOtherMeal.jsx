@@ -1,5 +1,4 @@
 import {
-  Button,
   Card,
   CardActionArea,
   CardActions,
@@ -9,11 +8,11 @@ import {
 } from "@material-ui/core/";
 import { red } from "@material-ui/core/colors";
 import { makeStyles } from "@material-ui/core/styles";
-import FavoriteIcon from "@material-ui/icons/Favorite";
 import React from "react";
+import { LikeButton } from "./components/LikeButton";
 import { OrderButton } from "./components/OrderButton";
 import { getImage, getNutriscoreImage } from "/imports/api/apiPersfo";
-import { LikeButton } from "./components/LikeButton";
+
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -88,34 +87,36 @@ export const CardOtherMeal = ({ recipe, handleDetailsClick, allergensPresent, di
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
-      <CardActionArea
-        className={classes.cardTop}
-        onClick={() => handleDetailsClick()}
-      >
-        <CardMedia className={classes.menuImage} image={getImage(recipe)} />
-        <CardContent className={classes.cardContent}>
-          <Typography className={
-            (allergensPresent || dietaryConflict) ?
-              classes.menuTitleWarning
-              :
-              classes.menuTitle
-          }>
-            {String(translatedName).length > 36
-              ? translatedName.slice(0, 36) + "..."
-              : translatedName}
-          </Typography>
-          <img
-            className={classes.nutriscoreImage}
-            src={getNutriscoreImage(recipe)}
-          />
-        </CardContent>
-      </CardActionArea>
+    <>
+      <Card className={classes.root}>
+        <CardActionArea
+          className={classes.cardTop}
+          onClick={() => handleDetailsClick()}
+        >
+          <CardMedia className={classes.menuImage} image={getImage(recipe)} />
+          <CardContent className={classes.cardContent}>
+            <Typography className={
+              (allergensPresent || dietaryConflict) ?
+                classes.menuTitleWarning
+                :
+                classes.menuTitle
+            }>
+              {String(translatedName).length > 36
+                ? translatedName.slice(0, 36) + "..."
+                : translatedName}
+            </Typography>
+            <img
+              className={classes.nutriscoreImage}
+              src={getNutriscoreImage(recipe)}
+            />
+          </CardContent>
+        </CardActionArea>
 
-      <CardActions className={classes.cardActions}>
-        <LikeButton recipe={recipe}></LikeButton>
-        <OrderButton recipe={recipe} allergensPresent={allergensPresent} dietaryConflict={dietaryConflict}></OrderButton>
-      </CardActions>
-    </Card >
+        <CardActions className={classes.cardActions}>
+          <LikeButton recipe={recipe}></LikeButton>
+          <OrderButton recipe={recipe} allergensPresent={allergensPresent} dietaryConflict={dietaryConflict}></OrderButton>
+        </CardActions>
+      </Card >
+    </>
   );
 };

@@ -314,6 +314,7 @@ export const App = () => {
                       translatedName={GetOpenRecommenderExplanations[2]}
                       renderTabContent={renderExplanationTabContent}
                       tabTitles={[i18n.__("general.questionnaire"), i18n.__("general.preferences"), i18n.__("general.popularity")]}
+                      recommended={true}
                     />
                   );
                 }
@@ -356,6 +357,7 @@ export const App = () => {
                     translatedName={GetOpenMealDetails[2]}
                     renderTabContent={renderMealScreenTabContent}
                     tabTitles={[i18n.__("general.nutrients"), i18n.__("general.ingredients"), i18n.__("general.allergens")]}
+                    recommended={recommendedRecipe.id == GetOpenMealDetails[0].id}
                   />
                 );
               }

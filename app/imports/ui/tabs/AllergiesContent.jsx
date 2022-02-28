@@ -82,7 +82,7 @@ export const AllergiesContent = ({ recipe }) => {
     return (
         <>
             <h1 className={classes.subtitle}>Allergens</h1>
-            <div style={{ overflowY: "scroll", height: componentHeight - 325 - 65 - 30 - 60 + "px" }}>
+            <div style={{ overflowY: "scroll", height: componentHeight - 360 - 65 - 30 - 60 + "px" }}>
                 <div
                     style={{
                         display: "flex",

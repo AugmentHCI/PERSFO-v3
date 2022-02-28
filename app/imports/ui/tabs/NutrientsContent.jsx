@@ -103,7 +103,7 @@ export const NutrientsContent = ({ recipe }) => {
             <div
                 style={{
                     overflowY: "scroll",
-                    height: componentHeight - 325 - 65 - 30 - 60 + "px",
+                    height: componentHeight - 360 - 65 - 30 - 60 + "px",
                 }}
             >
                 {noData}
