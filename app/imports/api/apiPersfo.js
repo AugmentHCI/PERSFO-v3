@@ -1,9 +1,12 @@
 import { MenusCollection } from "/imports/db/menus/MenusCollection";
 import { RecipesCollection } from "/imports/db/recipes/RecipesCollection";
 import { IngredientCollection } from '/imports/db/ingredients/IngredientCollection';
-import { HexadCollection } from "../db/surveys/HexadCollection";
+import { HexadCollection } from "/imports/db/surveys/HexadCollection";
+import { UserPreferences } from "/imports/db/userPreferences/UserPreferences"
 import { capitalizeFirstLetter, getENComposition } from "/imports/api/auxMethods";
 import { LAST_MENU_UPDATE } from "./methods";
+import { food4me } from '/imports/api/apiFFQ';
+import { QIBCollection } from "../db/exportCollections/QIBCollection";
 
 const token = "f5mLzZY8WSFM9LqiXF6R19VdUZtUHv";
 const url = "https://www.apicbase.com/api/v1/recipes/";
@@ -25,7 +28,7 @@ export function initData() {
 
     // full menu in Beerse
     // menu.location = "beerse";
-    MenusCollection.upsert({ starting_date: menu.starting_date, location:"beerse" }, { $set: menu });
+    MenusCollection.upsert({ starting_date: menu.starting_date, location: "beerse" }, { $set: menu });
 
     // refresh all recipe data
     menu.courses.forEach((course) => {
@@ -37,7 +40,7 @@ export function initData() {
     // limited menu in Geel
     // menu.location = "geel";
     menu.courses = _.filter(menu.courses, c => c.name.toLowerCase().indexOf("modern recipe") < 0);
-    MenusCollection.upsert({ starting_date: menu.starting_date, location:"geel" }, { $set: menu });
+    MenusCollection.upsert({ starting_date: menu.starting_date, location: "geel" }, { $set: menu });
   });
 
   allRecipeIds = [...new Set(allRecipeIds)];
@@ -74,10 +77,6 @@ export function initData() {
 
   console.log("initData: hexad loaded: " + new Date());
 
-  // TODO check if needed
-  // const oldRecipeIds = _.map(RecipesCollection.find({}).fetch(), r => r.id);
-  // allRecipeIds = allRecipeIds.concat(oldRecipeIds);
-
   let index = 0;
   let allIngredients = [];
   let ingredientIndex = 0;
@@ -94,6 +93,25 @@ export function initData() {
 
   updateRecipeDetails();
   console.log("initData: reciped loadings started: " + new Date());
+
+  try {
+    // update food4me data on each app run
+    const userPreferences = UserPreferences.find({}).fetch();
+    userPreferences.forEach(pref => {
+      // update food4me data
+      food4me(pref.ffqAnswers, pref.userid);
+
+      // create export collection for study
+      if (pref.ffqAnswers && pref.ffqAnswers?.status_survey !== "test") {
+        QIBCollection.upsert({ userid: pref.userid }, { userid: pref.userid, ffq: pref.ffqAnswers, food4me: pref.food4me });
+      }
+    });
+    console.log("Food4me update done: " + new Date());
+  } catch (error) {
+    console.log("update in production update: " + new Date());
+    console.log(error);
+  }
+
 
   // function to fetch data in intervals
   function updateRecipeDetails() {
@@ -231,7 +249,7 @@ export function initData() {
                 .trim()
                 .replace(/\[|\]/g, "")
                 .replace(/(^'+|'+$)/mg, "")
-                .replace(/\./g,"")
+                .replace(/\./g, "")
                 .toLowerCase()));
               cleanedIngredients.push(tempIngredients);
             }
@@ -245,7 +263,7 @@ export function initData() {
                 .trim()
                 .replace(/\[|\]/g, "")
                 .replace(/(^'+|'+$)/mg, "")
-                .replace(/\./g,"")
+                .replace(/\./g, "")
                 .toLowerCase()));
               cleanedIngredientsEN.push(tempIngredients);
             }
