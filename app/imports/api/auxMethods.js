@@ -167,7 +167,6 @@ export function getDietaryRecommendation(recipe, userPreferences, recommended) {
   let shuffled = _.shuffle(dietaryRecommendations);
   for (let i = 0; i < shuffled.length; i++) {
     if (shuffled[i].condition(recipe, userPreferences, recommended)) {
-      console.log(recommended)
       return shuffled[i].adviseEN;
     }
   }
