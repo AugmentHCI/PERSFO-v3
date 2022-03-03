@@ -24,7 +24,6 @@ export const SurveyForm = () => {
         const userPreferences = UserPreferences.findOne({ userid: Meteor.userId() });
         const surveysCollection = HexadCollection.findOne({id:"1"});
 
-
         const language = userPreferences.languageChosen;
 
         let status = surveysCollection.statusQuestionSurvey

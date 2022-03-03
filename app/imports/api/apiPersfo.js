@@ -75,6 +75,12 @@ export function initData() {
   let hexadENQuestions = JSON.parse(Assets.getText("data/surveys/hexad-en.json"));
   HexadCollection.upsert({ id: "1" }, { $set: { hexadSurveyEN: hexadENQuestions, hexadVersion: "1" } });
 
+  // init resque
+  // let hexadQuestions = JSON.parse(Assets.getText("data/surveys/hexad-nl.json"));
+  // HexadCollection.upsert({ id: "1" }, { $set: { hexadSurvey: hexadQuestions, hexadVersion: "1" } });
+  let resqueENQuestions = JSON.parse(Assets.getText("data/surveys/resque-en.json"));
+  HexadCollection.upsert({ id: "1" }, { $set: { resqueSurveyEN: resqueENQuestions, resqueVersion: "1" } });
+
   console.log("initData: hexad loaded: " + new Date());
 
   let index = 0;
@@ -94,24 +100,24 @@ export function initData() {
   updateRecipeDetails();
   console.log("initData: reciped loadings started: " + new Date());
 
-  try {
-    // update food4me data on each app run
-    const userPreferences = UserPreferences.find({}).fetch();
-    userPreferences.forEach(pref => {
-      // update food4me data
-      food4me(pref.ffqAnswers, pref.userid);
+  // try {
+  //   // update food4me data on each app run
+  //   const userPreferences = UserPreferences.find({}).fetch();
+  //   userPreferences.forEach(pref => {
+  //     // update food4me data
+  //     food4me(pref.ffqAnswers, pref.userid);
 
-      // create export collection for study
-      // todo: bug: old values are saved in export (asynchronous call)
-      if (pref.ffqAnswers && pref.ffqAnswers?.status_survey !== "test") {
-        QIBCollection.upsert({ userid: pref.userid }, { userid: pref.userid, ffq: pref.ffqAnswers, food4me: pref.food4me });
-      }
-    });
-    console.log("Food4me update done: " + new Date());
-  } catch (error) {
-    console.log("update in production update: " + new Date());
-    console.log(error);
-  }
+  //     // create export collection for study
+  //     // todo: bug: old values are saved in export (asynchronous call)
+  //     if (pref.ffqAnswers && pref.ffqAnswers?.status_survey !== "test") {
+  //       QIBCollection.upsert({ userid: pref.userid }, { userid: pref.userid, ffq: pref.ffqAnswers, food4me: pref.food4me });
+  //     }
+  //   });
+  //   console.log("Food4me update done: " + new Date());
+  // } catch (error) {
+  //   console.log("update in production update: " + new Date());
+  //   console.log(error);
+  // }
 
   // function to fetch data in intervals
   function updateRecipeDetails() {

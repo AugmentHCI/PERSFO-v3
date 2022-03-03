@@ -9,6 +9,7 @@ import { AuthenticationScreen } from "./AuthenticationScreen";
 import { DetailScreen } from "./DetailScreen";
 import { Done } from "./Done";
 import { Feedback } from "./Feedback";
+import { FinalSurveyForm } from "./FinalSurveyForm";
 import { LanguageSurveyForm } from "./LanguageSurveyForm";
 import { Onboarding } from "./Onboarding";
 import { Preferences } from "./Preferences";
@@ -370,6 +371,7 @@ export const App = () => {
       renderScreen = <AuthenticationScreen />;
     }
 
+    return <FinalSurveyForm></FinalSurveyForm>
     return renderScreen;
   };
 

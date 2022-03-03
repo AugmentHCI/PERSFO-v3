@@ -81,6 +81,40 @@ Meteor.methods({
         const userID = this.userId; // needed because this is different in HTTP call.
         food4me(ffqAnswers, userID);
     },
+    "users.saveFinalSurvey"(SurveyAnswers) {
+        check(SurveyAnswers, Object);
+
+        if (!this.userId) {
+            throw new Meteor.Error("Not authorized.");
+        }
+
+        const cleanedData = Object.keys(SurveyAnswers)
+            .filter(key => !key.includes("page"))
+            .reduce((obj, key) => {
+                obj[key] = SurveyAnswers[key];
+                return obj;
+            }, {});
+
+        const ffqAnswers = Object.keys(cleanedData)
+            .filter(key => !key.includes("resque"))
+            .reduce((obj, key) => {
+                obj[key] = cleanedData[key];
+                return obj;
+            }, {});
+
+        // duplication of above needed because object and not an array
+        const resqueAnswers = Object.keys(cleanedData)
+            .filter(key => key.includes("resque"))
+            .reduce((obj, key) => {
+                obj[key] = cleanedData[key];
+                return obj;
+            }, {});
+
+        UserPreferences.upsert(
+            { userid: this.userId },
+            { $set: { finalFfqAnswers: ffqAnswers, resqueAnswers: resqueAnswers } }
+        );
+    },
     "users.savePartialSurvey"(SurveyAnswers) {
         check(SurveyAnswers, Object);
 
@@ -91,6 +125,18 @@ Meteor.methods({
         UserPreferences.upsert(
             { userid: this.userId },
             { $set: { partialAnswers: SurveyAnswers } }
+        );
+    },
+    "users.savePartialFinalSurvey"(SurveyAnswers) {
+        check(SurveyAnswers, Object);
+
+        if (!this.userId) {
+            throw new Meteor.Error("Not authorized.");
+        }
+
+        UserPreferences.upsert(
+            { userid: this.userId },
+            { $set: { partialFinalAnswers: SurveyAnswers } }
         );
     },
     "users.updateLanguage"(languageBoolean) {
