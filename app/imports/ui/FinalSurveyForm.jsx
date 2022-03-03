@@ -25,7 +25,7 @@ export const FinalSurveyForm = () => {
         const language = userPreferences.languageChosen;
 
         let surveyFFQ = surveysCollection.ffqSurvey;
-        let surveys = surveysCollection.resqueSurveyEN; //todo
+        let surveys = surveysCollection.resqueSurvey;
 
         if (language == "en") {
             surveyFFQ = surveysCollection.ffqSurveyEN;

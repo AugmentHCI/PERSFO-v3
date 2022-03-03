@@ -8,7 +8,7 @@ import { LAST_MENU_UPDATE } from "./methods";
 import { food4me } from '/imports/api/apiFFQ';
 import { QIBCollection } from "../db/exportCollections/QIBCollection";
 
-const token = "f5mLzZY8WSFM9LqiXF6R19VdUZtUHv";
+const token = "POC5dorntCmUvveOgDglk9HtlqEy42";
 const url = "https://www.apicbase.com/api/v1/recipes/";
 const API_LOGS = false;
 
@@ -76,8 +76,8 @@ export function initData() {
   HexadCollection.upsert({ id: "1" }, { $set: { hexadSurveyEN: hexadENQuestions, hexadVersion: "1" } });
 
   // init resque
-  // let hexadQuestions = JSON.parse(Assets.getText("data/surveys/hexad-nl.json"));
-  // HexadCollection.upsert({ id: "1" }, { $set: { hexadSurvey: hexadQuestions, hexadVersion: "1" } });
+  let resqueQuestions = JSON.parse(Assets.getText("data/surveys/resque-nl.json"));
+  HexadCollection.upsert({ id: "1" }, { $set: { resqueSurvey: resqueQuestions, resqueVersion: "1" } });
   let resqueENQuestions = JSON.parse(Assets.getText("data/surveys/resque-en.json"));
   HexadCollection.upsert({ id: "1" }, { $set: { resqueSurveyEN: resqueENQuestions, resqueVersion: "1" } });
 

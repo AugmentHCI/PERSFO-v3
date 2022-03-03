@@ -1,39 +1,39 @@
 {
     "ID": "1",
-    "Title": "Thank you very much for participating in the PERSFO study!",
-    "Subtitle": "First, you will be asked about your experience with the app. Finally, you will be asked to fill in the Food Frequence Questionnaire one last time. At the end of the survey, you will receive a code you can redeem for your thank you gift!",
+    "Title": "Heel erg bedankt voor uw deelname aan de PERSFO studie!",
+    "Subtitle": "Eerst zal u gevraagd worden naar uw ervaringen met de applicatie. Daarna zal u gevraagd worden om een laatste keer de food-frequency vragenlijst in te vullen (zodat we u een recent persoonlijk rapport kunnen opstellen). Op het einde van de vragenlijsten zal u een persoonlijke code ontvangen die u kan doorgeven voor uw bedankje!",
     "CombinedQuestions": null,
     "Questions": [
         {
-            "Title": "The meals recommended to me matched my food preferences",
+            "Title": "De maaltijden die mij werden aanbevolen, kwamen overeen met mijn voedselvoorkeuren.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -43,35 +43,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This recommender system gave me good suggestions",
+            "Title": "Dit aanbevelingssysteem gaf me goede suggesties.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -81,35 +81,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This recommender system helped me discover new meals.",
+            "Title": "Dit aanbevelingssysteem heeft me geholpen nieuwe maaltijden te ontdekken.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -119,35 +119,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "The meals recommended to me are diverse.",
+            "Title": "De maaltijden die mij worden aanbevolen zijn divers.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -157,35 +157,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I was only provided with general recommendations (e.g., most health meals), which are the same for anyone.",
+            "Title": "Ik kreeg alleen algemene aanbevelingen (bijvoorbeeld de meeste gezondheide maaltijden), die voor iedereen hetzelfde zijn.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -195,35 +195,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This recommender system allows me to tell what I like/dislike",
+            "Title": "Met dit aanbevelingssysteem kan ik zeggen wat ik wel/niet leuk vind.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -233,35 +233,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This recommender system explains why the meals are recommended to me.",
+            "Title": "Dit aanbevelingssysteem legt uit waarom de maaltijden worden aanbevolen.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -271,35 +271,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "The information provided for the recommended meals is sufficient for me to make a decision.",
+            "Title": "De informatie voor de aanbevolen maaltijden is voldoende voor mij om een beslissing te nemen.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -309,35 +309,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "The labels of this recommender system interface are clear.",
+            "Title": "De labels van deze aanbevelingsinterface zijn duidelijk.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -347,35 +347,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "The labels of this recommender system interface are adequate.",
+            "Title": "De labels van deze aanbevelingsinterface zijn voldoende.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -385,35 +385,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I found it easy to tell this recommender system what I like/dislike.",
+            "Title": "Ik vond het gemakkelijk om dit aanbevelingssysteem te vertellen wat ik wel/niet leuk vind.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -423,35 +423,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I found it easy to make this recommender system recommend new meals to me.",
+            "Title": "Ik vond het gemakkelijk mij nieuwe maaltijden aan te laten aanbevelen.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -461,35 +461,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I became familiar with this recommender system very quickly.",
+            "Title": "Ik raakte heel snel bekend met dit aanbevelingssysteem.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -499,35 +499,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This recommender system helped me find the ideal meal.",
+            "Title": "Dit aanbevelingssysteem heeft me geholpen de ideale maaltijd te vinden.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -537,35 +537,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This recommender system influenced my selection of meals.",
+            "Title": "Dit aanbevolen systeem heeft mijn selectie van maaltijden beïnvloed.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -575,35 +575,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "Using this recommender system to find what I like is easy.",
+            "Title": "Het gebruik van dit aanbevelingssysteem om te vinden wat ik lekker vind, is eenvoudig.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -613,35 +613,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "Finding a meal to eat with the help of this recommender system is easy.",
+            "Title": "Het vinden van een maaltijd met behulp van dit aanbevelingssysteem is eenvoudig.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -651,35 +651,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I feel in control of telling this recommender system what I want.",
+            "Title": "Ik heb de controle over dit aanbevelingssysteem wat ik wil.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -689,35 +689,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I understood why the meals were recommended to me.",
+            "Title": "Ik begreep waarom de maaltijden mij werden aanbevolen.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -727,35 +727,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This system's recommender system seems to control my decision process rather than me.",
+            "Title": "Het aanbevelingssysteem van dit systeem lijkt mijn besluitvormingsproces te beheersen in plaats van mijzelf.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -765,35 +765,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "Overall, I am satisfied with this recommender system.",
+            "Title": "Over het algemeen ben ik tevreden met dit aanbevelingssysteem.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -803,35 +803,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I am convinced of the meals recommended to me.",
+            "Title": "Ik ben overtuigd van de maaltijden die mij worden aanbevolen.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -841,35 +841,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I am confident I will like the meals recommended to me.",
+            "Title": "Ik ben ervan overtuigd dat ik de maaltijden die mij worden aanbevolen, lekker zal vinden.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -879,35 +879,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This recommender system made me more confident about my selection/decision.",
+            "Title": "Dit aanbevelingssysteem gaf me meer vertrouwen in mijn selectie/beslissing.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -917,35 +917,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "The recommended items made me confused about my choice.",
+            "Title": "De aanbevolen maaltijden maakten me in de war over mijn keuze.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -955,35 +955,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "This recommender system can be trusted.",
+            "Title": "Dit aanbevelingssysteem kan worden vertrouwd.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -993,35 +993,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I will use this recommender to find meals to eat.",
+            "Title": "Ik zal dit systeem gebruiken om maaltijden te vinden.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -1031,35 +1031,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I will use this recommender again.",
+            "Title": "Ik zou dit systeem opnieuw gebruiken.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -1069,35 +1069,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I will use this recommender frequently.",
+            "Title": "Ik zou dit systeem vaak gebruiken.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
@@ -1107,35 +1107,35 @@
             "DisabledWhen": null
         },
         {
-            "Title": "I will tell my friends about this recommender.",
+            "Title": "Ik zal mijn vrienden over dit systeem vertellen.",
             "Answers": [
                 {
                     "Value": "-3",
-                    "Answer": "Strongly disagree"
+                    "Answer": "Helemaal oneens"
                 },
                 {
                     "Value": "-2",
-                    "Answer": "Disagree"
+                    "Answer": "Oneens"
                 },
                 {
                     "Value": "-1",
-                    "Answer": "Somewhat disagree"
+                    "Answer": "Eerder oneens"
                 },
                 {
                     "Value": "0",
-                    "Answer": "Neither agree nor disagree"
+                    "Answer": "Neutraal"
                 },
                 {
                     "Value": "1",
-                    "Answer": "Somewhat agree"
+                    "Answer": "Eerder eens"
                 },
                 {
                     "Value": "2",
-                    "Answer": "Agree"
+                    "Answer": "Eens"
                 },
                 {
                     "Value": "3",
-                    "Answer": "Strongly agree"
+                    "Answer": "Helemaal eens"
                 }
             ],
             "Enabled": true,
