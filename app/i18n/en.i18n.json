@@ -170,5 +170,11 @@
         "plus_part_2": ".",
         "min_part_1": "You already eat a lot of",
         "min_part_2": "this meal is low in:"
+    },
+    "finished": {
+        "thanks": "Thank you very much for participating in this study!",
+        "personal_code": "Your personal code is:",
+        "download": "Download your personal report here:",
+        "report": "My report"
     }
 }

@@ -170,5 +170,11 @@
         "plus_part_2": " te nuttigen. Deze maaltijd is rijk aan:",
         "min_part_1": "Je krijgt al veel",
         "min_part_2": "binnen, deze maaltijd is daarom arm aan:"
+    },
+    "finished": {
+        "thanks": "Heel erg bedankt voor uw deelname aan deze studie!",
+        "personal_code": "Uw persoonlijke code is:",
+        "download": "Download hieronder uw persoonlijk rapport:",
+        "report": "Mijn rapport"
     }
 }

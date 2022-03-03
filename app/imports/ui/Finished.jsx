@@ -45,20 +45,17 @@ export const Finished = () => {
     return (
         <Container>
             <Typography className={classes.header} variant="body1">
-                {/* {i18n.__("done.thanks")} */}
-                Heel erg bedankt voor uw deelname aan deze studie!
+                {i18n.__("finished.thanks")}
             </Typography>
             <Typography className={classes.header} variant="body1">
-                {/* {i18n.__("done.thanks")} */}
-                Uw persoonlijke code is:
+                {i18n.__("finished.personal_code")}
             </Typography>
             <Typography align="center" variant="h3">{code}</Typography>
             <Typography className={classes.header} variant="body1">
-                {/* {i18n.__("done.thanks")} */}
-                Download hieronder uw persoonlijk rapport.
+                {i18n.__("finished.download")}
             </Typography>
             <Box textAlign='center'>
-                <Link variant="h3" href={report}>Mijn rapport</Link>
+                <Link variant="h3" href={report}>{i18n.__("finished.report")}</Link>
             </Box>
         </Container>
     );
