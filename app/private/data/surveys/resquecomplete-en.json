@@ -1,0 +1,1642 @@
+{
+    "ID": "1",
+    "Title": "Resque Questionnaire",
+    "Subtitle": "Thank you very much for participating in the PERSFO study! With this final questionnaire we aim to improve the recommender algorithm in the future.",
+    "CombinedQuestions": null,
+    "Questions": [
+        {
+            "Title": "The items recommended to me matched my interests",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-1-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system gave me good suggestions",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-1-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The recommendations I received better fits my interests than what I may receive from a friend.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-2-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The items recommended to me are attractive.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-4-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The items recommended to me are novel.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-5-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system helped me discover new products.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-5-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The items recommended to me are diverse.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-6-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The items recommended to me are similar to each other.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-6-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I was only provided with general recommendations (e.g., top rated products), which are the same for anyone.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-1-7-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system allows me to tell what I like/dislike",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-2-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system allows me to modify my taste profile.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-2-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system explains why the products are recommended to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-2-3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The information provided for the recommended items is sufficient for me to make a purchase decision.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-3-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The labels of this recommender system interface are clear.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-3-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The labels of this recommender system interface are adequate.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-3-3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The layout of this recommender system interface is attractive.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-3-4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The layout of this recommender system interface is adequate.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-3-5",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I found it easy to tell this recommender system what I like/dislike.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-4-1-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I found it easy to modify my taste profile in this recommender system.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-4-1-",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I found it easy to make this recommender system recommend new items to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-4-1-3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I found it easy to inform the system if I dislike/like the recommended item.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-4-1-4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I became familiar with this recommender system very quickly.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-4-2-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I easily found the recommended items.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-4-2-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system helped me find the ideal item.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-5-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system influenced my selection of items.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-5-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Using this recommender system to find what I like is easy.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-5-3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Finding an item to buy/download with the help of this recommender system is easy.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-5-4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I feel in control of telling this recommender system what I want.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-6-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I feel in control of modifying my taste profile.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-6-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I understood why the items were recommended to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-6-3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This system's recommender system seems to control my decision process rather than me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-6-4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "Overall, I am satisfied with this recommender system.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-7-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I am convinced of the items recommended to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-7-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I am confident I will like the items recommended to me.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-7-3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system made me more confident about my selection/decision.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-7-4",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "The recommended items made me confused about my choice.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-7-5",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "This recommender system can be trusted.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-7-6",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I will use this recommender to find items to buy/download.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-8-1-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I will use this recommender again.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-8-2-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I will use this recommender frequently.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-8-2-2",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I will use this recommender rather than other recommenders.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-8-2-3",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I will tell my friends about this recommender.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-8-3-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        },
+        {
+            "Title": "I would buy the items recommended, given the opportunity.",
+            "Answers": [
+                {
+                    "Value": "-3",
+                    "Answer": "Strongly disagree"
+                },
+                {
+                    "Value": "-2",
+                    "Answer": "Disagree"
+                },
+                {
+                    "Value": "-1",
+                    "Answer": "Somewhat disagree"
+                },
+                {
+                    "Value": "0",
+                    "Answer": "Neither agree nor disagree"
+                },
+                {
+                    "Value": "1",
+                    "Answer": "Somewhat agree"
+                },
+                {
+                    "Value": "2",
+                    "Answer": "Agree"
+                },
+                {
+                    "Value": "3",
+                    "Answer": "Strongly agree"
+                }
+            ],
+            "Enabled": true,
+            "QuestionType": 0,
+            "ID": "resque-8-4-1",
+            "DependsOn": null,
+            "DisabledWhen": null
+        }
+    ]
+}
