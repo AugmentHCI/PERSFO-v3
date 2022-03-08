@@ -26,8 +26,9 @@ export const Finished = () => {
         const noDataAvailable = { code: "", report: "" };
 
         const preferencesHandler = Meteor.subscribe("userpreferences");
+        const ordersHandler = Meteor.subscribe("orders");
 
-        if (!Meteor.user() || !preferencesHandler.ready()) {
+        if (!Meteor.user() || !preferencesHandler.ready() || !ordersHandler.ready()) {
             return { ...noDataAvailable, isLoading: true };
         }
 

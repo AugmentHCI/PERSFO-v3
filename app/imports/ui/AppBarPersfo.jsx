@@ -7,6 +7,7 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { useTracker } from "meteor/react-meteor-data";
 import i18n from 'meteor/universe:i18n';
 import React, { useEffect, useState } from "react";
+import { TOKEN_ADMIN } from "../api/methods";
 import { AdherenceTimeline } from "./AdherenceTimeline";
 import { PersfoDrawer } from "./PersfoDrawer";
 import { ShoppingBasket } from "./ShoppingBasket";
@@ -131,6 +132,7 @@ export const AppBarPersfo = ({ drawerOpen, toggleDrawer, shoppingBasketdrawerOpe
 
   const switchHeader = () => {
     if (!user) return i18n.__("AppBarPersfo.welcome");
+    if (user.username == TOKEN_ADMIN) return "Tokens";
     if (GetOpenMealDetails !== null || GetOpenRecommenderExplanations !== null) return ""; // no title, meal image is displayed
 
     if (!icfFinished) return i18n.__("AppBarPersfo.icf");
