@@ -53,9 +53,9 @@ export const FinishedTokens = () => {
 
     return (
         <Container>
-            <ul>
+            <ol>
                 {codes.map((code, i) => <Code key={"code-" + i} code={code} />)}
-            </ul>
+            </ol>
             <Button type="submit"
                 variant="contained"
                 color="primary"
