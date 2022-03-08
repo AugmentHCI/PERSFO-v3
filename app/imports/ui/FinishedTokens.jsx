@@ -39,7 +39,9 @@ export const FinishedTokens = () => {
             let orders = OrdersCollection.find({ userid: prefs.userid }).fetch();
             let confirmedOrders = OrdersCollection.find({ userid: prefs.userid, confirmed: true }).fetch();
 
-            codes.push((confirmedOrders?.length + 7) + "-" + prefs.finished.substring(0, 8) + "-" + (orders?.length + 13));
+            // querying subfields not supported yet in mongo driver
+            if (prefs.ffqAnswers?.status_survey !== "test")
+                codes.push((confirmedOrders?.length + 7) + "-" + prefs.finished.substring(0, 8) + "-" + (orders?.length + 13));
         });
 
         console.log(codes)
