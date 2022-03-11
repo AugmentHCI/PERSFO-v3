@@ -21,9 +21,11 @@
     "meteor-node-stubs": "^1.1.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-likert": "^0.8.0",
     "showdown": "^1.9.1",
     "survey-react": "^1.9.1",
-    "surveyjs": "^3.0.2"
+    "surveyjs": "^3.0.2",
+    "ua-parser-js": "^1.0.2"
   },
   "meteor": {
     "mainModule": {
