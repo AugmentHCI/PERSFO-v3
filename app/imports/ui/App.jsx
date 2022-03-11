@@ -4,7 +4,8 @@ import { createTheme, makeStyles } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 import { useTracker } from "meteor/react-meteor-data";
 import React, { useState } from "react";
-import { TOKEN_ADMIN } from "../api/methods";
+import { ANALYTICS_ADMIN, TOKEN_ADMIN } from "../api/methods";
+import { AnalyticsScreen } from "./AnalyticsScreen";
 import { AppBarPersfo } from "./AppBarPersfo";
 import { AuthenticationScreen } from "./AuthenticationScreen";
 import { DetailScreen } from "./DetailScreen";
@@ -288,101 +289,107 @@ export const App = () => {
     let renderScreen = <div>{isLoading && <CircularProgress />}</div>;
     if (user) {
 
-      if (user.username == TOKEN_ADMIN) {
-        renderScreen = <FinishedTokens></FinishedTokens>
+
+      if (user.username == ANALYTICS_ADMIN) {
+        renderScreen = <AnalyticsScreen></AnalyticsScreen>
       } else {
 
-        if (languageChosen === undefined || languageChosen === "") {
-          renderScreen = <LanguageSurveyForm />;
+        if (user.username == TOKEN_ADMIN) {
+          renderScreen = <FinishedTokens></FinishedTokens>
         } else {
 
-          if (!icfFinished) {
-            renderScreen = <Onboarding />;
+          if (languageChosen === undefined || languageChosen === "") {
+            renderScreen = <LanguageSurveyForm />;
           } else {
 
-            if (!surveyFinished) {
-              renderScreen = <SurveyForm />;
+            if (!icfFinished) {
+              renderScreen = <Onboarding />;
             } else {
 
-              if (canFinish && !finished) {
-                renderScreen = <FinalSurveyForm></FinalSurveyForm>
+              if (!surveyFinished) {
+                renderScreen = <SurveyForm />;
               } else {
 
-                if (doneForToday) {
-                  renderScreen = <Done toggleShoppingBasketDrawer={toggleShoppingBasketDrawer}></Done>
+                if (canFinish && !finished) {
+                  renderScreen = <FinalSurveyForm></FinalSurveyForm>
                 } else {
 
-                  if (GetOpenMealDetails == null) {
-                    if (GetOpenProgress) {
-                      renderScreen = <Progress recommendedRecipe={recommendedRecipe} />;
-                    }
+                  if (doneForToday) {
+                    renderScreen = <Done toggleShoppingBasketDrawer={toggleShoppingBasketDrawer}></Done>
+                  } else {
 
-                    else if (GetOpenSettings) {
-                      renderScreen = <Preferences />;
-                    }
+                    if (GetOpenMealDetails == null) {
+                      if (GetOpenProgress) {
+                        renderScreen = <Progress recommendedRecipe={recommendedRecipe} />;
+                      }
 
-                    else if (GetOpenFeedback) {
-                      renderScreen = <Feedback />;
-                    }
+                      else if (GetOpenSettings) {
+                        renderScreen = <Preferences />;
+                      }
 
-                    else if (GetOpenRecommenderExplanations) {
+                      else if (GetOpenFeedback) {
+                        renderScreen = <Feedback />;
+                      }
+
+                      else if (GetOpenRecommenderExplanations) {
+                        renderScreen = (
+                          <DetailScreen
+                            recipe={GetOpenRecommenderExplanations[0]}
+                            allergensPresent={GetOpenRecommenderExplanations[1]}
+                            translatedName={GetOpenRecommenderExplanations[2]}
+                            renderTabContent={renderExplanationTabContent}
+                            tabTitles={[i18n.__("general.questionnaire"), i18n.__("general.preferences"), i18n.__("general.popularity")]}
+                            recommended={true}
+                          />
+                        );
+                      }
+
+                      else if (finished) {
+                        renderScreen = <Finished></Finished>
+                      }
+
+                      else {
+                        renderScreen = (
+                          <>
+                            <div>{isLoading && <CircularProgress />}</div>
+                            <Tabs
+                              className={classes.tabs}
+                              value={value}
+                              onChange={handleChange}
+                              indicatorColor="primary"
+                              textColor="primary"
+                              variant="scrollable"
+                              scrollButtons="auto"
+                            >
+                              {" "}
+                              {getCoursesTabs()}{" "}
+                            </Tabs>
+                            {_.map(menu.courses, function (n, i) {
+                              return (
+                                <TabPanel key={i} value={value} index={i}>
+                                  <TabHomeScreen
+                                    recommendedRecipe={recommendedRecipe}
+                                    recipeURLs={menu.courses[i].recipes}
+                                    courseName={n.name} />
+                                </TabPanel>
+                              );
+                            })}
+                          </>
+                        );
+                      }
+
+                    } else if (GetOpenMealDetails !== null) {
                       renderScreen = (
                         <DetailScreen
-                          recipe={GetOpenRecommenderExplanations[0]}
-                          allergensPresent={GetOpenRecommenderExplanations[1]}
-                          translatedName={GetOpenRecommenderExplanations[2]}
-                          renderTabContent={renderExplanationTabContent}
-                          tabTitles={[i18n.__("general.questionnaire"), i18n.__("general.preferences"), i18n.__("general.popularity")]}
-                          recommended={true}
+                          recipe={GetOpenMealDetails[0]}
+                          allergensPresent={GetOpenMealDetails[1]}
+                          translatedName={GetOpenMealDetails[2]}
+                          renderTabContent={renderMealScreenTabContent}
+                          tabTitles={[i18n.__("general.nutrients"), i18n.__("general.ingredients"), i18n.__("general.allergens")]}
+                          recommended={recommendedRecipe.id == GetOpenMealDetails[0].id}
                         />
                       );
                     }
-
-                    else if (finished) {
-                      renderScreen = <Finished></Finished>
-                    }
-
-                    else {
-                      renderScreen = (
-                        <>
-                          <div>{isLoading && <CircularProgress />}</div>
-                          <Tabs
-                            className={classes.tabs}
-                            value={value}
-                            onChange={handleChange}
-                            indicatorColor="primary"
-                            textColor="primary"
-                            variant="scrollable"
-                            scrollButtons="auto"
-                          >
-                            {" "}
-                            {getCoursesTabs()}{" "}
-                          </Tabs>
-                          {_.map(menu.courses, function (n, i) {
-                            return (
-                              <TabPanel key={i} value={value} index={i}>
-                                <TabHomeScreen
-                                  recommendedRecipe={recommendedRecipe}
-                                  recipeURLs={menu.courses[i].recipes}
-                                  courseName={n.name} />
-                              </TabPanel>
-                            );
-                          })}
-                        </>
-                      );
-                    }
-
-                  } else if (GetOpenMealDetails !== null) {
-                    renderScreen = (
-                      <DetailScreen
-                        recipe={GetOpenMealDetails[0]}
-                        allergensPresent={GetOpenMealDetails[1]}
-                        translatedName={GetOpenMealDetails[2]}
-                        renderTabContent={renderMealScreenTabContent}
-                        tabTitles={[i18n.__("general.nutrients"), i18n.__("general.ingredients"), i18n.__("general.allergens")]}
-                        recommended={recommendedRecipe.id == GetOpenMealDetails[0].id}
-                      />
-                    );
                   }
                 }
               }
