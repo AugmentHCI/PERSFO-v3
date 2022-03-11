@@ -10,6 +10,8 @@ import { RecipesCollection } from '/imports/db/recipes/RecipesCollection';
 import { HexadCollection } from '/imports/db/surveys/HexadCollection';
 import uaparserjs from 'ua-parser-js';
 import { LikertKey, LikertLegend, TableWrapper } from 'react-likert'
+import { PieChart, Pie, BarChart, Bar, LabelList, Label, ScatterChart, CartesianGrid, XAxis, YAxis, ZAxis, Tooltip, Legend, Scatter } from 'recharts';
+
 
 const SHOW_NB_PARTICIPANTS = true;
 const SHOW_INTERN_VS_EXTERN = true;
@@ -43,16 +45,82 @@ const scale = [
 
 const options = {
     usePatterns: false,
-    colors: ['#888', ['#ad72b5','#800e84','#4c084f'], [ '#48bf6f','#006f30','#00421c']],
+    colors: ['#888', ['#ad72b5', '#800e84', '#4c084f'], ['#48bf6f', '#006f30', '#00421c']],
 };
+
+const data01 = [
+    {
+        "x": 100,
+        "y": 200,
+        "z": 200
+    },
+    {
+        "x": 120,
+        "y": 100,
+        "z": 260
+    },
+    {
+        "x": 170,
+        "y": 300,
+        "z": 400
+    },
+    {
+        "x": 140,
+        "y": 250,
+        "z": 280
+    },
+    {
+        "x": 150,
+        "y": 400,
+        "z": 500
+    },
+    {
+        "x": 110,
+        "y": 280,
+        "z": 200
+    }
+];
+const data02 = [
+    {
+        "x": 200,
+        "y": 260,
+        "z": 240
+    },
+    {
+        "x": 240,
+        "y": 290,
+        "z": 220
+    },
+    {
+        "x": 190,
+        "y": 290,
+        "z": 250
+    },
+    {
+        "x": 198,
+        "y": 250,
+        "z": 210
+    },
+    {
+        "x": 180,
+        "y": 280,
+        "z": 260
+    },
+    {
+        "x": 210,
+        "y": 220,
+        "z": 230
+    }
+];
+
 
 const componentName = "AnalyticsScreen";
 export const AnalyticsScreen = () => {
 
     const classes = useStyles();
 
-    const { resqueResult, parsedFinishedUsers, nbFinishedUsers, allLogs, internBeerse, externBeerse, internGeel, externGeel, ffqs, allConfirmedOrders, confirmedOrders, nonVirtualConfirmedOrders } = useTracker(() => {
-        const noDataAvailable = { resqueResult: [], parsedFinishedUsers: [], nbFinishedUsers: 0, allLogs: [], internBeerse: [], externBeerse: [], internGeel: [], externGeel: [], ffqs: [], confirmedOrders: [], nonVirtualConfirmedOrders: [] };
+    const { pieChartSex, barChartDevices, barChartOs, barChartLocationParticipant, barChartBirthYear, barChartWeight, resqueResult, parsedFinishedUsers, nbFinishedUsers, allLogs, ffqs, allOrders, confirmedOrders, nonVirtualConfirmedOrders } = useTracker(() => {
+        const noDataAvailable = { pieChartSex: [], barChartDevices: [], barChartOs: [], barChartLocationParticipant: [], barChartBirthYear: [], barChartWeight: [], resqueResult: [], parsedFinishedUsers: [], nbFinishedUsers: 0, allLogs: [], ffqs: [], allOrders: [], confirmedOrders: [], nonVirtualConfirmedOrders: [] };
 
         const preferencesHandler = Meteor.subscribe("userpreferences-tokens");
         const ordersHandler = Meteor.subscribe("orders");
@@ -64,27 +132,45 @@ export const AnalyticsScreen = () => {
             return { ...noDataAvailable, isLoading: true };
         }
 
-        const internBeerse = UserPreferences.find({ "ffqAnswers.status_survey": "intern" }).fetch();
-        const externBeerse = UserPreferences.find({ "ffqAnswers.status_survey": "extern" }).fetch();
-        const internGeel = UserPreferences.find({ "ffqAnswers.status_survey": "intern-geel" }).fetch();
-        const externGeel = UserPreferences.find({ "ffqAnswers.status_survey": "extern-geel" }).fetch();
-
         const testUserIds = UserPreferences.find({ "ffqAnswers.status_survey": "test" }).fetch().map(user => user.userid);
-
         const ffqs = UserPreferences.find({ ffqAnswers: { $exists: true }, userid: { $nin: testUserIds } }).fetch();
+
+        const barChartLocationParticipant = [
+            {
+                location: "Beerse",
+                intern: UserPreferences.find({ "ffqAnswers.status_survey": "intern" }).fetch().length,
+                extern: UserPreferences.find({ "ffqAnswers.status_survey": "extern" }).fetch().length,
+            },
+            {
+                location: "Geel",
+                intern: UserPreferences.find({ "ffqAnswers.status_survey": "intern-geel" }).fetch().length,
+                extern: UserPreferences.find({ "ffqAnswers.status_survey": "extern-geel" }).fetch().length,
+            }
+        ];
+
+        const barChartBirthYear = _.map(_.countBy(ffqs, user => user.ffqAnswers.Year_of_Birth), (value, key) => { return { year: key, count: value } });
+        const barChartWeight = _.map(_.countBy(ffqs, user => Math.floor(user.ffqAnswers.Weight / 10) * 10), (value, key) => { return { weight: key + "+", count: value } });
+        const pieChartSex = _.map(_.countBy(ffqs, user => user.ffqAnswers.Sex), (value, key) => { return { sex: key, count: value } });
+
         const finishedUsers = UserPreferences.find({ finished: { $exists: true }, userid: { $nin: testUserIds } }).fetch();
         const nbFinishedUsers = finishedUsers?.length;
 
         // mongo aggregate is not supported in meteor client
+        const orders = OrdersCollection.find({ userid: { $nin: testUserIds } }).fetch();
+        const tempOrders = _.groupBy(_.countBy(orders, "userid"), (value, key) => +value);
+        const allOrders = _.map(tempOrders, (value, key) => { return { "nbOrders": +key, "count": +value.length } });
+
         const allConfirmedOrders = OrdersCollection.find({ "confirmed": true, userid: { $nin: testUserIds } }).fetch();
-        const tempConfirmedOrders = _.groupBy(_.countBy(allConfirmedOrders, "userid"), (value, key) => value);
-        const confirmedOrders = _.map(tempConfirmedOrders, (value, key) => { return { "nbOrders": key, "count": value.length } });
+        const tempConfirmedOrders = _.groupBy(_.countBy(allConfirmedOrders, "userid"), (value, key) => +value);
+        const confirmedOrders = _.map(tempConfirmedOrders, (value, key) => { return { "nbOrders": +key, "count": value.length } });
 
         const allNonVirtualConfirmedOrders = OrdersCollection.find({ "confirmed": true, "confirmedVirtual": false, userid: { $nin: testUserIds } }).fetch();
-        const tempNonVirtualConfirmedOrders = _.groupBy(_.countBy(allNonVirtualConfirmedOrders, "userid"), (value, key) => value);
-        const nonVirtualConfirmedOrders = _.map(tempNonVirtualConfirmedOrders, (value, key) => { return { "nbOrders": key, "count": value.length } });
+        const tempNonVirtualConfirmedOrders = _.groupBy(_.countBy(allNonVirtualConfirmedOrders, "userid"), (value, key) => +value);
+        const nonVirtualConfirmedOrders = _.map(tempNonVirtualConfirmedOrders, (value, key) => { return { "nbOrders": +key, "count": value.length } });
 
         const allLogs = LogsCollection.find({ userid: { $nin: testUserIds } }).fetch();
+        const barChartOs = _.map(_.countBy(allLogs, agent => uaparserjs(agent.agent).os.name), (value, key) => { return { os: key, count: value } })
+        const barChartDevices = _.map(_.countBy(allLogs, agent => uaparserjs(agent.agent).device.model), (value, key) => { return { device: key, count: value } })
 
         const resqueQuestions = HexadCollection.findOne({}).resqueSurveyEN.Questions;
         const parsedFinishedUsers = finishedUsers.map(user => {
@@ -178,19 +264,7 @@ export const AnalyticsScreen = () => {
             resqueResult.push(temp);
         });
 
-        // {
-        //     prompt: 'Likerts are useful', 
-        //     responded: 35,
-        //     'Strongly Disagree': 0.3, 
-        //     'Disagree': 0.25, 
-        //     'Undecided': 0, 
-        //     'Agree': 0.22, 
-        //     'Strongly Agree': 0.23 
-        //   }
-
-
-
-        return { resqueResult, parsedFinishedUsers, nbFinishedUsers, allLogs, internBeerse, externBeerse, internGeel, externGeel, ffqs, allConfirmedOrders, confirmedOrders, nonVirtualConfirmedOrders }
+        return { pieChartSex, barChartOs, barChartDevices, barChartLocationParticipant, barChartBirthYear, barChartWeight, resqueResult, parsedFinishedUsers, nbFinishedUsers, allLogs, ffqs, allOrders, confirmedOrders, nonVirtualConfirmedOrders }
     });
 
 
@@ -207,22 +281,72 @@ export const AnalyticsScreen = () => {
         return <pre>{JSON.stringify(props.jsonObj, null, 2)}</pre>
     }
 
+    const RADIAN = Math.PI / 180;
+    const renderCustomizedLabel = ({ x, y, cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+        const x2 = cx + radius * Math.cos(-midAngle * RADIAN);
+        const y2 = cy + radius * Math.sin(-midAngle * RADIAN);
+
+        return (
+            <>
+                <text x={x} y={y} dominantBaseline="central" fill="#8884d8">
+                    {pieChartSex[index].sex}
+                </text>
+                <text x={x2} y={y2} fill="white" dominantBaseline="central">
+                    {`${(percent * 100).toFixed(0)}%`}
+                </text>
+            </>
+        );
+    };
+
     return (
         <Container>
             {SHOW_NB_PARTICIPANTS ? <>
                 <Typography className={classes.header} variant="h4">
-                    Number of participants
+                    {ffqs.length} participants ({nbFinishedUsers} completely finished)
                 </Typography>
-                <Typography className={classes.header} variant="body1">
-                    {SHOW_INTERN_VS_EXTERN ? <>
-                        Intern Beerse: {internBeerse.length}<br />
-                        Extern Beerse: {externBeerse.length}<br />
-                        Intern Geel: {internGeel.length}<br />
-                        Extern Geel: {externGeel.length}<br />
-                    </> : <></>}
-
-                    Total number of participants: {internBeerse.length + externBeerse.length + internGeel.length + externGeel.length}
-                </Typography></> : <></>}
+                {SHOW_INTERN_VS_EXTERN ? <>
+                    <BarChart width={730} height={250} data={barChartLocationParticipant}
+                        margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="location" />
+                        <YAxis label={{ value: "Number of participants", angle: -90, position: "insideBottomLeft" }} />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="intern" fill="#8884d8">
+                            <LabelList dataKey="intern" position="top" />
+                        </Bar>
+                        <Bar dataKey="extern" fill="#82ca9d">
+                            <LabelList dataKey="extern" position="top" />
+                        </Bar>
+                    </BarChart>
+                    <BarChart width={730} height={250} data={barChartBirthYear}
+                        margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="year" />
+                        <YAxis label={{ value: "Number of participants", angle: -90, position: "insideBottomLeft" }} />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="count" fill="#8884d8" name="Birth Year">
+                            <LabelList dataKey="count" position="top" />
+                        </Bar>
+                    </BarChart>
+                    <BarChart width={730} height={250} data={barChartWeight}
+                        margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="weight" />
+                        <YAxis label={{ value: "Number of participants", angle: -90, position: "insideBottomLeft" }} />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="count" fill="#8884d8" name="Weight">
+                            <LabelList dataKey="count" position="top" />
+                        </Bar>
+                    </BarChart>
+                    <PieChart width={730} height={250}>
+                        <Pie data={pieChartSex} dataKey="count" nameKey="sex" cx="50%" cy="50%" fill="#8884d8" outerRadius={80} label={renderCustomizedLabel} />
+                    </PieChart>
+                </> : <></>}
+            </> : <></>}
 
             {SHOW_RESQUE ? <>
                 <Typography className={classes.header} variant="h4">
@@ -269,21 +393,23 @@ export const AnalyticsScreen = () => {
                     General statistics
                 </Typography>
                 <Typography className={classes.header} variant="body1">
-                    Number of complete ffqs: {ffqs.length}<br />
-                    Number of finished users: {nbFinishedUsers}<br />
-                    Number of user with confirmed orders: {_.sumBy(confirmedOrders, order => +order.count)}<br />
+                    {/* Number of complete ffqs: {ffqs.length}<br /> */}
+                    {/* Number of finished users: {nbFinishedUsers}<br /> */}
+                    {/* Number of user with confirmed orders: {_.sumBy(confirmedOrders, order => +order.count)}<br /> */}
                 </Typography>
-                <PrettyPrint jsonObj={parsedFinishedUsers} />
+
                 {SHOW_ORDER_DETAIL ? <>
-                    <ul style={{ "listStyleType": "none" }}>
-                        {confirmedOrders.map((orders, i) => <HListItem key={"nbOrder-" + i} value={orders.count} label={orders.nbOrders} />)}
-                    </ul>
-                    <Typography className={classes.header} variant="body1">
-                        Number of user with orders at location: {_.sumBy(nonVirtualConfirmedOrders, order => +order.count)}<br />
-                    </Typography>
-                    <ul style={{ "listStyleType": "none" }}>
-                        {nonVirtualConfirmedOrders.map((orders, i) => <HListItem key={"nbOrder-" + i} value={orders.count} label={orders.nbOrders} />)}
-                    </ul>
+                    <ScatterChart width={window.innerWidth - 60} height={730}
+                        margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <YAxis dataKey="count" name="#users" type="number" label />
+                        <XAxis dataKey="nbOrders" name="#orders" type="number" label />
+                        <Tooltip cursor={{ strokeDasharray: '3 3' }} />
+                        <Legend />
+                        <Scatter name="Confirmed orders" data={confirmedOrders} fill="#8884d8" />
+                        <Scatter name="Confirmed order (not virtual)" data={nonVirtualConfirmedOrders} fill="#82ca9d" />
+                        <Scatter name="All orders" data={allOrders} fill="#ca828b" />
+                    </ScatterChart>
                 </> : <></>}
             </> : <></>}
 
@@ -294,7 +420,7 @@ export const AnalyticsScreen = () => {
                     Log interaction data
                 </Typography>
                 {SHOW_NB_INTERACTIONS ? <>
-                    <Typography className={classes.header} variant="body1">
+                    {/* <Typography className={classes.header} variant="body1">
                         Number of interactions per users:<br />
                     </Typography>
                     <ul style={{ "listStyleType": "none" }}>
@@ -302,24 +428,39 @@ export const AnalyticsScreen = () => {
                             _.groupBy(allLogs, "userid"), (value, key1) =>
                             <VListItem key={"nbOrder-" + key1} value={value.length} label={key1.substring(0, 5)} />
                         )}
-                    </ul>
+                    </ul> */}
                 </> : <></>}
                 {SHOW_OS ? <>
                     <Typography className={classes.header} variant="body1">
-                        User agents:<br />
+                        Operating systems:<br />
                     </Typography>
-                    <ul style={{ "listStyleType": "none" }}>
-                        {_.map(_.groupBy(allLogs, agent => uaparserjs(agent.agent).os.name), (value, key1) => <HListItem key={"nbOrder-" + key1} value={value.length} label={key1} />)}
-                    </ul>
+                    <BarChart width={730} height={250} data={barChartOs}
+                        margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="os" />
+                        <YAxis label={{ value: "Number of usages", angle: -90, position: "insideBottomLeft" }} />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="count" fill="#8884d8" name="Operating system">
+                            <LabelList dataKey="count" position="top" />
+                        </Bar>
+                    </BarChart>
                 </> : <></>}
                 {SHOW_DEVICES ? <>
                     <Typography className={classes.header} variant="body1">
                         Most used device models:<br />
                     </Typography>
-
-                    <ul style={{ "listStyleType": "none" }}>
-                        {_.map(_.groupBy(allLogs, agent => uaparserjs(agent.agent).device.model), (value, key1) => <VListItem key={"nbOrder-" + key1} value={value.length} label={key1} />)}
-                    </ul>
+                    <BarChart width={window.innerWidth - 40} height={250} data={barChartDevices}
+                        margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="device" />
+                        <YAxis label={{ value: "Number of usages", angle: -90, position: "insideBottomLeft" }} />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="count" fill="#8884d8" name="Device">
+                            <LabelList dataKey="count" position="top" />
+                        </Bar>
+                    </BarChart>
                 </> : <></>}
                 {SHOW_METHODS ? <>
                     <Typography className={classes.header} variant="body1">
@@ -330,6 +471,9 @@ export const AnalyticsScreen = () => {
                     </ul>
                 </> : <></>}
             </> : <></>}
+
+            <PrettyPrint jsonObj={parsedFinishedUsers} />
+
 
             <Button type="submit"
                 variant="contained"
