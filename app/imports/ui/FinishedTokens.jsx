@@ -44,8 +44,6 @@ export const FinishedTokens = () => {
                 codes.push((confirmedOrders?.length + 7) + "-" + prefs.finished.substring(0, 8) + "-" + (orders?.length + 13));
         });
 
-        console.log(codes)
-
         return { codes }
     });
 
