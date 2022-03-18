@@ -8,7 +8,7 @@ import { LAST_MENU_UPDATE } from "./methods";
 import { food4me } from '/imports/api/apiFFQ';
 import { QIBCollection } from "../db/exportCollections/QIBCollection";
 
-const token = "3pmtkenpOap6YGsm1GQHQabwBfREtt";
+const token = "kWMLhnUZVuq5BPuuj8nCgZp8E8zyhW";
 const url = "https://www.apicbase.com/api/v1/recipes/";
 const API_LOGS = false;
 
