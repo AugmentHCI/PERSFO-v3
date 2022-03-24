@@ -68,6 +68,6 @@ Meteor.startup(() => {
     });
   }
 
-  // initData();
+  initData();
   // initFFQ();
 });
