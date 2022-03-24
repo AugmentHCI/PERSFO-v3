@@ -41,7 +41,7 @@ export const FinishedTokens = () => {
 
             // querying subfields not supported yet in mongo driver
             if (prefs.ffqAnswers?.status_survey !== "test")
-                codes.push((confirmedOrders?.length + 7) + "-" + prefs.finished.substring(0, 8) + "-" + (orders?.length + 13));
+                codes.push((confirmedOrders?.length + 7) + "-" + prefs.finished.substring(0, 8) + "-" + (orders?.length + 13) + " - " + prefs.ffqAnswers?.status_survey);
         });
 
         return { codes }
