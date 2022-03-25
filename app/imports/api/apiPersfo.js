@@ -8,7 +8,7 @@ import { LAST_MENU_UPDATE } from "./methods";
 import { food4me } from '/imports/api/apiFFQ';
 import { QIBCollection } from "../db/exportCollections/QIBCollection";
 
-const token = "kWMLhnUZVuq5BPuuj8nCgZp8E8zyhW";
+const token = "iu60UIAuSQwkQ5ld1XrmUM6Pg0gDuh";
 const url = "https://www.apicbase.com/api/v1/recipes/";
 const API_LOGS = false;
 
@@ -100,24 +100,24 @@ export function initData() {
   updateRecipeDetails();
   console.log("initData: reciped loadings started: " + new Date());
 
-  try {
-    // update food4me data on each app run
-    const userPreferences = UserPreferences.find({}).fetch();
-    userPreferences.forEach(pref => {
-      // update food4me data
-      food4me(pref.ffqAnswers, pref.userid);
+  // try {
+  //   // update food4me data on each app run
+  //   const userPreferences = UserPreferences.find({}).fetch();
+  //   userPreferences.forEach(pref => {
+  //     // update food4me data
+  //     food4me(pref.ffqAnswers, pref.userid);
 
-      // create export collection for study
-      // todo: bug: old values are saved in export (asynchronous call)
-      if (pref.ffqAnswers && pref.ffqAnswers?.status_survey !== "test") {
-        QIBCollection.upsert({ userid: pref.userid }, { userid: pref.userid, ffq: pref.ffqAnswers, food4me: pref.food4me, finalFFQ: pref.finalFfqAnswers });
-      }
-    });
-    console.log("Food4me update done: " + new Date());
-  } catch (error) {
-    console.log("update in production update: " + new Date());
-    console.log(error);
-  }
+  //     // create export collection for study
+  //     // todo: bug: old values are saved in export (asynchronous call)
+  //     if (pref.ffqAnswers && pref.ffqAnswers?.status_survey !== "test") {
+  //       QIBCollection.upsert({ userid: pref.userid }, { userid: pref.userid, ffq: pref.ffqAnswers, food4me: pref.food4me, finalFFQ: pref.finalFfqAnswers });
+  //     }
+  //   });
+  //   console.log("Food4me update done: " + new Date());
+  // } catch (error) {
+  //   console.log("update in production update: " + new Date());
+  //   console.log(error);
+  // }
 
   // function to fetch data in intervals
   function updateRecipeDetails() {
