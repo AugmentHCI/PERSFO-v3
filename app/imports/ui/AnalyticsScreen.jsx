@@ -119,8 +119,8 @@ export const AnalyticsScreen = () => {
 
     const classes = useStyles();
 
-    const { pieChartSex, barChartDevices, barChartOs, barChartLocationParticipant, barChartBirthYear, barChartWeight, resqueResult, parsedFinishedUsers, nbFinishedUsers, allLogs, ffqs, allOrders, confirmedOrders, nonVirtualConfirmedOrders } = useTracker(() => {
-        const noDataAvailable = { pieChartSex: [], barChartDevices: [], barChartOs: [], barChartLocationParticipant: [], barChartBirthYear: [], barChartWeight: [], resqueResult: [], parsedFinishedUsers: [], nbFinishedUsers: 0, allLogs: [], ffqs: [], allOrders: [], confirmedOrders: [], nonVirtualConfirmedOrders: [] };
+    const {averageDetailsClick, nbAllergenUsers,nbdietaryUsers,pieChartSex, barChartDevices, barChartOs, barChartLocationParticipant, barChartBirthYear, barChartWeight, resqueResult, parsedFinishedUsers, nbFinishedUsers, allLogs, ffqs, allOrders, confirmedOrders, nonVirtualConfirmedOrders } = useTracker(() => {
+        const noDataAvailable = { averageDetailsClick:0, nbAllergenUsers: 0, nbdietaryUsers:0, pieChartSex: [], barChartDevices: [], barChartOs: [], barChartLocationParticipant: [], barChartBirthYear: [], barChartWeight: [], resqueResult: [], parsedFinishedUsers: [], nbFinishedUsers: 0, allLogs: [], ffqs: [], allOrders: [], confirmedOrders: [], nonVirtualConfirmedOrders: [] };
 
         const preferencesHandler = Meteor.subscribe("userpreferences-tokens");
         const ordersHandler = Meteor.subscribe("orders");
@@ -155,6 +155,12 @@ export const AnalyticsScreen = () => {
         const finishedUsers = UserPreferences.find({ finished: { $exists: true }, userid: { $nin: testUserIds } }).fetch();
         const nbFinishedUsers = finishedUsers?.length;
 
+        const allergenUsers = UserPreferences.find({ allergens: { $exists: true }, userid: { $nin: testUserIds } }).fetch();
+        const nbAllergenUsers = allergenUsers?.length;
+
+        const dietaryUsers = UserPreferences.find({ dietaries: { $exists: true }, userid: { $nin: testUserIds } }).fetch();
+        const nbdietaryUsers = dietaryUsers?.length;
+
         // mongo aggregate is not supported in meteor client
         const orders = OrdersCollection.find({ userid: { $nin: testUserIds } }).fetch();
         const tempOrders = _.groupBy(_.countBy(orders, "userid"), (value, key) => +value);
@@ -173,8 +179,11 @@ export const AnalyticsScreen = () => {
         const barChartDevices = _.map(_.countBy(allLogs, agent => uaparserjs(agent.agent).device.model), (value, key) => { return { device: key, count: value } })
 
         const resqueQuestions = HexadCollection.findOne({}).resqueSurveyEN.Questions;
+        let averageDetailsClick = 0;
         const parsedFinishedUsers = finishedUsers.map(user => {
             const logsUser = LogsCollection.find({ userid: user.userid }).fetch();
+            const logsDetails = LogsCollection.find({ userid: user.userid, "method": "handleDetailsClick" }).fetch();
+            averageDetailsClick += logsDetails.length;
             const ordersUser = OrdersCollection.find({ userid: user.userid }).fetch();
 
             let osUsed = {};
@@ -201,6 +210,7 @@ export const AnalyticsScreen = () => {
             return {
                 userid: user.userid,
                 nbInteractions: logsUser.length,
+                nbDetailsClick: logsDetails.length,
                 osUsed: osUsed,
                 // daysUsed: daysUsed,
                 recommendationAccuracy: Math.floor((goodRec / (goodRec + badRec)) * 100) + "%"
@@ -208,7 +218,7 @@ export const AnalyticsScreen = () => {
                 // recommendations: _.groupBy(user.lastRecommendations, "recipeId")
             }
         });
-
+        averageDetailsClick = averageDetailsClick / finishedUsers.length;
 
         // resque data
         let resqueResult = [];
@@ -264,7 +274,7 @@ export const AnalyticsScreen = () => {
             resqueResult.push(temp);
         });
 
-        return { pieChartSex, barChartOs, barChartDevices, barChartLocationParticipant, barChartBirthYear, barChartWeight, resqueResult, parsedFinishedUsers, nbFinishedUsers, allLogs, ffqs, allOrders, confirmedOrders, nonVirtualConfirmedOrders }
+        return { averageDetailsClick,nbAllergenUsers, nbdietaryUsers, pieChartSex, barChartOs, barChartDevices, barChartLocationParticipant, barChartBirthYear, barChartWeight, resqueResult, parsedFinishedUsers, nbFinishedUsers, allLogs, ffqs, allOrders, confirmedOrders, nonVirtualConfirmedOrders }
     });
 
 
@@ -393,6 +403,9 @@ export const AnalyticsScreen = () => {
                     General statistics
                 </Typography>
                 <Typography className={classes.header} variant="body1">
+                    Number of users who configured allergens: {nbAllergenUsers} <br />
+                    Number of users who configured Dietaries: {nbdietaryUsers} <br />
+                    Average number of DetailsClick: {averageDetailsClick} <br />
                     {/* Number of complete ffqs: {ffqs.length}<br /> */}
                     {/* Number of finished users: {nbFinishedUsers}<br /> */}
                     {/* Number of user with confirmed orders: {_.sumBy(confirmedOrders, order => +order.count)}<br /> */}

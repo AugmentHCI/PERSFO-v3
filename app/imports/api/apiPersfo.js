@@ -87,17 +87,17 @@ export function initData() {
   let allIngredients = [];
   let ingredientIndex = 0;
 
-  Meteor.setInterval(function () {
-    console.log("initData: regular updated started: " + new Date());
-    // start the interval with the first recipe
-    index = 0;
-    allIngredients = [];
-    ingredientIndex = 0;
-    updateRecipeDetails();
+  // Meteor.setInterval(function () {
+  //   console.log("initData: regular updated started: " + new Date());
+  //   // start the interval with the first recipe
+  //   index = 0;
+  //   allIngredients = [];
+  //   ingredientIndex = 0;
+  //   updateRecipeDetails();
 
-  }, 50 * 60 * 1000);
+  // }, 50 * 60 * 1000);
 
-  updateRecipeDetails();
+  // updateRecipeDetails();
   console.log("initData: reciped loadings started: " + new Date());
 
   // try {
